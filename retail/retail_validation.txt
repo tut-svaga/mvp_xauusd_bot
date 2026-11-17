@@ -1,0 +1,42 @@
+RETAIL CALENDAR VALIDATION
+========================================================================
+Target: USD / Core Retail Sales m/m
+Companion: USD / Retail Sales m/m
+Official schedule used: 08:30 America/New_York
+Output timezone: Europe/Chisinau
+
+Core events: 238
+Date range: 2007-01-12 -> 2026-10-15
+Unique release months: 236
+Months with multiple releases: 2019-04 (2 releases), 2026-04 (2 releases)
+Missing months inside observed range: 2019-01, 2025-10
+
+MERGE STATISTICS
+core_rows_before_dedup: 238
+core_rows_after_dedup: 238
+core_duplicates_removed: 0
+headline_rows_before_dedup: 238
+headline_rows_after_dedup: 238
+headline_duplicates_removed: 0
+missing_headline_companion: 0
+core_value_conflicts: 0
+Rejected target rows: 0
+
+TIME / DATE CHECKS
+TIME_CHECKS=MATCH_08:30_ET: 89, MISMATCH_RAW=2021-05-14 08:32 EDT: 1, MISMATCH_RAW=2024-06-18 07:30 EDT: 1, MISMATCH_RAW=2025-04-16 11:30 EDT: 1, MISMATCH_RAW=2025-05-15 11:30 EDT: 1, MISMATCH_RAW=2025-06-17 11:30 EDT: 1, MISMATCH_RAW=2025-07-17 11:30 EDT: 1, MISMATCH_RAW=2025-08-15 11:30 EDT: 1, MISMATCH_RAW=2025-09-16 11:30 EDT: 1, MISMATCH_RAW=2025-11-25 10:30 EST: 1, MISMATCH_RAW=2025-12-16 10:30 EST: 1, MISMATCH_RAW=2026-01-14 10:30 EST: 1, MISMATCH_RAW=2026-02-10 10:30 EST: 1, MISMATCH_RAW=2026-03-06 10:30 EST: 1, MISMATCH_RAW=2026-04-01 11:30 EDT: 1, MISMATCH_RAW=2026-04-21 11:30 EDT: 1, MISMATCH_RAW=2026-05-14 11:30 EDT: 1, MISMATCH_RAW=2026-06-17 11:30 EDT: 1, MISMATCH_RAW=2026-07-16 11:30 EDT: 1, MISMATCH_RAW=2026-08-14 11:30 EDT: 1, MISMATCH_RAW=2026-09-16 11:30 EDT: 1, MISMATCH_RAW=2026-10-15 11:30 EDT: 1, RAW_TIME_MISSING_OR_00:00: 128
+DATE_CHECKS=OK: 238
+PROVIDED_UTC_CHECKS=MISMATCH: 19, NOT_PROVIDED: 219
+
+INPUT FILES
+E:\work\XAU_gold\mvp_tg_bot\untitled\forexfactory-scraper\forex_factory_cache.csv
+E:\work\XAU_gold\mvp_tg_bot\untitled\data\forex_factory_cache.csv
+
+NOTES
+1. scheduled_datetime_utc is rebuilt from release_date + 08:30 America/New_York.
+2. scheduled_datetime_chisinau is converted from the rebuilt UTC timestamp.
+3. The 21-column scraper export is interpreted as Europe/Chisinau local time
+   because its +00:00 suffix does not match the observed clock time.
+4. Raw timestamps are preserved in the CSV for audit; input files are not changed.
+5. A calendar date is not independently certified by the 08:30 rule. Conflicting
+   duplicated date fields are flagged; official release-date cross-check is separate.
+6. Retail Sales m/m is attached as a companion field and is not a second price event.
