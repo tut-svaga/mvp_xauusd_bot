@@ -1,11 +1,11 @@
 Loading retail_reaction_analysis\event_reactions.csv
-Loaded 227 rows  2007-01-12 -> 2025-12-16
+Loaded 238 rows  2007-01-12 -> 2026-10-15
 
 === VALIDATION ===
   sign mismatches: 0
-  revision populated: 222/227
-  XAU OK quality: 225/227
-  DXY OK quality: 201/227
+  revision populated: 233/238
+  XAU OK quality: 236/238
+  DXY OK quality: 0/238
 
 === SURPRISE DISTRIBUTION ===
 

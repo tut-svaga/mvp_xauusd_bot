@@ -62,7 +62,7 @@ FX_PAIRS = ("EURUSD", "GBPUSD", "USDCAD", "USDCHF", "USDJPY", "USDSEK")
 
 # This is a historical-only run. Raise the end year after the 2026 FX files are added.
 ANALYSIS_START_DATE = date(2007, 1, 1)
-ANALYSIS_END_DATE = date(2025, 12, 31)
+ANALYSIS_END_DATE = date.today()
 
 # HistData explicitly uses EST (UTC-5) all year, without DST adjustments.
 HISTDATA_FIXED_OFFSET_HOURS = -5
@@ -100,7 +100,7 @@ ECONOMIC_PERIODS = (
     (2014, 2016, "2014-2016"),
     (2017, 2019, "2017-2019"),
     (2020, 2022, "2020-2022"),
-    (2023, 2025, "2023-2025"),
+    (2023, 2025, "2023-2026"),
 )
 
 OUTPUT_DIR_NAME = "retail_reaction_analysis"

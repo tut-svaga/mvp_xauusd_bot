@@ -1,7 +1,7 @@
 RETAIL REACTION ANALYZER — DATA QUALITY
 ==============================================================================
-Calendar events analyzed: 227
-Analysis range: 2007-01-01 -> 2025-12-31
+Calendar events analyzed: 239
+Analysis range: 2007-01-01 -> 2026-11-17
 XAU window: -30 -> +120 minutes
 XAU min coverage: 85.0%
 DXY min coverage: 85.0%
@@ -237,14 +237,26 @@ EVENT COVERAGE
 2025-09-16 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.100000
 2025-11-25 | surprise=inline | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=n/a
 2025-12-16 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=-0.200000
+2026-01-14 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=-0.200000
+2026-02-10 | surprise=miss | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=-0.100000
+2026-03-06 | surprise=miss | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-04-01 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-04-21 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.200000
+2026-05-14 | surprise=inline | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-06-17 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-07-16 | surprise=miss | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.200000
+2026-08-14 | surprise=miss | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-09-16 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.100000
+2026-10-15 | surprise=beat | XAU_mid=100.00% (OK) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
+2026-11-17 | surprise=beat | XAU_mid=0.00% (LOW_COVERAGE) | DXY=0.00% (LOW_COVERAGE) | revision=0.000000
 
 XAU FILE STATISTICS
-BID_files_found: 226
-BID_files_missing: 1
-BID_bars_loaded: 34099
-ASK_files_found: 226
-ASK_files_missing: 1
-ASK_bars_loaded: 34099
+BID_files_found: 237
+BID_files_missing: 2
+BID_bars_loaded: 35760
+ASK_files_found: 237
+ASK_files_missing: 2
+ASK_bars_loaded: 35760
 
 XAU FILE STATUS
 ASK|2007-01-12: utf-8-sig; rows=1440; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2007\01\XAUUSD_M1_ASK_2007-01-12.csv
@@ -474,6 +486,18 @@ ASK|2025-08-15: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\
 ASK|2025-09-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2025\09\XAUUSD_M1_ASK_2025-09-16.csv
 ASK|2025-11-25: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2025\11\XAUUSD_M1_ASK_2025-11-25.csv
 ASK|2025-12-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2025\12\XAUUSD_M1_ASK_2025-12-16.csv
+ASK|2026-01-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\01\XAUUSD_M1_ASK_2026-01-14.csv
+ASK|2026-02-10: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\02\XAUUSD_M1_ASK_2026-02-10.csv
+ASK|2026-03-06: utf-8-sig; rows=1378; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\03\XAUUSD_M1_ASK_2026-03-06.csv
+ASK|2026-04-01: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\04\XAUUSD_M1_ASK_2026-04-01.csv
+ASK|2026-04-21: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\04\XAUUSD_M1_ASK_2026-04-21.csv
+ASK|2026-05-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\05\XAUUSD_M1_ASK_2026-05-14.csv
+ASK|2026-06-17: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\06\XAUUSD_M1_ASK_2026-06-17.csv
+ASK|2026-07-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\07\XAUUSD_M1_ASK_2026-07-16.csv
+ASK|2026-08-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\08\XAUUSD_M1_ASK_2026-08-14.csv
+ASK|2026-09-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\09\XAUUSD_M1_ASK_2026-09-16.csv
+ASK|2026-10-15: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\10\XAUUSD_M1_ASK_2026-10-15.csv
+ASK|2026-11-17: MISSING_FILE; rows=0; matched=0; path=E:\work\XAU_gold\XAUUSD\raw\ASK\2026\11\XAUUSD_M1_ASK_2026-11-17.csv
 BID|2007-01-12: utf-8-sig; rows=1440; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2007\01\XAUUSD_M1_BID_2007-01-12.csv
 BID|2007-02-14: utf-8-sig; rows=1352; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2007\02\XAUUSD_M1_BID_2007-02-14.csv
 BID|2007-03-13: utf-8-sig; rows=1328; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2007\03\XAUUSD_M1_BID_2007-03-13.csv
@@ -701,23 +725,25 @@ BID|2025-08-15: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\
 BID|2025-09-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2025\09\XAUUSD_M1_BID_2025-09-16.csv
 BID|2025-11-25: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2025\11\XAUUSD_M1_BID_2025-11-25.csv
 BID|2025-12-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2025\12\XAUUSD_M1_BID_2025-12-16.csv
+BID|2026-01-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\01\XAUUSD_M1_BID_2026-01-14.csv
+BID|2026-02-10: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\02\XAUUSD_M1_BID_2026-02-10.csv
+BID|2026-03-06: utf-8-sig; rows=1378; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\03\XAUUSD_M1_BID_2026-03-06.csv
+BID|2026-04-01: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\04\XAUUSD_M1_BID_2026-04-01.csv
+BID|2026-04-21: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\04\XAUUSD_M1_BID_2026-04-21.csv
+BID|2026-05-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\05\XAUUSD_M1_BID_2026-05-14.csv
+BID|2026-06-17: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\06\XAUUSD_M1_BID_2026-06-17.csv
+BID|2026-07-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\07\XAUUSD_M1_BID_2026-07-16.csv
+BID|2026-08-14: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\08\XAUUSD_M1_BID_2026-08-14.csv
+BID|2026-09-16: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\09\XAUUSD_M1_BID_2026-09-16.csv
+BID|2026-10-15: utf-8-sig; rows=1380; matched=151; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\10\XAUUSD_M1_BID_2026-10-15.csv
+BID|2026-11-17: MISSING_FILE; rows=0; matched=0; path=E:\work\XAU_gold\XAUUSD\raw\BID\2026\11\XAUUSD_M1_BID_2026-11-17.csv
 
 FX / HISTDATA STATISTICS
 
 FX FILE STATUS
 
 CALENDAR ROWS EXCLUDED
-2026-01-14: вне исторического диапазона
-2026-02-10: вне исторического диапазона
-2026-03-06: вне исторического диапазона
-2026-04-01: вне исторического диапазона
-2026-04-21: вне исторического диапазона
-2026-05-14: вне исторического диапазона
-2026-06-17: вне исторического диапазона
-2026-07-16: вне исторического диапазона
-2026-08-14: вне исторического диапазона
-2026-09-16: вне исторического диапазона
-2026-10-15: вне исторического диапазона
+none
 
 NOTES
 1. HistData timestamps are interpreted as fixed EST (UTC-5) without DST.
