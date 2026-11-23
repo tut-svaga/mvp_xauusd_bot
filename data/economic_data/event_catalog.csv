@@ -1,0 +1,613 @@
+﻿category,event,event_key,file,row_count,currencies,first_date,last_date
+bonds_and_rates,10-y Bond Auction,10-y bond auction,bonds_and_rates/10_y_bond_auction.csv,672,"GBP,JPY,USD",2025-04-09,2026-11-10
+bonds_and_rates,30-y Bond Auction,30-y bond auction,bonds_and_rates/30_y_bond_auction.csv,524,"GBP,JPY,USD",2025-04-08,2026-11-12
+bonds_and_rates,French 10-y Bond Auction,french 10-y bond auction,bonds_and_rates/french_10_y_bond_auction.csv,221,EUR,2025-05-07,2026-11-05
+bonds_and_rates,German 10-y Bond Auction,german 10-y bond auction,bonds_and_rates/german_10_y_bond_auction.csv,252,EUR,2025-04-08,2026-10-28
+bonds_and_rates,German 30-y Bond Auction,german 30-y bond auction,bonds_and_rates/german_30_y_bond_auction.csv,140,EUR,2025-04-16,2026-11-11
+bonds_and_rates,Italian 10-y Bond Auction,italian 10-y bond auction,bonds_and_rates/italian_10_y_bond_auction.csv,235,EUR,2025-04-29,2026-10-29
+bonds_and_rates,Spanish 10-y Bond Auction,spanish 10-y bond auction,bonds_and_rates/spanish_10_y_bond_auction.csv,241,EUR,2025-04-10,2026-11-05
+business_activity,AIG Manufacturing Index,aig manufacturing index,business_activity/aig_manufacturing_index.csv,190,AUD,,
+business_activity,AIG Services Index,aig services index,business_activity/aig_services_index.csv,190,AUD,,
+business_activity,ANZ Business Confidence,anz business confidence,business_activity/anz_business_confidence.csv,222,NZD,2025-04-30,2026-10-29
+business_activity,Belgian NBB Business Climate,belgian nbb business climate,business_activity/belgian_nbb_business_climate.csv,238,EUR,2025-04-24,2026-10-23
+business_activity,BSI Manufacturing Index,bsi manufacturing index,business_activity/bsi_manufacturing_index.csv,79,JPY,2025-06-12,2026-09-11
+business_activity,BusinessNZ Manufacturing Index,businessnz manufacturing index,business_activity/businessnz_manufacturing_index.csv,238,NZD,2025-04-11,2026-11-12
+business_activity,BusinessNZ Services Index,businessnz services index,business_activity/businessnz_services_index.csv,200,NZD,2025-04-14,2026-11-15
+business_activity,Caixin Flash Manufacturing PMI,caixin flash manufacturing pmi,business_activity/caixin_flash_manufacturing_pmi.csv,56,CNY,,
+business_activity,Caixin Manufacturing PMI,caixin manufacturing pmi,business_activity/caixin_manufacturing_pmi.csv,220,CNY,,
+business_activity,Caixin Services PMI,caixin services pmi,business_activity/caixin_services_pmi.csv,167,CNY,,
+business_activity,Chicago PMI,chicago pmi,business_activity/chicago_pmi.csv,238,USD,2025-04-30,2026-10-30
+business_activity,Construction PMI,construction pmi,business_activity/construction_pmi.csv,239,GBP,2025-05-07,2026-11-05
+business_activity,Empire State Manufacturing Index,empire state manufacturing index,business_activity/empire_state_manufacturing_index.csv,239,USD,2025-04-15,2026-11-16
+business_activity,Final Manufacturing PMI,final manufacturing pmi,business_activity/final_manufacturing_pmi.csv,891,"EUR,GBP,JPY,USD",2025-05-01,2026-11-02
+business_activity,Final Services PMI,final services pmi,business_activity/final_services_pmi.csv,635,"EUR,GBP,USD",2025-05-05,2026-11-04
+business_activity,Flash Manufacturing PMI,flash manufacturing pmi,business_activity/flash_manufacturing_pmi.csv,738,"AUD,EUR,GBP,JPY,USD",2025-04-23,2026-10-23
+business_activity,Flash Services PMI,flash services pmi,business_activity/flash_services_pmi.csv,570,"AUD,EUR,GBP,USD",2025-04-23,2026-10-23
+business_activity,French Final Manufacturing PMI,french final manufacturing pmi,business_activity/french_final_manufacturing_pmi.csv,224,EUR,2025-05-02,2026-11-02
+business_activity,French Final Services PMI,french final services pmi,business_activity/french_final_services_pmi.csv,224,EUR,2025-05-06,2026-11-04
+business_activity,French Flash Manufacturing PMI,french flash manufacturing pmi,business_activity/french_flash_manufacturing_pmi.csv,224,EUR,2025-04-23,2026-10-23
+business_activity,French Flash Services PMI,french flash services pmi,business_activity/french_flash_services_pmi.csv,224,EUR,2025-04-23,2026-10-23
+business_activity,German Final Manufacturing PMI,german final manufacturing pmi,business_activity/german_final_manufacturing_pmi.csv,224,EUR,2025-05-02,2026-11-02
+business_activity,German Final Services PMI,german final services pmi,business_activity/german_final_services_pmi.csv,224,EUR,2025-05-06,2026-11-04
+business_activity,German Flash Manufacturing PMI,german flash manufacturing pmi,business_activity/german_flash_manufacturing_pmi.csv,224,EUR,2025-04-23,2026-10-23
+business_activity,German Flash Services PMI,german flash services pmi,business_activity/german_flash_services_pmi.csv,224,EUR,2025-04-23,2026-10-23
+business_activity,German ifo Business Climate,german ifo business climate,business_activity/german_ifo_business_climate.csv,239,EUR,2025-04-24,2026-10-26
+business_activity,ISM Manufacturing PMI,ism manufacturing pmi,business_activity/ism_manufacturing_pmi.csv,239,USD,2025-05-01,2026-11-02
+business_activity,ISM Manufacturing Prices,ism manufacturing prices,business_activity/ism_manufacturing_prices.csv,239,USD,2025-05-01,2026-11-02
+business_activity,ISM Services PMI,ism services pmi,business_activity/ism_services_pmi.csv,239,USD,2025-05-05,2026-11-04
+business_activity,Italian Manufacturing PMI,italian manufacturing pmi,business_activity/italian_manufacturing_pmi.csv,239,EUR,2025-05-02,2026-11-02
+business_activity,Italian Services PMI,italian services pmi,business_activity/italian_services_pmi.csv,239,EUR,2025-05-06,2026-11-04
+business_activity,Ivey PMI,ivey pmi,business_activity/ivey_pmi.csv,239,CAD,2025-04-08,2026-11-06
+business_activity,Manufacturing PMI,manufacturing pmi,business_activity/manufacturing_pmi.csv,664,"CAD,CHF,CNY",2025-04-30,2026-11-02
+business_activity,NAB Business Confidence,nab business confidence,business_activity/nab_business_confidence.csv,239,AUD,2025-04-08,2026-11-10
+business_activity,NAB Quarterly Business Confidence,nab quarterly business confidence,business_activity/nab_quarterly_business_confidence.csv,80,AUD,2025-04-17,2026-09-24
+business_activity,Non-Manufacturing PMI,non-manufacturing pmi,business_activity/non_manufacturing_pmi.csv,238,CNY,2025-04-30,2026-10-31
+business_activity,NZIER Business Confidence,nzier business confidence,business_activity/nzier_business_confidence.csv,80,NZD,2025-04-08,2026-10-06
+business_activity,Philly Fed Manufacturing Index,philly fed manufacturing index,business_activity/philly_fed_manufacturing_index.csv,239,USD,2025-04-17,2026-11-19
+business_activity,Prelim ANZ Business Confidence,prelim anz business confidence,business_activity/prelim_anz_business_confidence.csv,16,NZD,,
+business_activity,RatingDog Manufacturing PMI,ratingdog manufacturing pmi,business_activity/ratingdog_manufacturing_pmi.csv,19,CNY,2025-04-30,2026-11-02
+business_activity,RatingDog Services PMI,ratingdog services pmi,business_activity/ratingdog_services_pmi.csv,19,CNY,2025-05-06,2026-11-04
+business_activity,Retail PMI,retail pmi,business_activity/retail_pmi.csv,139,EUR,,
+business_activity,Richmond Manufacturing Index,richmond manufacturing index,business_activity/richmond_manufacturing_index.csv,238,USD,2025-04-22,2026-10-27
+business_activity,Spanish Manufacturing PMI,spanish manufacturing pmi,business_activity/spanish_manufacturing_pmi.csv,239,EUR,2025-05-02,2026-11-02
+business_activity,Spanish Services PMI,spanish services pmi,business_activity/spanish_services_pmi.csv,239,EUR,2025-05-06,2026-11-04
+business_activity,Tankan Manufacturing Index,tankan manufacturing index,business_activity/tankan_manufacturing_index.csv,79,JPY,2025-07-01,2026-10-01
+business_activity,Tankan Non-Manufacturing Index,tankan non-manufacturing index,business_activity/tankan_non_manufacturing_index.csv,79,JPY,2025-07-01,2026-10-01
+consumer,CB Consumer Confidence,cb consumer confidence,consumer/cb_consumer_confidence.csv,238,USD,2025-04-29,2026-10-27
+consumer,Consumer Confidence,consumer confidence,consumer/consumer_confidence.csv,477,"EUR,JPY",2025-04-09,2026-10-29
+consumer,Consumer Credit m/m,consumer credit m/m,consumer/consumer_credit_m_m.csv,240,USD,2025-04-07,2026-11-06
+consumer,GfK Consumer Confidence,gfk consumer confidence,consumer/gfk_consumer_confidence.csv,244,GBP,2025-04-25,2026-10-23
+consumer,Household Spending m/m,household spending m/m,consumer/household_spending_m_m.csv,19,AUD,2025-05-06,2026-11-04
+consumer,Household Spending y/y,household spending y/y,consumer/household_spending_y_y.csv,238,JPY,2025-05-09,2026-11-10
+consumer,Nationwide Consumer Confidence,nationwide consumer confidence,consumer/nationwide_consumer_confidence.csv,66,GBP,,
+consumer,Personal Income m/m,personal income m/m,consumer/personal_income_m_m.csv,237,USD,2025-04-30,2026-10-29
+consumer,Personal Spending m/m,personal spending m/m,consumer/personal_spending_m_m.csv,237,USD,2025-04-30,2026-10-29
+consumer,Prelim UoM Consumer Sentiment,prelim uom consumer sentiment,consumer/prelim_uom_consumer_sentiment.csv,239,USD,2025-04-11,2026-11-06
+consumer,Revised UoM Consumer Sentiment,revised uom consumer sentiment,consumer/revised_uom_consumer_sentiment.csv,238,USD,2025-04-25,2026-10-23
+consumer,Westpac Consumer Sentiment,westpac consumer sentiment,consumer/westpac_consumer_sentiment.csv,319,"AUD,NZD",2025-04-08,2026-11-10
+employment,ADP Non-Farm Employment Change,adp non-farm employment change,employment/adp_non_farm_employment_change.csv,288,"CAD,USD",2025-04-30,2026-11-04
+employment,ADP Weekly Employment Change,adp weekly employment change,employment/adp_weekly_employment_change.csv,42,USD,2025-10-28,2026-11-17
+employment,Average Hourly Earnings m/m,average hourly earnings m/m,employment/average_hourly_earnings_m_m.csv,238,USD,2025-05-02,2026-11-06
+employment,Claimant Count Change,claimant count change,employment/claimant_count_change.csv,239,GBP,2025-04-15,2026-11-17
+employment,Employment Change,employment change,employment/employment_change.csv,478,"AUD,CAD",2025-04-17,2026-11-19
+employment,Employment Change q/q,employment change q/q,employment/employment_change_q_q.csv,80,NZD,2025-05-07,2026-11-03
+employment,Employment Cost Index q/q,employment cost index q/q,employment/employment_cost_index_q_q.csv,80,USD,2025-04-30,2026-10-30
+employment,Final Employment Change q/q,final employment change q/q,employment/final_employment_change_q_q.csv,79,EUR,2025-06-06,2026-09-07
+employment,Flash Employment Change q/q,flash employment change q/q,employment/flash_employment_change_q_q.csv,33,EUR,2025-05-15,2026-11-13
+employment,French Final Private Payrolls q/q,french final private payrolls q/q,employment/french_final_private_payrolls_q_q.csv,79,EUR,2025-05-28,2026-08-28
+employment,French Prelim Private Payrolls q/q,french prelim private payrolls q/q,employment/french_prelim_private_payrolls_q_q.csv,80,EUR,2025-05-07,2026-10-30
+employment,German Unemployment Change,german unemployment change,employment/german_unemployment_change.csv,239,EUR,2025-04-30,2026-10-30
+employment,Italian Monthly Unemployment Rate,italian monthly unemployment rate,employment/italian_monthly_unemployment_rate.csv,204,EUR,2025-05-02,2026-10-29
+employment,Italian Quarterly Unemployment Rate,italian quarterly unemployment rate,employment/italian_quarterly_unemployment_rate.csv,79,EUR,2025-06-12,2026-09-11
+employment,JOLTS Job Openings,jolts job openings,employment/jolts_job_openings.csv,238,USD,2025-04-29,2026-11-03
+employment,Labor Cost Index q/q,labor cost index q/q,employment/labor_cost_index_q_q.csv,80,NZD,2025-05-07,2026-11-03
+employment,Labor Market Conditions Index m/m,labor market conditions index m/m,employment/labor_market_conditions_index_m_m.csv,34,USD,,
+employment,Non-Farm Employment Change,non-farm employment change,employment/non_farm_employment_change.csv,238,USD,2025-05-02,2026-11-06
+employment,Prelim Benchmark Payrolls Revision,prelim benchmark payrolls revision,employment/prelim_benchmark_payrolls_revision.csv,2,USD,2025-09-09,2026-08-28
+employment,Prelim Unit Labor Costs q/q,prelim unit labor costs q/q,employment/prelim_unit_labor_costs_q_q.csv,79,USD,2025-05-08,2026-11-05
+employment,Revised Unit Labor Costs q/q,revised unit labor costs q/q,employment/revised_unit_labor_costs_q_q.csv,79,USD,2025-06-05,2026-09-03
+employment,Spanish Unemployment Change,spanish unemployment change,employment/spanish_unemployment_change.csv,239,EUR,2025-05-06,2026-11-04
+employment,Spanish Unemployment Rate,spanish unemployment rate,employment/spanish_unemployment_rate.csv,80,EUR,2025-04-28,2026-10-27
+employment,Unemployment Claims,unemployment claims,employment/unemployment_claims.csv,1032,USD,2025-04-10,2026-11-19
+employment,Unemployment Rate,unemployment rate,employment/unemployment_rate.csv,1847,"AUD,CAD,CHF,CNY,EUR,GBP,JPY,NZD,USD",2025-04-15,2026-11-19
+energy,Crude Oil Inventories,crude oil inventories,energy/crude_oil_inventories.csv,1037,USD,2025-04-09,2026-11-18
+energy,Natural Gas Storage,natural gas storage,energy/natural_gas_storage.csv,1037,USD,2025-04-10,2026-11-19
+energy,OPEC Meetings,opec meetings,energy/opec_meetings.csv,48,ALL,,
+energy,OPEC-JMMC Meetings,opec-jmmc meetings,energy/opec_jmmc_meetings.csv,78,ALL,,
+growth,Advance GDP q/q,advance gdp q/q,growth/advance_gdp_q_q.csv,79,USD,2025-04-30,2026-10-29
+growth,BRC Retail Sales Monitor y/y,brc retail sales monitor y/y,growth/brc_retail_sales_monitor_y_y.csv,239,GBP,2025-04-15,2026-11-10
+growth,Business Inventories m/m,business inventories m/m,growth/business_inventories_m_m.csv,239,USD,2025-04-16,2026-11-17
+growth,Capacity Utilization Rate,capacity utilization rate,growth/capacity_utilization_rate.csv,315,"CAD,USD",2025-04-16,2026-11-17
+growth,Core Durable Goods Orders m/m,core durable goods orders m/m,growth/core_durable_goods_orders_m_m.csv,238,USD,2025-04-24,2026-10-27
+growth,Core Retail Sales m/m,core retail sales m/m,growth/core_retail_sales_m_m.csv,527,"CAD,NZD,USD",2025-04-16,2026-11-17
+growth,Core Retail Sales q/q,core retail sales q/q,growth/core_retail_sales_q_q.csv,79,NZD,2025-05-23,2026-08-24
+growth,Durable Goods Orders m/m,durable goods orders m/m,growth/durable_goods_orders_m_m.csv,238,USD,2025-04-24,2026-10-27
+growth,Factory Orders m/m,factory orders m/m,growth/factory_orders_m_m.csv,239,USD,2025-05-02,2026-11-03
+growth,Final GDP q/q,final gdp q/q,growth/final_gdp_q_q.csv,268,"EUR,GBP,JPY,USD",2025-06-09,2026-09-30
+growth,Final Wholesale Inventories m/m,final wholesale inventories m/m,growth/final_wholesale_inventories_m_m.csv,239,USD,2025-04-09,2026-11-09
+growth,Flash GDP q/q,flash gdp q/q,growth/flash_gdp_q_q.csv,80,EUR,2025-05-15,2026-11-13
+growth,French Flash GDP q/q,french flash gdp q/q,growth/french_flash_gdp_q_q.csv,44,EUR,2025-04-30,2026-10-30
+growth,French Industrial Production m/m,french industrial production m/m,growth/french_industrial_production_m_m.csv,239,EUR,2025-05-06,2026-11-05
+growth,French Prelim GDP q/q,french prelim gdp q/q,growth/french_prelim_gdp_q_q.csv,79,EUR,2025-05-28,2026-08-28
+growth,GDP m/m,gdp m/m,growth/gdp_m_m.csv,339,"CAD,GBP",2025-04-11,2026-11-12
+growth,GDP q/q,gdp q/q,growth/gdp_q_q.csv,237,"AUD,CHF,NZD",2025-06-02,2026-09-17
+growth,GDP q/y,gdp q/y,growth/gdp_q_y.csv,80,CNY,2025-04-16,2026-10-19
+growth,German Factory Orders m/m,german factory orders m/m,growth/german_factory_orders_m_m.csv,239,EUR,2025-05-07,2026-11-05
+growth,German Final GDP q/q,german final gdp q/q,growth/german_final_gdp_q_q.csv,79,EUR,2025-05-23,2026-08-25
+growth,German Industrial Production m/m,german industrial production m/m,growth/german_industrial_production_m_m.csv,240,EUR,2025-04-07,2026-11-06
+growth,German Prelim GDP q/q,german prelim gdp q/q,growth/german_prelim_gdp_q_q.csv,80,EUR,2025-04-30,2026-10-30
+growth,German Retail Sales m/m,german retail sales m/m,growth/german_retail_sales_m_m.csv,237,EUR,2025-04-30,2026-11-02
+growth,Industrial Production m/m,industrial production m/m,growth/industrial_production_m_m.csv,716,"EUR,GBP,USD",2025-04-11,2026-11-17
+growth,Industrial Production q/q,industrial production q/q,growth/industrial_production_q_q.csv,21,CHF,,
+growth,Industrial Production y/y,industrial production y/y,growth/industrial_production_y_y.csv,219,CNY,2025-04-16,2026-11-16
+growth,Italian Industrial Production m/m,italian industrial production m/m,growth/italian_industrial_production_m_m.csv,239,EUR,2025-04-10,2026-11-11
+growth,Italian Prelim GDP q/q,italian prelim gdp q/q,growth/italian_prelim_gdp_q_q.csv,80,EUR,2025-04-30,2026-10-30
+growth,Italian Retail Sales m/m,italian retail sales m/m,growth/italian_retail_sales_m_m.csv,239,EUR,2025-05-07,2026-11-05
+growth,Labor Productivity q/q,labor productivity q/q,growth/labor_productivity_q_q.csv,79,CAD,2025-06-04,2026-09-03
+growth,NIESR GDP Estimate,niesr gdp estimate,growth/niesr_gdp_estimate.csv,219,GBP,,
+growth,Prelim Flash GDP q/q,prelim flash gdp q/q,growth/prelim_flash_gdp_q_q.csv,43,EUR,2025-04-30,2026-10-30
+growth,Prelim GDP q/q,prelim gdp q/q,growth/prelim_gdp_q_q.csv,238,"GBP,JPY,USD",2025-05-15,2026-11-16
+growth,Prelim Industrial Production m/m,prelim industrial production m/m,growth/prelim_industrial_production_m_m.csv,238,JPY,2025-04-30,2026-10-30
+growth,Prelim Nonfarm Productivity q/q,prelim nonfarm productivity q/q,growth/prelim_nonfarm_productivity_q_q.csv,79,USD,2025-05-08,2026-11-05
+growth,Prelim Wholesale Inventories m/m,prelim wholesale inventories m/m,growth/prelim_wholesale_inventories_m_m.csv,115,USD,2025-04-29,2026-10-28
+growth,Quarterly Retail Sales q/q,quarterly retail sales q/q,growth/quarterly_retail_sales_q_q.csv,2,AUD,,
+growth,Retail Sales m/m,retail sales m/m,growth/retail_sales_m_m.csv,1229,"AUD,CAD,EUR,GBP,NZD,USD",2025-04-07,2026-11-17
+growth,Retail Sales q/q,retail sales q/q,growth/retail_sales_q_q.csv,79,NZD,2025-05-23,2026-08-24
+growth,Retail Sales y/y,retail sales y/y,growth/retail_sales_y_y.csv,697,"CHF,CNY,JPY",2025-04-16,2026-11-16
+growth,Revised GDP q/q,revised gdp q/q,growth/revised_gdp_q_q.csv,79,EUR,2025-06-06,2026-09-07
+growth,Revised Industrial Production m/m,revised industrial production m/m,growth/revised_industrial_production_m_m.csv,239,JPY,2025-04-14,2026-11-16
+growth,Revised Nonfarm Productivity q/q,revised nonfarm productivity q/q,growth/revised_nonfarm_productivity_q_q.csv,79,USD,2025-06-05,2026-09-03
+growth,Second Estimate GDP q/q,second estimate gdp q/q,growth/second_estimate_gdp_q_q.csv,46,GBP,,
+growth,Spanish Flash GDP q/q,spanish flash gdp q/q,growth/spanish_flash_gdp_q_q.csv,80,EUR,2025-04-29,2026-10-30
+housing,Building Permits,building permits,housing/building_permits.csv,236,USD,2025-04-17,2026-11-18
+housing,Building Permits m/m,building permits m/m,housing/building_permits_m_m.csv,239,CAD,2025-04-10,2026-11-12
+housing,Construction Spending m/m,construction spending m/m,housing/construction_spending_m_m.csv,236,USD,2025-05-01,2026-11-02
+housing,Existing Home Sales,existing home sales,housing/existing_home_sales.csv,239,USD,2025-04-24,2026-11-12
+housing,HIA New Home Sales m/m,hia new home sales m/m,housing/hia_new_home_sales_m_m.csv,154,AUD,,
+housing,Housing Starts,housing starts,housing/housing_starts.csv,474,"CAD,USD",2025-04-15,2026-11-18
+housing,Housing Starts q/q,housing starts q/q,housing/housing_starts_q_q.csv,23,AUD,,
+housing,Housing Starts y/y,housing starts y/y,housing/housing_starts_y_y.csv,238,JPY,2025-04-30,2026-10-30
+housing,NAHB Housing Market Index,nahb housing market index,housing/nahb_housing_market_index.csv,239,USD,2025-04-16,2026-11-17
+housing,New Home Prices m/m,new home prices m/m,housing/new_home_prices_m_m.csv,104,CNY,2025-04-16,2026-11-16
+housing,New Home Sales,new home sales,housing/new_home_sales.csv,235,USD,2025-04-23,2026-10-27
+housing,Pending Home Sales m/m,pending home sales m/m,housing/pending_home_sales_m_m.csv,240,USD,2025-04-30,2026-11-18
+housing,RICS House Price Balance,rics house price balance,housing/rics_house_price_balance.csv,239,GBP,2025-04-10,2026-11-12
+inflation,Advance GDP Price Index q/q,advance gdp price index q/q,inflation/advance_gdp_price_index_q_q.csv,79,USD,2025-04-30,2026-10-29
+inflation,BOJ Core CPI y/y,boj core cpi y/y,inflation/boj_core_cpi_y_y.csv,132,JPY,2025-04-22,2026-10-27
+inflation,BRC Shop Price Index y/y,brc shop price index y/y,inflation/brc_shop_price_index_y_y.csv,239,GBP,2025-04-29,2026-10-27
+inflation,Cleveland Fed Inflation Expectations,cleveland fed inflation expectations,inflation/cleveland_fed_inflation_expectations.csv,15,USD,2025-05-12,2026-11-16
+inflation,Common CPI y/y,common cpi y/y,inflation/common_cpi_y_y.csv,120,CAD,2025-04-15,2026-11-16
+inflation,Consumer Inflation Expectations,consumer inflation expectations,inflation/consumer_inflation_expectations.csv,79,GBP,2025-06-13,2026-09-11
+inflation,Core CPI Flash Estimate y/y,core cpi flash estimate y/y,inflation/core_cpi_flash_estimate_y_y.csv,163,EUR,2025-05-02,2026-11-04
+inflation,Core CPI m/m,core cpi m/m,inflation/core_cpi_m_m.csv,476,"CAD,USD",2025-04-10,2026-11-16
+inflation,Core CPI y/y,core cpi y/y,inflation/core_cpi_y_y.csv,257,"GBP,USD",2025-04-10,2026-11-18
+inflation,Core PCE Price Index m/m,core pce price index m/m,inflation/core_pce_price_index_m_m.csv,237,USD,2025-04-30,2026-10-29
+inflation,Core PPI m/m,core ppi m/m,inflation/core_ppi_m_m.csv,238,USD,2025-04-11,2026-11-13
+inflation,CPI Flash Estimate y/y,cpi flash estimate y/y,inflation/cpi_flash_estimate_y_y.csv,239,EUR,2025-05-02,2026-11-04
+inflation,CPI m/m,cpi m/m,inflation/cpi_m_m.csv,730,"AUD,CAD,CHF,USD",2025-04-10,2026-11-16
+inflation,CPI q/q,cpi q/q,inflation/cpi_q_q.csv,153,"AUD,NZD",2025-04-17,2026-10-22
+inflation,CPI y/y,cpi y/y,inflation/cpi_y_y.csv,764,"AUD,CNY,GBP,USD",2025-04-10,2026-11-18
+inflation,Final Core CPI y/y,final core cpi y/y,inflation/final_core_cpi_y_y.csv,239,EUR,2025-04-16,2026-11-18
+inflation,Final CPI y/y,final cpi y/y,inflation/final_cpi_y_y.csv,239,EUR,2025-04-16,2026-11-18
+inflation,Final GDP Price Index q/q,final gdp price index q/q,inflation/final_gdp_price_index_q_q.csv,79,USD,2025-06-26,2026-09-30
+inflation,Final GDP Price Index y/y,final gdp price index y/y,inflation/final_gdp_price_index_y_y.csv,79,JPY,2025-06-09,2026-09-08
+inflation,French Final CPI m/m,french final cpi m/m,inflation/french_final_cpi_m_m.csv,239,EUR,2025-04-15,2026-11-13
+inflation,French Prelim CPI m/m,french prelim cpi m/m,inflation/french_prelim_cpi_m_m.csv,130,EUR,2025-04-30,2026-10-30
+inflation,GDT Price Index,gdt price index,inflation/gdt_price_index.csv,417,NZD,2025-04-15,2026-11-17
+inflation,German Final CPI m/m,german final cpi m/m,inflation/german_final_cpi_m_m.csv,239,EUR,2025-04-11,2026-11-11
+inflation,German Import Prices m/m,german import prices m/m,inflation/german_import_prices_m_m.csv,238,EUR,2025-04-30,2026-10-30
+inflation,German PPI m/m,german ppi m/m,inflation/german_ppi_m_m.csv,238,EUR,2025-04-17,2026-10-20
+inflation,German Prelim CPI m/m,german prelim cpi m/m,inflation/german_prelim_cpi_m_m.csv,219,EUR,,
+inflation,Import Prices m/m,import prices m/m,inflation/import_prices_m_m.csv,238,USD,2025-04-15,2026-11-17
+inflation,Import Prices q/q,import prices q/q,inflation/import_prices_q_q.csv,80,AUD,2025-05-01,2026-10-29
+inflation,Inflation Expectations q/q,inflation expectations q/q,inflation/inflation_expectations_q_q.csv,80,NZD,2025-05-16,2026-11-17
+inflation,Italian Prelim CPI m/m,italian prelim cpi m/m,inflation/italian_prelim_cpi_m_m.csv,239,EUR,2025-04-30,2026-10-30
+inflation,Median CPI y/y,median cpi y/y,inflation/median_cpi_y_y.csv,120,CAD,2025-04-15,2026-11-16
+inflation,MI Inflation Expectations,mi inflation expectations,inflation/mi_inflation_expectations.csv,239,AUD,2025-04-10,2026-11-12
+inflation,National Core CPI y/y,national core cpi y/y,inflation/national_core_cpi_y_y.csv,238,JPY,2025-04-18,2026-10-23
+inflation,PPI Input m/m,ppi input m/m,inflation/ppi_input_m_m.csv,232,GBP,2025-10-22,2026-11-18
+inflation,PPI Input q/q,ppi input q/q,inflation/ppi_input_q_q.csv,80,NZD,2025-05-19,2026-11-17
+inflation,PPI m/m,ppi m/m,inflation/ppi_m_m.csv,716,"CHF,EUR,USD",2025-04-11,2026-11-13
+inflation,PPI Output m/m,ppi output m/m,inflation/ppi_output_m_m.csv,232,GBP,2025-10-22,2026-11-18
+inflation,PPI Output q/q,ppi output q/q,inflation/ppi_output_q_q.csv,80,NZD,2025-05-19,2026-11-17
+inflation,PPI q/q,ppi q/q,inflation/ppi_q_q.csv,80,AUD,2025-05-02,2026-10-30
+inflation,PPI y/y,ppi y/y,inflation/ppi_y_y.csv,478,"CNY,JPY",2025-04-10,2026-11-12
+inflation,Prelim GDP Price Index q/q,prelim gdp price index q/q,inflation/prelim_gdp_price_index_q_q.csv,78,USD,2025-05-29,2026-08-26
+inflation,Prelim GDP Price Index y/y,prelim gdp price index y/y,inflation/prelim_gdp_price_index_y_y.csv,80,JPY,2025-05-16,2026-11-16
+inflation,Prelim UoM Inflation Expectations,prelim uom inflation expectations,inflation/prelim_uom_inflation_expectations.csv,237,USD,2025-04-11,2026-11-06
+inflation,Revised UoM Inflation Expectations,revised uom inflation expectations,inflation/revised_uom_inflation_expectations.csv,240,USD,2025-04-25,2026-10-23
+inflation,Spanish Flash CPI y/y,spanish flash cpi y/y,inflation/spanish_flash_cpi_y_y.csv,188,EUR,2025-04-29,2026-10-30
+inflation,Tokyo Core CPI y/y,tokyo core cpi y/y,inflation/tokyo_core_cpi_y_y.csv,238,JPY,2025-04-25,2026-10-30
+inflation,Trimmed CPI y/y,trimmed cpi y/y,inflation/trimmed_cpi_y_y.csv,120,CAD,2025-04-15,2026-11-16
+inflation,Trimmed Mean CPI m/m,trimmed mean cpi m/m,inflation/trimmed_mean_cpi_m_m.csv,15,AUD,2025-04-30,2026-10-28
+inflation,Trimmed Mean CPI q/q,trimmed mean cpi q/q,inflation/trimmed_mean_cpi_q_q.csv,73,AUD,,
+inflation,Wage Price Index q/q,wage price index q/q,inflation/wage_price_index_q_q.csv,80,AUD,2025-05-14,2026-11-18
+monetary_policy,Asset Purchase Facility,asset purchase facility,monetary_policy/asset_purchase_facility.csv,136,GBP,,
+monetary_policy,Beige Book,beige book,monetary_policy/beige_book.csv,159,USD,2025-04-23,2026-10-14
+monetary_policy,BOC Monetary Policy Report,boc monetary policy report,monetary_policy/boc_monetary_policy_report.csv,80,CAD,2025-04-16,2026-10-28
+monetary_policy,BOC Press Conference,boc press conference,monetary_policy/boc_press_conference.csv,93,CAD,2025-04-16,2026-10-28
+monetary_policy,BOE Monetary Policy Report,boe monetary policy report,monetary_policy/boe_monetary_policy_report.csv,80,GBP,2025-05-08,2026-11-05
+monetary_policy,BOJ Press Conference,boj press conference,monetary_policy/boj_press_conference.csv,216,JPY,2025-05-01,2026-10-30
+monetary_policy,ECB Monetary Policy Meeting Accounts,ecb monetary policy meeting accounts,monetary_policy/ecb_monetary_policy_meeting_accounts.csv,95,EUR,2025-05-22,2026-10-08
+monetary_policy,ECB Press Conference,ecb press conference,monetary_policy/ecb_press_conference.csv,191,EUR,2025-04-17,2026-10-29
+monetary_policy,Fed Chair Nomination Vote,fed chair nomination vote,monetary_policy/fed_chair_nomination_vote.csv,1,USD,2026-05-13,2026-05-13
+monetary_policy,Fed Chair Powell Speaks,fed chair powell speaks,monetary_policy/fed_chair_powell_speaks.csv,111,USD,,
+monetary_policy,Fed Chair Powell Testifies,fed chair powell testifies,monetary_policy/fed_chair_powell_testifies.csv,48,USD,,
+monetary_policy,Fed Chair Yellen Speaks,fed chair yellen speaks,monetary_policy/fed_chair_yellen_speaks.csv,50,USD,,
+monetary_policy,Fed Chair Yellen Testifies,fed chair yellen testifies,monetary_policy/fed_chair_yellen_testifies.csv,24,USD,,
+monetary_policy,Fed Chairman Bernanke Speaks,fed chairman bernanke speaks,monetary_policy/fed_chairman_bernanke_speaks.csv,166,USD,,
+monetary_policy,Fed Chairman Bernanke Testifies,fed chairman bernanke testifies,monetary_policy/fed_chairman_bernanke_testifies.csv,73,USD,,
+monetary_policy,Fed Chairman Nomination Vote,fed chairman nomination vote,monetary_policy/fed_chairman_nomination_vote.csv,2,USD,,
+monetary_policy,Fed Chairman Powell Testifies,fed chairman powell testifies,monetary_policy/fed_chairman_powell_testifies.csv,2,USD,2025-06-24,2025-06-25
+monetary_policy,Fed Chairman Warsh Speaks,fed chairman warsh speaks,monetary_policy/fed_chairman_warsh_speaks.csv,4,USD,2026-07-01,2026-11-16
+monetary_policy,Fed Chairman Warsh Testifies,fed chairman warsh testifies,monetary_policy/fed_chairman_warsh_testifies.csv,3,USD,2026-04-21,2026-07-15
+monetary_policy,Fed Monetary Policy Report,fed monetary policy report,monetary_policy/fed_monetary_policy_report.csv,39,USD,2025-06-20,2026-07-10
+monetary_policy,Federal Funds Rate,federal funds rate,monetary_policy/federal_funds_rate.csv,162,USD,2025-05-07,2026-10-28
+monetary_policy,FOMC Economic Projections,fomc economic projections,monetary_policy/fomc_economic_projections.csv,62,USD,2025-06-18,2026-09-16
+monetary_policy,FOMC Financial Stability Report,fomc financial stability report,monetary_policy/fomc_financial_stability_report.csv,17,USD,2025-04-11,2026-11-13
+monetary_policy,FOMC Meeting Minutes,fomc meeting minutes,monetary_policy/fomc_meeting_minutes.csv,160,USD,2025-04-09,2026-11-18
+monetary_policy,FOMC Member Barkin Speaks,fomc member barkin speaks,monetary_policy/fomc_member_barkin_speaks.csv,107,USD,2025-04-09,2026-11-19
+monetary_policy,FOMC Member Barr Speaks,fomc member barr speaks,monetary_policy/fomc_member_barr_speaks.csv,99,USD,2025-04-17,2026-11-19
+monetary_policy,FOMC Member Bostic Speaks,fomc member bostic speaks,monetary_policy/fomc_member_bostic_speaks.csv,155,USD,2025-04-15,2026-02-24
+monetary_policy,FOMC Member Bowman Speaks,fomc member bowman speaks,monetary_policy/fomc_member_bowman_speaks.csv,155,USD,2025-04-10,2026-11-13
+monetary_policy,FOMC Member Brainard Speaks,fomc member brainard speaks,monetary_policy/fomc_member_brainard_speaks.csv,101,USD,,
+monetary_policy,FOMC Member Bullard Speaks,fomc member bullard speaks,monetary_policy/fomc_member_bullard_speaks.csv,118,USD,,
+monetary_policy,FOMC Member Clarida Speaks,fomc member clarida speaks,monetary_policy/fomc_member_clarida_speaks.csv,49,USD,,
+monetary_policy,FOMC Member Collins Speaks,fomc member collins speaks,monetary_policy/fomc_member_collins_speaks.csv,30,USD,2025-06-24,2026-11-13
+monetary_policy,FOMC Member Cook Speaks,fomc member cook speaks,monetary_policy/fomc_member_cook_speaks.csv,62,USD,2025-04-16,2026-10-01
+monetary_policy,FOMC Member Daly Speaks,fomc member daly speaks,monetary_policy/fomc_member_daly_speaks.csv,83,USD,2025-04-08,2026-11-18
+monetary_policy,FOMC Member Dudley Speaks,fomc member dudley speaks,monetary_policy/fomc_member_dudley_speaks.csv,161,USD,,
+monetary_policy,FOMC Member Duke Speaks,fomc member duke speaks,monetary_policy/fomc_member_duke_speaks.csv,54,USD,,
+monetary_policy,FOMC Member Evans Speaks,fomc member evans speaks,monetary_policy/fomc_member_evans_speaks.csv,132,USD,,
+monetary_policy,FOMC Member Fischer Speaks,fomc member fischer speaks,monetary_policy/fomc_member_fischer_speaks.csv,46,USD,,
+monetary_policy,FOMC Member Fisher Speaks,fomc member fisher speaks,monetary_policy/fomc_member_fisher_speaks.csv,64,USD,,
+monetary_policy,FOMC Member Geithner Speaks,fomc member geithner speaks,monetary_policy/fomc_member_geithner_speaks.csv,15,USD,,
+monetary_policy,FOMC Member George Speaks,fomc member george speaks,monetary_policy/fomc_member_george_speaks.csv,40,USD,,
+monetary_policy,FOMC Member Goolsbee Speaks,fomc member goolsbee speaks,monetary_policy/fomc_member_goolsbee_speaks.csv,110,USD,2025-04-10,2026-11-19
+monetary_policy,FOMC Member Hammack Speaks,fomc member hammack speaks,monetary_policy/fomc_member_hammack_speaks.csv,45,USD,2025-04-16,2026-11-19
+monetary_policy,FOMC Member Harker Speaks,fomc member harker speaks,monetary_policy/fomc_member_harker_speaks.csv,69,USD,2025-04-10,2025-06-06
+monetary_policy,FOMC Member Hoenig Speaks,fomc member hoenig speaks,monetary_policy/fomc_member_hoenig_speaks.csv,18,USD,,
+monetary_policy,FOMC Member Jefferson Speaks,fomc member jefferson speaks,monetary_policy/fomc_member_jefferson_speaks.csv,45,USD,2025-04-22,2026-11-19
+monetary_policy,FOMC Member Kaplan Speaks,fomc member kaplan speaks,monetary_policy/fomc_member_kaplan_speaks.csv,44,USD,,
+monetary_policy,FOMC Member Kashkari Speaks,fomc member kashkari speaks,monetary_policy/fomc_member_kashkari_speaks.csv,83,USD,2025-04-22,2026-11-18
+monetary_policy,FOMC Member Kocherlakota Speaks,fomc member kocherlakota speaks,monetary_policy/fomc_member_kocherlakota_speaks.csv,35,USD,,
+monetary_policy,FOMC Member Kohn Speaks,fomc member kohn speaks,monetary_policy/fomc_member_kohn_speaks.csv,48,USD,,
+monetary_policy,FOMC Member Kroszner Speaks,fomc member kroszner speaks,monetary_policy/fomc_member_kroszner_speaks.csv,47,USD,,
+monetary_policy,FOMC Member Kugler Speaks,fomc member kugler speaks,monetary_policy/fomc_member_kugler_speaks.csv,30,USD,2025-04-07,2025-07-17
+monetary_policy,FOMC Member Lacker Speaks,fomc member lacker speaks,monetary_policy/fomc_member_lacker_speaks.csv,36,USD,,
+monetary_policy,FOMC Member Lockhart Speaks,fomc member lockhart speaks,monetary_policy/fomc_member_lockhart_speaks.csv,69,USD,,
+monetary_policy,FOMC Member Logan Speaks,fomc member logan speaks,monetary_policy/fomc_member_logan_speaks.csv,51,USD,2025-04-10,2026-11-13
+monetary_policy,FOMC Member Mester Speaks,fomc member mester speaks,monetary_policy/fomc_member_mester_speaks.csv,82,USD,,
+monetary_policy,FOMC Member Miran Speaks,fomc member miran speaks,monetary_policy/fomc_member_miran_speaks.csv,28,USD,2025-09-22,2026-04-16
+monetary_policy,FOMC Member Mishkin Speaks,fomc member mishkin speaks,monetary_policy/fomc_member_mishkin_speaks.csv,32,USD,,
+monetary_policy,FOMC Member Musalem Speaks,fomc member musalem speaks,monetary_policy/fomc_member_musalem_speaks.csv,43,USD,2025-04-11,2026-11-17
+monetary_policy,FOMC Member Paulson Speaks,fomc member paulson speaks,monetary_policy/fomc_member_paulson_speaks.csv,15,USD,2025-10-13,2026-11-11
+monetary_policy,FOMC Member Pianalto Speaks,fomc member pianalto speaks,monetary_policy/fomc_member_pianalto_speaks.csv,30,USD,,
+monetary_policy,FOMC Member Plosser Speaks,fomc member plosser speaks,monetary_policy/fomc_member_plosser_speaks.csv,50,USD,,
+monetary_policy,FOMC Member Powell Speaks,fomc member powell speaks,monetary_policy/fomc_member_powell_speaks.csv,55,USD,2025-04-16,2026-06-01
+monetary_policy,FOMC Member Quarles Speaks,fomc member quarles speaks,monetary_policy/fomc_member_quarles_speaks.csv,73,USD,,
+monetary_policy,FOMC Member Raskin Speaks,fomc member raskin speaks,monetary_policy/fomc_member_raskin_speaks.csv,20,USD,,
+monetary_policy,FOMC Member Rosengren Speaks,fomc member rosengren speaks,monetary_policy/fomc_member_rosengren_speaks.csv,37,USD,,
+monetary_policy,FOMC Member Schmid Speaks,fomc member schmid speaks,monetary_policy/fomc_member_schmid_speaks.csv,33,USD,2025-04-10,2026-11-12
+monetary_policy,FOMC Member Stein Speaks,fomc member stein speaks,monetary_policy/fomc_member_stein_speaks.csv,17,USD,,
+monetary_policy,FOMC Member Stern Speaks,fomc member stern speaks,monetary_policy/fomc_member_stern_speaks.csv,10,USD,,
+monetary_policy,FOMC Member Tarullo Speaks,fomc member tarullo speaks,monetary_policy/fomc_member_tarullo_speaks.csv,75,USD,,
+monetary_policy,FOMC Member Waller Speaks,fomc member waller speaks,monetary_policy/fomc_member_waller_speaks.csv,111,USD,2025-04-14,2026-11-17
+monetary_policy,FOMC Member Warsh Speaks,fomc member warsh speaks,monetary_policy/fomc_member_warsh_speaks.csv,22,USD,,
+monetary_policy,FOMC Member Williams Speaks,fomc member williams speaks,monetary_policy/fomc_member_williams_speaks.csv,264,USD,2025-04-11,2026-11-18
+monetary_policy,FOMC Member Yellen Speaks,fomc member yellen speaks,monetary_policy/fomc_member_yellen_speaks.csv,41,USD,,
+monetary_policy,FOMC Press Conference,fomc press conference,monetary_policy/fomc_press_conference.csv,96,USD,2025-05-07,2026-10-28
+monetary_policy,FOMC Statement,fomc statement,monetary_policy/fomc_statement.csv,162,USD,2025-05-07,2026-10-28
+monetary_policy,FPC Meeting Minutes,fpc meeting minutes,monetary_policy/fpc_meeting_minutes.csv,63,GBP,2025-04-09,2026-09-30
+monetary_policy,Monetary Policy Meeting Minutes,monetary policy meeting minutes,monetary_policy/monetary_policy_meeting_minutes.csv,415,"AUD,JPY",2025-04-15,2026-11-17
+monetary_policy,Monetary Policy Report Hearings,monetary policy report hearings,monetary_policy/monetary_policy_report_hearings.csv,71,GBP,2025-06-03,2026-09-08
+monetary_policy,Monetary Policy Statement,monetary policy statement,monetary_policy/monetary_policy_statement.csv,283,"EUR,JPY",2025-04-17,2026-10-30
+monetary_policy,Monetary Policy Summary,monetary policy summary,monetary_policy/monetary_policy_summary.csv,97,GBP,2025-05-08,2026-11-05
+monetary_policy,MPC Asset Purchase Facility Votes,mpc asset purchase facility votes,monetary_policy/mpc_asset_purchase_facility_votes.csv,136,GBP,,
+monetary_policy,NBS Press Conference,nbs press conference,monetary_policy/nbs_press_conference.csv,129,CNY,2025-04-16,2026-11-16
+monetary_policy,RBA Monetary Policy Statement,rba monetary policy statement,monetary_policy/rba_monetary_policy_statement.csv,80,AUD,2025-05-20,2026-11-03
+monetary_policy,RBA Press Conference,rba press conference,monetary_policy/rba_press_conference.csv,23,AUD,2025-05-20,2026-11-03
+monetary_policy,RBNZ Monetary Policy Statement,rbnz monetary policy statement,monetary_policy/rbnz_monetary_policy_statement.csv,79,NZD,2025-05-28,2026-09-02
+monetary_policy,RBNZ Press Conference,rbnz press conference,monetary_policy/rbnz_press_conference.csv,86,NZD,2025-05-28,2026-10-28
+monetary_policy,SNB Monetary Policy Assessment,snb monetary policy assessment,monetary_policy/snb_monetary_policy_assessment.csv,79,CHF,2025-06-19,2026-09-24
+monetary_policy,SNB Press Conference,snb press conference,monetary_policy/snb_press_conference.csv,53,CHF,2025-06-19,2026-09-24
+monetary_policy,Summary of Monetary Policy Discussions,summary of monetary policy discussions,monetary_policy/summary_of_monetary_policy_discussions.csv,5,CHF,2025-10-23,2026-10-22
+other,1-y Loan Prime Rate,1-y loan prime rate,other/1_y_loan_prime_rate.csv,86,CNY,2025-04-21,2026-10-20
+other,5-y Loan Prime Rate,5-y loan prime rate,other/5_y_loan_prime_rate.csv,86,CNY,2025-04-21,2026-10-20
+other,AIG Construction Index,aig construction index,other/aig_construction_index.csv,190,AUD,,
+other,All Industries Activity m/m,all industries activity m/m,other/all_industries_activity_m_m.csv,165,JPY,,
+other,Annual Budget Release,annual budget release,other/annual_budget_release.csv,85,"AUD,CAD,GBP,NZD",2025-05-22,2026-11-05
+other,Annual Pre-Budget Report,annual pre-budget report,other/annual_pre_budget_report.csv,3,GBP,,
+other,ANZ Commodity Prices m/m,anz commodity prices m/m,other/anz_commodity_prices_m_m.csv,239,NZD,2025-05-06,2026-11-04
+other,ANZ Job Advertisements m/m,anz job advertisements m/m,other/anz_job_advertisements_m_m.csv,234,AUD,2025-04-07,2026-10-06
+other,API Weekly Statistical Bulletin,api weekly statistical bulletin,other/api_weekly_statistical_bulletin.csv,142,USD,2025-04-08,2026-11-17
+other,Assist Treasury Sec Kashkari Speaks,assist treasury sec kashkari speaks,other/assist_treasury_sec_kashkari_speaks.csv,8,USD,,
+other,Autumn Forecast Statement,autumn forecast statement,other/autumn_forecast_statement.csv,16,GBP,2025-11-26,2026-10-28
+other,Average Cash Earnings y/y,average cash earnings y/y,other/average_cash_earnings_y_y.csv,239,JPY,2025-04-07,2026-11-06
+other,Average Earnings Index 3m/y,average earnings index 3m/y,other/average_earnings_index_3m_y.csv,239,GBP,2025-04-15,2026-11-17
+other,Bank Holiday,bank holiday,other/bank_holiday.csv,1654,"AUD,CAD,CHF,CNY,GBP,JPY,NZD,USD",,
+other,Bank Lending y/y,bank lending y/y,other/bank_lending_y_y.csv,239,JPY,2025-04-10,2026-11-10
+other,Bank Stress Test Results,bank stress test results,other/bank_stress_test_results.csv,35,"GBP,USD",2025-06-27,2026-06-24
+other,BOC Business Outlook Survey,boc business outlook survey,other/boc_business_outlook_survey.csv,81,CAD,2025-04-07,2026-10-19
+other,BOC Financial System Review,boc financial system review,other/boc_financial_system_review.csv,33,CAD,2025-05-08,2026-05-28
+other,BOC Gov Carney Speaks,boc gov carney speaks,other/boc_gov_carney_speaks.csv,89,CAD,,
+other,BOC Gov Macklem Speaks,boc gov macklem speaks,other/boc_gov_macklem_speaks.csv,84,CAD,2025-05-22,2026-11-05
+other,BOC Gov Poloz Speaks,boc gov poloz speaks,other/boc_gov_poloz_speaks.csv,98,CAD,,
+other,BOC Rate Statement,boc rate statement,other/boc_rate_statement.csv,162,CAD,2025-04-16,2026-10-28
+other,BOC Review,boc review,other/boc_review.csv,36,CAD,,
+other,BOC Summary of Deliberations,boc summary of deliberations,other/boc_summary_of_deliberations.csv,31,CAD,2025-04-30,2026-11-10
+other,BOE Credit Conditions Survey,boe credit conditions survey,other/boe_credit_conditions_survey.csv,77,GBP,2025-04-17,2026-10-08
+other,BOE Financial Stability Report,boe financial stability report,other/boe_financial_stability_report.csv,40,GBP,2025-07-09,2026-07-07
+other,BOE Gov Bailey Speaks,boe gov bailey speaks,other/boe_gov_bailey_speaks.csv,198,GBP,2025-04-23,2026-11-18
+other,BOE Gov Carney Speaks,boe gov carney speaks,other/boe_gov_carney_speaks.csv,166,GBP,,
+other,BOE Gov King Speaks,boe gov king speaks,other/boe_gov_king_speaks.csv,95,GBP,,
+other,BOE Inflation Letter,boe inflation letter,other/boe_inflation_letter.csv,39,GBP,2025-06-19,2026-09-17
+other,BOE Quarterly Bulletin,boe quarterly bulletin,other/boe_quarterly_bulletin.csv,69,GBP,,
+other,BOJ Gov Kuroda Speaks,boj gov kuroda speaks,other/boj_gov_kuroda_speaks.csv,120,JPY,,
+other,BOJ Gov Shirakawa Speaks,boj gov shirakawa speaks,other/boj_gov_shirakawa_speaks.csv,98,JPY,,
+other,BOJ Gov Ueda Speaks,boj gov ueda speaks,other/boj_gov_ueda_speaks.csv,32,JPY,2025-04-09,2026-11-06
+other,BOJ Monthly Report,boj monthly report,other/boj_monthly_report.csv,108,JPY,,
+other,BOJ Outlook Report,boj outlook report,other/boj_outlook_report.csv,62,JPY,2025-05-01,2026-10-30
+other,BOJ Policy Rate,boj policy rate,other/boj_policy_rate.csv,88,JPY,2025-05-01,2026-10-30
+other,BOJ Summary of Opinions,boj summary of opinions,other/boj_summary_of_opinions.csv,88,JPY,2025-05-13,2026-11-10
+other,BRICS Summit,brics summit,other/brics_summit.csv,31,ALL,,
+other,Building Approvals m/m,building approvals m/m,other/building_approvals_m_m.csv,239,AUD,2025-05-06,2026-11-02
+other,Building Consents m/m,building consents m/m,other/building_consents_m_m.csv,239,NZD,2025-05-02,2026-11-02
+other,Capital Spending q/y,capital spending q/y,other/capital_spending_q_y.csv,79,JPY,2025-06-02,2026-09-01
+other,Cash Rate,cash rate,other/cash_rate.csv,211,AUD,2025-05-20,2026-11-03
+other,CB Leading Index m/m,cb leading index m/m,other/cb_leading_index_m_m.csv,911,"AUD,CNY,GBP,USD",2025-04-15,2026-11-19
+other,CBI Industrial Order Expectations,cbi industrial order expectations,other/cbi_industrial_order_expectations.csv,239,GBP,2025-04-24,2026-11-19
+other,CBI Realized Sales,cbi realized sales,other/cbi_realized_sales.csv,238,GBP,2025-04-28,2026-10-26
+other,Challenger Job Cuts y/y,challenger job cuts y/y,other/challenger_job_cuts_y_y.csv,239,USD,2025-05-01,2026-11-05
+other,Chancellor Darling Speaks,chancellor darling speaks,other/chancellor_darling_speaks.csv,6,GBP,,
+other,Chancellor Osborne Speaks,chancellor osborne speaks,other/chancellor_osborne_speaks.csv,8,GBP,,
+other,Commodity Prices y/y,commodity prices y/y,other/commodity_prices_y_y.csv,239,AUD,2025-05-01,2026-11-02
+other,Company Operating Profits q/q,company operating profits q/q,other/company_operating_profits_q_q.csv,79,AUD,2025-06-03,2026-08-31
+other,Congressional Elections,congressional elections,other/congressional_elections.csv,9,USD,,
+other,Construction Output m/m,construction output m/m,other/construction_output_m_m.csv,161,GBP,2025-04-11,2026-11-12
+other,Construction Work Done q/q,construction work done q/q,other/construction_work_done_q_q.csv,79,AUD,2025-05-28,2026-08-26
+other,Core Machinery Orders m/m,core machinery orders m/m,other/core_machinery_orders_m_m.csv,239,JPY,2025-04-16,2026-11-19
+other,Corporate Profits q/q,corporate profits q/q,other/corporate_profits_q_q.csv,79,CAD,2025-05-23,2026-08-24
+other,Credit Card Spending y/y,credit card spending y/y,other/credit_card_spending_y_y.csv,238,NZD,2025-04-23,2026-10-21
+other,Daylight Saving Time Shift,daylight saving time shift,other/daylight_saving_time_shift.csv,280,"AUD,CAD,CHF,EUR,GBP,NZD,USD",2025-09-27,2026-11-01
+other,Doha Oil Summit,doha oil summit,other/doha_oil_summit.csv,1,ALL,,
+other,Dutch Parliamentary Election,dutch parliamentary election,other/dutch_parliamentary_election.csv,5,EUR,,
+other,EBA Bank Stress Test Results,eba bank stress test results,other/eba_bank_stress_test_results.csv,5,EUR,,
+other,ECB Economic Bulletin,ecb economic bulletin,other/ecb_economic_bulletin.csv,95,EUR,2025-05-02,2026-11-12
+other,ECB Financial Stability Review,ecb financial stability review,other/ecb_financial_stability_review.csv,40,EUR,2025-05-21,2026-11-18
+other,ECB Monthly Bulletin,ecb monthly bulletin,other/ecb_monthly_bulletin.csv,96,EUR,,
+other,ECB President Draghi Speaks,ecb president draghi speaks,other/ecb_president_draghi_speaks.csv,203,EUR,,
+other,ECB President Lagarde Speaks,ecb president lagarde speaks,other/ecb_president_lagarde_speaks.csv,306,EUR,2025-04-22,2026-11-19
+other,ECB President Trichet Speaks,ecb president trichet speaks,other/ecb_president_trichet_speaks.csv,246,EUR,,
+other,ECB Stress Test Results,ecb stress test results,other/ecb_stress_test_results.csv,1,EUR,,
+other,ECOFIN Meetings,ecofin meetings,other/ecofin_meetings.csv,219,EUR,,
+other,Economic Stabilization Bill Vote,economic stabilization bill vote,other/economic_stabilization_bill_vote.csv,3,USD,,
+other,Economy Watchers Sentiment,economy watchers sentiment,other/economy_watchers_sentiment.csv,239,JPY,2025-04-08,2026-11-10
+other,Employment Level,employment level,other/employment_level.csv,35,CHF,,
+other,EU Economic Forecasts,eu economic forecasts,other/eu_economic_forecasts.csv,59,EUR,2025-05-19,2026-11-17
+other,EU Economic Summit,eu economic summit,other/eu_economic_summit.csv,82,EUR,,
+other,EU Membership Court Ruling,eu membership court ruling,other/eu_membership_court_ruling.csv,2,GBP,,
+other,EU Membership Vote,eu membership vote,other/eu_membership_vote.csv,1,GBP,,
+other,Euro Summit,euro summit,other/euro_summit.csv,10,EUR,,
+other,Eurogroup Meetings,eurogroup meetings,other/eurogroup_meetings.csv,222,EUR,,
+other,European Court of Justice Ruling,european court of justice ruling,other/european_court_of_justice_ruling.csv,2,EUR,,
+other,European Parliamentary Elections,european parliamentary elections,other/european_parliamentary_elections.csv,16,EUR,,
+other,Fed Announcement,fed announcement,other/fed_announcement.csv,53,USD,,
+other,Fed Gov Nomination Hearings,fed gov nomination hearings,other/fed_gov_nomination_hearings.csv,4,USD,2025-09-04,2025-09-04
+other,Federal Budget Balance,federal budget balance,other/federal_budget_balance.csv,239,USD,2025-04-10,2026-11-12
+other,Federal Election,federal election,other/federal_election.csv,5,CAD,,
+other,Fixed Asset Investment ytd/y,fixed asset investment ytd/y,other/fixed_asset_investment_ytd_y.csv,219,CNY,2025-04-16,2026-11-16
+other,Foreign Currency Reserves,foreign currency reserves,other/foreign_currency_reserves.csv,240,CHF,2025-04-07,2026-11-06
+other,Foreign Direct Investment ytd/y,foreign direct investment ytd/y,other/foreign_direct_investment_ytd_y.csv,238,CNY,2025-04-18,2026-10-22
+other,Foreign Securities Purchases,foreign securities purchases,other/foreign_securities_purchases.csv,239,CAD,2025-04-17,2026-11-17
+other,FPC Statement,fpc statement,other/fpc_statement.csv,64,GBP,2025-04-09,2026-09-30
+other,FPI m/m,fpi m/m,other/fpi_m_m.csv,239,NZD,2025-04-15,2026-11-16
+other,French Bank Holiday,french bank holiday,other/french_bank_holiday.csv,160,EUR,,
+other,French Consumer Spending m/m,french consumer spending m/m,other/french_consumer_spending_m_m.csv,238,EUR,2025-04-30,2026-10-30
+other,French Gov Budget Balance,french gov budget balance,other/french_gov_budget_balance.csv,240,EUR,2025-05-02,2026-11-03
+other,French Parliamentary Elections,french parliamentary elections,other/french_parliamentary_elections.csv,10,EUR,,
+other,French Presidential Election,french presidential election,other/french_presidential_election.csv,8,EUR,,
+other,G20 Meetings,g20 meetings,other/g20_meetings.csv,137,ALL,,
+other,G7 Meetings,g7 meetings,other/g7_meetings.csv,95,ALL,,
+other,G8 Meetings,g8 meetings,other/g8_meetings.csv,20,ALL,,
+other,German Bank Holiday,german bank holiday,other/german_bank_holiday.csv,163,EUR,,
+other,German Buba Monthly Report,german buba monthly report,other/german_buba_monthly_report.csv,240,EUR,2025-04-24,2026-11-19
+other,German Buba President Nagel Speaks,german buba president nagel speaks,other/german_buba_president_nagel_speaks.csv,212,EUR,2025-04-24,2026-11-18
+other,German Buba President Weber Speaks,german buba president weber speaks,other/german_buba_president_weber_speaks.csv,87,EUR,,
+other,German Buba President Weidmann Speaks,german buba president weidmann speaks,other/german_buba_president_weidmann_speaks.csv,132,EUR,,
+other,German Constitutional Court Ruling,german constitutional court ruling,other/german_constitutional_court_ruling.csv,8,EUR,,
+other,German Federal Elections,german federal elections,other/german_federal_elections.csv,5,EUR,,
+other,German GfK Consumer Climate,german gfk consumer climate,other/german_gfk_consumer_climate.csv,238,EUR,2025-04-29,2026-10-28
+other,German WPI m/m,german wpi m/m,other/german_wpi_m_m.csv,239,EUR,2025-04-15,2026-11-13
+other,German ZEW Economic Sentiment,german zew economic sentiment,other/german_zew_economic_sentiment.csv,239,EUR,2025-04-15,2026-11-17
+other,Gov Board Member Danthine Speaks,gov board member danthine speaks,other/gov_board_member_danthine_speaks.csv,19,CHF,,
+other,Gov Board Member Hildebrand Speaks,gov board member hildebrand speaks,other/gov_board_member_hildebrand_speaks.csv,21,CHF,,
+other,Gov Board Member Jordan Speaks,gov board member jordan speaks,other/gov_board_member_jordan_speaks.csv,38,CHF,,
+other,Gov Board Member Maechler Speaks,gov board member maechler speaks,other/gov_board_member_maechler_speaks.csv,26,CHF,,
+other,Gov Board Member Martin Speaks,gov board member martin speaks,other/gov_board_member_martin_speaks.csv,11,CHF,2025-04-29,2026-10-08
+other,Gov Board Member Schlegel Speaks,gov board member schlegel speaks,other/gov_board_member_schlegel_speaks.csv,9,CHF,,
+other,Gov Board Member Tschudin Speaks,gov board member tschudin speaks,other/gov_board_member_tschudin_speaks.csv,14,CHF,2025-04-10,2026-11-06
+other,Gov Board Member Zurbrugg Speaks,gov board member zurbrugg speaks,other/gov_board_member_zurbrugg_speaks.csv,24,CHF,,
+other,Gov Council Member Alexopoulos Speaks,gov council member alexopoulos speaks,other/gov_council_member_alexopoulos_speaks.csv,2,CAD,2026-05-13,2026-10-16
+other,Gov Council Member Beaudry Speaks,gov council member beaudry speaks,other/gov_council_member_beaudry_speaks.csv,11,CAD,,
+other,Gov Council Member Boivin Speaks,gov council member boivin speaks,other/gov_council_member_boivin_speaks.csv,6,CAD,,
+other,Gov Council Member Cote Speaks,gov council member cote speaks,other/gov_council_member_cote_speaks.csv,9,CAD,,
+other,Gov Council Member Duguay Speaks,gov council member duguay speaks,other/gov_council_member_duguay_speaks.csv,8,CAD,,
+other,Gov Council Member Gravelle Speaks,gov council member gravelle speaks,other/gov_council_member_gravelle_speaks.csv,19,CAD,2025-05-22,2026-11-18
+other,Gov Council Member Jenkins Speaks,gov council member jenkins speaks,other/gov_council_member_jenkins_speaks.csv,14,CAD,,
+other,Gov Council Member Kennedy Speaks,gov council member kennedy speaks,other/gov_council_member_kennedy_speaks.csv,4,CAD,,
+other,Gov Council Member Kozicki Speaks,gov council member kozicki speaks,other/gov_council_member_kozicki_speaks.csv,10,CAD,2025-06-05,2026-03-02
+other,Gov Council Member Lane Speaks,gov council member lane speaks,other/gov_council_member_lane_speaks.csv,42,CAD,,
+other,Gov Council Member Leduc Speaks,gov council member leduc speaks,other/gov_council_member_leduc_speaks.csv,3,CAD,,
+other,Gov Council Member Longworth Speaks,gov council member longworth speaks,other/gov_council_member_longworth_speaks.csv,7,CAD,,
+other,Gov Council Member Macklem Speaks,gov council member macklem speaks,other/gov_council_member_macklem_speaks.csv,16,CAD,,
+other,Gov Council Member Mendes Speaks,gov council member mendes speaks,other/gov_council_member_mendes_speaks.csv,3,CAD,2025-10-02,2025-10-02
+other,Gov Council Member Murray Speaks,gov council member murray speaks,other/gov_council_member_murray_speaks.csv,20,CAD,,
+other,Gov Council Member Patterson Speaks,gov council member patterson speaks,other/gov_council_member_patterson_speaks.csv,6,CAD,,
+other,Gov Council Member Rogers Speaks,gov council member rogers speaks,other/gov_council_member_rogers_speaks.csv,21,CAD,2025-09-22,2026-10-15
+other,Gov Council Member Schembri Speaks,gov council member schembri speaks,other/gov_council_member_schembri_speaks.csv,23,CAD,,
+other,Gov Council Member Vincent Speaks,gov council member vincent speaks,other/gov_council_member_vincent_speaks.csv,5,CAD,2025-11-19,2026-10-29
+other,Gov Council Member Wilkins Speaks,gov council member wilkins speaks,other/gov_council_member_wilkins_speaks.csv,43,CAD,,
+other,Government Spending Review,government spending review,other/government_spending_review.csv,2,GBP,,
+other,Govt Confidence Vote,govt confidence vote,other/govt_confidence_vote.csv,2,GBP,,
+other,Greek Bailout Vote,greek bailout vote,other/greek_bailout_vote.csv,1,EUR,,
+other,Greek Gov Debt Crisis Vote,greek gov debt crisis vote,other/greek_gov_debt_crisis_vote.csv,7,EUR,,
+other,Greek Parliamentary Election,greek parliamentary election,other/greek_parliamentary_election.csv,8,EUR,,
+other,Greek Presidential Elections,greek presidential elections,other/greek_presidential_elections.csv,6,EUR,,
+other,Halifax HPI m/m,halifax hpi m/m,other/halifax_hpi_m_m.csv,220,GBP,,
+other,High Street Lending,high street lending,other/high_street_lending.csv,157,GBP,,
+other,Home Loans m/m,home loans m/m,other/home_loans_m_m.csv,155,AUD,,
+other,Housing Equity Withdrawal q/q,housing equity withdrawal q/q,other/housing_equity_withdrawal_q_q.csv,79,GBP,2025-07-04,2026-10-06
+other,HPI m/m,hpi m/m,other/hpi_m_m.csv,224,USD,2025-04-29,2026-10-27
+other,HPI q/q,hpi q/q,other/hpi_q_q.csv,61,AUD,,
+other,HPI y/y,hpi y/y,other/hpi_y_y.csv,126,GBP,2025-04-16,2026-11-18
+other,IMF Meetings,imf meetings,other/imf_meetings.csv,125,ALL,,
+other,Index of Services 3m/3m,index of services 3m/3m,other/index_of_services_3m_3m.csv,239,GBP,2025-04-11,2026-11-12
+other,Industrial New Orders m/m,industrial new orders m/m,other/industrial_new_orders_m_m.csv,65,EUR,,
+other,IPPI m/m,ippi m/m,other/ippi_m_m.csv,240,CAD,2025-04-22,2026-11-19
+other,Irish Lisbon Treaty Vote,irish lisbon treaty vote,other/irish_lisbon_treaty_vote.csv,2,EUR,,
+other,Irish Stability Treaty Vote,irish stability treaty vote,other/irish_stability_treaty_vote.csv,1,EUR,,
+other,Italian Bank Holiday,italian bank holiday,other/italian_bank_holiday.csv,164,EUR,,
+other,Italian Constitution Amendment Vote,italian constitution amendment vote,other/italian_constitution_amendment_vote.csv,1,EUR,,
+other,Italian Parliamentary Election,italian parliamentary election,other/italian_parliamentary_election.csv,6,EUR,,
+other,Jackson Hole Symposium,jackson hole symposium,other/jackson_hole_symposium.csv,53,ALL,,
+other,Jeddah Oil Summit,jeddah oil summit,other/jeddah_oil_summit.csv,1,ALL,,
+other,KOF Economic Barometer,kof economic barometer,other/kof_economic_barometer.csv,238,CHF,2025-04-30,2026-10-30
+other,Leading Index m/m,leading index m/m,other/leading_index_m_m.csv,65,CAD,,
+other,Leading Indicators,leading indicators,other/leading_indicators.csv,240,JPY,2025-04-07,2026-11-09
+other,Libor Rate,libor rate,other/libor_rate.csv,55,CHF,,
+other,Lloyds HPI m/m,lloyds hpi m/m,other/lloyds_hpi_m_m.csv,20,GBP,2025-04-07,2026-11-06
+other,Loan Officer Survey,loan officer survey,other/loan_officer_survey.csv,81,USD,2025-05-12,2026-11-02
+other,Long Term Refinancing Operation,long term refinancing operation,other/long_term_refinancing_operation.csv,14,EUR,,
+other,Lower House Elections,lower house elections,other/lower_house_elections.csv,6,JPY,,
+other,M2 Money Stock y/y,m2 money stock y/y,other/m2_money_stock_y_y.csv,239,JPY,2025-04-11,2026-11-11
+other,M2 Money Supply y/y,m2 money supply y/y,other/m2_money_supply_y_y.csv,239,CNY,2025-04-13,2026-11-13
+other,M3 Money Supply y/y,m3 money supply y/y,other/m3_money_supply_y_y.csv,238,EUR,2025-04-29,2026-10-27
+other,M4 Money Supply m/m,m4 money supply m/m,other/m4_money_supply_m_m.csv,238,GBP,2025-05-01,2026-10-29
+other,Main Refinancing Rate,main refinancing rate,other/main_refinancing_rate.csv,192,EUR,2025-04-17,2026-10-29
+other,Manufacturing Production m/m,manufacturing production m/m,other/manufacturing_production_m_m.csv,239,GBP,2025-04-11,2026-11-12
+other,Manufacturing Sales m/m,manufacturing sales m/m,other/manufacturing_sales_m_m.csv,239,CAD,2025-04-15,2026-11-13
+other,Manufacturing Sales q/q,manufacturing sales q/q,other/manufacturing_sales_q_q.csv,79,NZD,2025-06-09,2026-09-08
+other,MI Inflation Gauge m/m,mi inflation gauge m/m,other/mi_inflation_gauge_m_m.csv,239,AUD,2025-05-05,2026-11-02
+other,MI Leading Index m/m,mi leading index m/m,other/mi_leading_index_m_m.csv,240,AUD,2025-04-16,2026-11-18
+other,Mid-Year Economic and Fiscal Outlook,mid-year economic and fiscal outlook,other/mid_year_economic_and_fiscal_outlook.csv,18,AUD,2025-12-17,2025-12-17
+other,Monetary Base y/y,monetary base y/y,other/monetary_base_y_y.csv,239,JPY,2025-05-02,2026-11-04
+other,Mortgage Approvals,mortgage approvals,other/mortgage_approvals.csv,239,GBP,2025-05-01,2026-10-29
+other,Mortgage Delinquencies,mortgage delinquencies,other/mortgage_delinquencies.csv,79,USD,2025-05-13,2026-08-13
+other,MPC Member Barker Speaks,mpc member barker speaks,other/mpc_member_barker_speaks.csv,7,GBP,,
+other,MPC Member Bean Speaks,mpc member bean speaks,other/mpc_member_bean_speaks.csv,30,GBP,,
+other,MPC Member Besley Speaks,mpc member besley speaks,other/mpc_member_besley_speaks.csv,8,GBP,,
+other,MPC Member Blanchflower Speaks,mpc member blanchflower speaks,other/mpc_member_blanchflower_speaks.csv,11,GBP,,
+other,MPC Member Breeden Speaks,mpc member breeden speaks,other/mpc_member_breeden_speaks.csv,46,GBP,2025-04-10,2026-11-10
+other,MPC Member Broadbent Speaks,mpc member broadbent speaks,other/mpc_member_broadbent_speaks.csv,48,GBP,,
+other,MPC Member Cunliffe Speaks,mpc member cunliffe speaks,other/mpc_member_cunliffe_speaks.csv,79,GBP,,
+other,MPC Member Dale Speaks,mpc member dale speaks,other/mpc_member_dale_speaks.csv,23,GBP,,
+other,MPC Member Dhingra Speaks,mpc member dhingra speaks,other/mpc_member_dhingra_speaks.csv,26,GBP,2025-05-15,2026-11-19
+other,MPC Member Fisher Speaks,mpc member fisher speaks,other/mpc_member_fisher_speaks.csv,21,GBP,,
+other,MPC Member Forbes Speaks,mpc member forbes speaks,other/mpc_member_forbes_speaks.csv,13,GBP,,
+other,MPC Member Gieve Speaks,mpc member gieve speaks,other/mpc_member_gieve_speaks.csv,14,GBP,,
+other,MPC Member Greene Speaks,mpc member greene speaks,other/mpc_member_greene_speaks.csv,42,GBP,2025-04-12,2026-11-14
+other,MPC Member Haldane Speaks,mpc member haldane speaks,other/mpc_member_haldane_speaks.csv,68,GBP,,
+other,MPC Member Haskel Speaks,mpc member haskel speaks,other/mpc_member_haskel_speaks.csv,36,GBP,,
+other,MPC Member Hogg Speaks,mpc member hogg speaks,other/mpc_member_hogg_speaks.csv,2,GBP,,
+other,MPC Member Lombardelli Speaks,mpc member lombardelli speaks,other/mpc_member_lombardelli_speaks.csv,17,GBP,2025-04-08,2026-11-10
+other,MPC Member Mann Speaks,mpc member mann speaks,other/mpc_member_mann_speaks.csv,86,GBP,2025-05-12,2026-10-12
+other,MPC Member McCafferty Speaks,mpc member mccafferty speaks,other/mpc_member_mccafferty_speaks.csv,13,GBP,,
+other,MPC Member Miles Speaks,mpc member miles speaks,other/mpc_member_miles_speaks.csv,25,GBP,,
+other,MPC Member Pill Speaks,mpc member pill speaks,other/mpc_member_pill_speaks.csv,101,GBP,2025-04-23,2026-11-10
+other,MPC Member Posen Speaks,mpc member posen speaks,other/mpc_member_posen_speaks.csv,37,GBP,,
+other,MPC Member Ramsden Speaks,mpc member ramsden speaks,other/mpc_member_ramsden_speaks.csv,43,GBP,2025-04-29,2026-09-28
+other,MPC Member Saunders Speaks,mpc member saunders speaks,other/mpc_member_saunders_speaks.csv,22,GBP,,
+other,MPC Member Sentance Speaks,mpc member sentance speaks,other/mpc_member_sentance_speaks.csv,28,GBP,,
+other,MPC Member Shafik Speaks,mpc member shafik speaks,other/mpc_member_shafik_speaks.csv,14,GBP,,
+other,MPC Member Taylor Speaks,mpc member taylor speaks,other/mpc_member_taylor_speaks.csv,16,GBP,2025-05-12,2026-09-29
+other,MPC Member Tenreyro Speaks,mpc member tenreyro speaks,other/mpc_member_tenreyro_speaks.csv,57,GBP,,
+other,MPC Member Tucker Speaks,mpc member tucker speaks,other/mpc_member_tucker_speaks.csv,50,GBP,,
+other,MPC Member Vlieghe Speaks,mpc member vlieghe speaks,other/mpc_member_vlieghe_speaks.csv,19,GBP,,
+other,MPC Member Weale Speaks,mpc member weale speaks,other/mpc_member_weale_speaks.csv,29,GBP,,
+other,MPC Official Bank Rate Votes,mpc official bank rate votes,other/mpc_official_bank_rate_votes.csv,200,GBP,2025-05-08,2026-11-05
+other,MPC Rate Statement,mpc rate statement,other/mpc_rate_statement.csv,29,GBP,,
+other,Nationwide HPI m/m,nationwide hpi m/m,other/nationwide_hpi_m_m.csv,238,GBP,2025-04-30,2026-10-30
+other,Net Lending to Individuals m/m,net lending to individuals m/m,other/net_lending_to_individuals_m_m.csv,239,GBP,2025-05-01,2026-10-29
+other,New Loans,new loans,other/new_loans.csv,239,CNY,2025-04-13,2026-11-13
+other,New Motor Vehicle Sales m/m,new motor vehicle sales m/m,other/new_motor_vehicle_sales_m_m.csv,197,"AUD,CAD",,
+other,NFIB Small Business Index,nfib small business index,other/nfib_small_business_index.csv,239,USD,2025-04-08,2026-11-10
+other,NHPI m/m,nhpi m/m,other/nhpi_m_m.csv,240,CAD,2025-04-23,2026-11-18
+other,Official Bank Rate,official bank rate,other/official_bank_rate.csv,200,GBP,2025-05-08,2026-11-05
+other,Official Cash Rate,official cash rate,other/official_cash_rate.csv,148,NZD,2025-04-09,2026-10-28
+other,ONS HPI y/y,ons hpi y/y,other/ons_hpi_y_y.csv,113,GBP,,
+other,Overnight Call Rate,overnight call rate,other/overnight_call_rate.csv,93,JPY,,
+other,Overnight Rate,overnight rate,other/overnight_rate.csv,162,CAD,2025-04-16,2026-10-28
+other,Overseas Trade Index q/q,overseas trade index q/q,other/overseas_trade_index_q_q.csv,79,NZD,2025-06-03,2026-09-03
+other,Parliament Brexit Vote,parliament brexit vote,other/parliament_brexit_vote.csv,11,GBP,,
+other,Parliamentary Elections,parliamentary elections,other/parliamentary_elections.csv,16,"AUD,GBP,NZD",,
+other,Prelim Business Investment q/q,prelim business investment q/q,other/prelim_business_investment_q_q.csv,78,GBP,2025-05-15,2026-11-12
+other,Prelim Machine Tool Orders y/y,prelim machine tool orders y/y,other/prelim_machine_tool_orders_y_y.csv,239,JPY,2025-04-09,2026-11-11
+other,Prelim Mortgage Approvals,prelim mortgage approvals,other/prelim_mortgage_approvals.csv,18,GBP,,
+other,President Biden Speaks,president biden speaks,other/president_biden_speaks.csv,46,USD,,
+other,President Bush Speaks,president bush speaks,other/president_bush_speaks.csv,17,USD,,
+other,President Obama Speaks,president obama speaks,other/president_obama_speaks.csv,66,USD,,
+other,President Trump Speaks,president trump speaks,other/president_trump_speaks.csv,185,USD,2025-04-09,2026-10-07
+other,Presidential Election,presidential election,other/presidential_election.csv,5,USD,,
+other,Prime Minister Johnson Speaks,prime minister johnson speaks,other/prime_minister_johnson_speaks.csv,3,GBP,,
+other,Prime Minister May Speaks,prime minister may speaks,other/prime_minister_may_speaks.csv,15,GBP,,
+other,Prime Minister Truss Speaks,prime minister truss speaks,other/prime_minister_truss_speaks.csv,1,GBP,,
+other,Private Capital Expenditure q/q,private capital expenditure q/q,other/private_capital_expenditure_q_q.csv,79,AUD,2025-05-29,2026-08-27
+other,Private Loans y/y,private loans y/y,other/private_loans_y_y.csv,238,EUR,2025-04-29,2026-10-27
+other,Private Sector Credit m/m,private sector credit m/m,other/private_sector_credit_m_m.csv,238,AUD,2025-04-30,2026-10-30
+other,Public Sector Net Borrowing,public sector net borrowing,other/public_sector_net_borrowing.csv,238,GBP,2025-04-23,2026-10-21
+other,RBA Annual Report,rba annual report,other/rba_annual_report.csv,20,AUD,2025-09-10,2026-10-15
+other,RBA Assist Gov Edey Speaks,rba assist gov edey speaks,other/rba_assist_gov_edey_speaks.csv,32,AUD,,
+other,RBA Assist Gov Ellis Speaks,rba assist gov ellis speaks,other/rba_assist_gov_ellis_speaks.csv,19,AUD,,
+other,RBA Assist Gov Hunter Speaks,rba assist gov hunter speaks,other/rba_assist_gov_hunter_speaks.csv,27,AUD,2025-06-03,2026-11-09
+other,RBA Assist Gov Jones Speaks,rba assist gov jones speaks,other/rba_assist_gov_jones_speaks.csv,11,AUD,2025-08-20,2026-10-25
+other,RBA Assist Gov Kent Speaks,rba assist gov kent speaks,other/rba_assist_gov_kent_speaks.csv,59,AUD,2025-04-29,2026-10-19
+other,RBA Bulletin,rba bulletin,other/rba_bulletin.csv,102,AUD,2025-04-24,2026-08-27
+other,RBA Deputy Gov Battellino Speaks,rba deputy gov battellino speaks,other/rba_deputy_gov_battellino_speaks.csv,22,AUD,,
+other,RBA Deputy Gov Debelle Speaks,rba deputy gov debelle speaks,other/rba_deputy_gov_debelle_speaks.csv,133,AUD,,
+other,RBA Deputy Gov Hauser Speaks,rba deputy gov hauser speaks,other/rba_deputy_gov_hauser_speaks.csv,25,AUD,2025-05-22,2026-11-05
+other,RBA Deputy Gov Lowe Speaks,rba deputy gov lowe speaks,other/rba_deputy_gov_lowe_speaks.csv,47,AUD,,
+other,RBA Financial Stability Review,rba financial stability review,other/rba_financial_stability_review.csv,40,AUD,2025-10-02,2026-10-01
+other,RBA Gov Bullock Speaks,rba gov bullock speaks,other/rba_gov_bullock_speaks.csv,72,AUD,2025-04-10,2026-11-17
+other,RBA Gov Lowe Speaks,rba gov lowe speaks,other/rba_gov_lowe_speaks.csv,106,AUD,,
+other,RBA Gov Stevens Speaks,rba gov stevens speaks,other/rba_gov_stevens_speaks.csv,102,AUD,,
+other,RBA Rate Statement,rba rate statement,other/rba_rate_statement.csv,203,AUD,2025-05-20,2026-11-03
+other,RBNZ Assist Gov McDermott Speaks,rbnz assist gov mcdermott speaks,other/rbnz_assist_gov_mcdermott_speaks.csv,11,NZD,,
+other,RBNZ Financial Stability Report,rbnz financial stability report,other/rbnz_financial_stability_report.csv,40,NZD,2025-05-07,2026-11-16
+other,RBNZ Gov Bollard Speaks,rbnz gov bollard speaks,other/rbnz_gov_bollard_speaks.csv,18,NZD,,
+other,RBNZ Gov Breman Speaks,rbnz gov breman speaks,other/rbnz_gov_breman_speaks.csv,13,NZD,2025-12-01,2026-11-18
+other,RBNZ Gov Hawkesby Speaks,rbnz gov hawkesby speaks,other/rbnz_gov_hawkesby_speaks.csv,7,NZD,2025-05-07,2025-11-26
+other,RBNZ Gov Orr Speaks,rbnz gov orr speaks,other/rbnz_gov_orr_speaks.csv,63,NZD,,
+other,RBNZ Gov Spencer Speaks,rbnz gov spencer speaks,other/rbnz_gov_spencer_speaks.csv,4,NZD,,
+other,RBNZ Gov Wheeler Speaks,rbnz gov wheeler speaks,other/rbnz_gov_wheeler_speaks.csv,41,NZD,,
+other,RBNZ Rate Statement,rbnz rate statement,other/rbnz_rate_statement.csv,148,NZD,2025-04-09,2026-10-28
+other,RBNZ Statement of Intent,rbnz statement of intent,other/rbnz_statement_of_intent.csv,17,NZD,,
+other,RCM/TIPP Economic Optimism,rcm/tipp economic optimism,other/rcm_tipp_economic_optimism.csv,239,USD,2025-05-06,2026-11-03
+other,REINZ HPI m/m,reinz hpi m/m,other/reinz_hpi_m_m.csv,70,NZD,,
+other,Revised Business Investment q/q,revised business investment q/q,other/revised_business_investment_q_q.csv,79,GBP,2025-06-30,2026-09-30
+other,Rightmove HPI m/m,rightmove hpi m/m,other/rightmove_hpi_m_m.csv,236,GBP,2025-04-14,2026-11-16
+other,RMPI m/m,rmpi m/m,other/rmpi_m_m.csv,240,CAD,2025-04-22,2026-11-19
+other,RPI y/y,rpi y/y,other/rpi_y_y.csv,239,GBP,2025-04-16,2026-11-18
+other,S&P/CS Composite-20 HPI y/y,s&p/cs composite-20 hpi y/y,other/s_p_cs_composite_20_hpi_y_y.csv,238,USD,2025-04-29,2026-10-27
+other,Scottish Independence Vote,scottish independence vote,other/scottish_independence_vote.csv,1,GBP,,
+other,SECO Consumer Climate,seco consumer climate,other/seco_consumer_climate.csv,103,CHF,2025-04-11,2026-11-06
+other,SECO Economic Forecasts,seco economic forecasts,other/seco_economic_forecasts.csv,79,CHF,2025-06-16,2026-09-17
+other,Sentix Investor Confidence,sentix investor confidence,other/sentix_investor_confidence.csv,240,EUR,2025-04-07,2026-11-09
+other,SNB Chairman Hildebrand Speaks,snb chairman hildebrand speaks,other/snb_chairman_hildebrand_speaks.csv,14,CHF,,
+other,SNB Chairman Jordan Speaks,snb chairman jordan speaks,other/snb_chairman_jordan_speaks.csv,88,CHF,,
+other,SNB Chairman Roth Speaks,snb chairman roth speaks,other/snb_chairman_roth_speaks.csv,30,CHF,,
+other,SNB Chairman Schlegel Speaks,snb chairman schlegel speaks,other/snb_chairman_schlegel_speaks.csv,27,CHF,2025-04-25,2026-11-05
+other,SNB Financial Stability Report,snb financial stability report,other/snb_financial_stability_report.csv,20,CHF,2025-06-19,2026-07-02
+other,SNB Gold Asset Vote,snb gold asset vote,other/snb_gold_asset_vote.csv,1,CHF,,
+other,SNB Policy Rate,snb policy rate,other/snb_policy_rate.csv,30,CHF,2025-06-19,2026-09-24
+other,SNB Quarterly Bulletin,snb quarterly bulletin,other/snb_quarterly_bulletin.csv,79,CHF,2025-06-25,2026-09-30
+other,Spanish Bank Stress Test Results,spanish bank stress test results,other/spanish_bank_stress_test_results.csv,1,EUR,,
+other,Spanish Parliamentary Election,spanish parliamentary election,other/spanish_parliamentary_election.csv,7,EUR,,
+other,SPPI y/y,sppi y/y,other/sppi_y_y.csv,238,JPY,2025-04-24,2026-10-27
+other,Stimulus Package Announcement,stimulus package announcement,other/stimulus_package_announcement.csv,1,GBP,,
+other,Tertiary Industry Activity m/m,tertiary industry activity m/m,other/tertiary_industry_activity_m_m.csv,239,JPY,2025-04-23,2026-11-17
+other,TIC Long-Term Purchases,tic long-term purchases,other/tic_long_term_purchases.csv,238,USD,2025-04-16,2026-11-18
+other,Total Vehicle Sales,total vehicle sales,other/total_vehicle_sales.csv,148,USD,,
+other,Treasury Currency Report,treasury currency report,other/treasury_currency_report.csv,38,USD,2025-06-05,2026-07-23
+other,Treasury Sec Bessent Speaks,treasury sec bessent speaks,other/treasury_sec_bessent_speaks.csv,5,USD,2026-05-28,2026-09-15
+other,Treasury Sec Geithner Speaks,treasury sec geithner speaks,other/treasury_sec_geithner_speaks.csv,105,USD,,
+other,Treasury Sec Lew Speaks,treasury sec lew speaks,other/treasury_sec_lew_speaks.csv,36,USD,,
+other,Treasury Sec Mnuchin Speaks,treasury sec mnuchin speaks,other/treasury_sec_mnuchin_speaks.csv,9,USD,,
+other,Treasury Sec Paulson Speaks,treasury sec paulson speaks,other/treasury_sec_paulson_speaks.csv,51,USD,,
+other,Treasury Sec Yellen Speaks,treasury sec yellen speaks,other/treasury_sec_yellen_speaks.csv,29,USD,,
+other,UBS Consumption Indicator,ubs consumption indicator,other/ubs_consumption_indicator.csv,133,CHF,,
+other,UBS Economic Expectations,ubs economic expectations,other/ubs_economic_expectations.csv,238,CHF,2025-04-30,2026-10-28
+other,Unconditional Basic Income Vote,unconditional basic income vote,other/unconditional_basic_income_vote.csv,1,CHF,,
+other,Upper House Elections,upper house elections,other/upper_house_elections.csv,6,JPY,,
+other,Visitor Arrivals m/m,visitor arrivals m/m,other/visitor_arrivals_m_m.csv,238,NZD,2025-04-14,2026-11-11
+other,Wards Total Vehicle Sales,wards total vehicle sales,other/wards_total_vehicle_sales.csv,112,USD,,
+other,WEF Annual Meetings,wef annual meetings,other/wef_annual_meetings.csv,88,ALL,,
+other,Wholesale Sales m/m,wholesale sales m/m,other/wholesale_sales_m_m.csv,239,CAD,2025-04-14,2026-11-13
+other,ZEW Economic Sentiment,zew economic sentiment,other/zew_economic_sentiment.csv,240,EUR,2025-04-15,2026-11-17
+trade,Current Account,current account,trade/current_account.csv,873,"AUD,CAD,EUR,GBP,JPY,NZD,USD",2025-04-08,2026-11-19
+trade,French Trade Balance,french trade balance,trade/french_trade_balance.csv,239,EUR,2025-04-08,2026-11-06
+trade,German Trade Balance,german trade balance,trade/german_trade_balance.csv,240,EUR,2025-04-07,2026-11-09
+trade,Goods Trade Balance,goods trade balance,trade/goods_trade_balance.csv,627,"AUD,GBP,USD",2025-04-11,2026-11-12
+trade,Italian Trade Balance,italian trade balance,trade/italian_trade_balance.csv,239,EUR,2025-04-18,2026-11-13
+trade,Trade Balance,trade balance,trade/trade_balance.csv,1558,"CAD,CHF,CNY,EUR,JPY,NZD,USD",2025-04-14,2026-11-18
+trade,USD-Denominated Trade Balance,usd-denominated trade balance,trade/usd_denominated_trade_balance.csv,232,CNY,2025-04-14,2026-11-10

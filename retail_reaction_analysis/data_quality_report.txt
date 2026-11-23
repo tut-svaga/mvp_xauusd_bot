@@ -1,7 +1,7 @@
 RETAIL REACTION ANALYZER — DATA QUALITY
 ==============================================================================
 Calendar events analyzed: 239
-Analysis range: 2007-01-01 -> 2026-11-17
+Analysis range: 2007-01-01 -> 2026-11-19
 XAU window: -30 -> +120 minutes
 XAU min coverage: 85.0%
 DXY min coverage: 85.0%
