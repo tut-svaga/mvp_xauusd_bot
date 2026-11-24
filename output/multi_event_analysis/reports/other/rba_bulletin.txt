@@ -1,0 +1,321 @@
+ОТЧЁТ: RBA Bulletin
+ID: other/rba_bulletin
+Файл истории: other/rba_bulletin.csv
+Период данных: 2007-01-18 — 2026-08-27; событий: 59; числовых Actual/Forecast: 0
+Валюты: AUD
+
+СЕМЬ УРОВНЕЙ ОТКЛОНЕНИЯ ACTUAL ОТ FORECAST
+BEAT: q33=None; q67=None; n=0
+MISS: q33=None; q67=None; n=0
+Границы рассчитываются отдельно для этого отчёта. beat/miss означают только Actual выше/ниже Forecast, а не направление золота.
+Группы: beat_small / beat_medium / beat_large / inline / miss_small / miss_medium / miss_large.
+
+КАК ЧИТАТЬ ВЕРОЯТНОСТИ
+P(up), P(down), P(flat) включают все наблюдения и в сумме дают 100%.
+P(up | non-flat) и P(down | non-flat) исключают flat. В квадратных скобках — 95% Wilson CI.
+n<10: reference; n=10–14: preliminary; n>=15: reliable. Интервал неопределённости не гарантирует будущий результат.
+Основной период: 2023–2026. ALL — дополнительный контекст на всей истории.
+
+====================================================================================================
+ОСНОВНОЙ ПЕРИОД 2023–2026
+====================================================================================================
+
+M1 — кумулятивная реакция от close за минуту до публикации
+  +  1 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 12.5% [2.2–47.1%] | flat 75.0% [40.9–92.9%] | up no-flat 50.0% [9.5–90.5%] | down no-flat 50.0% [9.5–90.5%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +  5 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 15 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 12.5% [2.2–47.1%] | flat 62.5% [30.6–86.3%] | up no-flat 66.7% [20.8–93.9%] | down no-flat 33.3% [6.1–79.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 37.5% [13.7–69.4%] | flat 37.5% [13.7–69.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M1 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  1 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +  5 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 15 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 0.0%, down 12.5%, flat 87.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 25.0%, down 37.5%, flat 37.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+M5 — кумулятивная реакция от close за минуту до публикации
+  +  5 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 15 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 12.5% [2.2–47.1%] | flat 62.5% [30.6–86.3%] | up no-flat 66.7% [20.8–93.9%] | down no-flat 33.3% [6.1–79.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 37.5% [13.7–69.4%] | flat 37.5% [13.7–69.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M5 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  5 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 15 мин | UNCONDITIONAL: up 12.5%, down 37.5%, flat 50.0%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 12.5%, down 12.5%, flat 75.0%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 12.5%, down 37.5%, flat 50.0%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+M15 — кумулятивная реакция от close за минуту до публикации
+  + 15 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n=  8 | up 12.5% [2.2–47.1%] | down 25.0% [7.1–59.1%] | flat 62.5% [30.6–86.3%] | up no-flat 33.3% [6.1–79.2%] | down no-flat 66.7% [20.8–93.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 12.5% [2.2–47.1%] | flat 62.5% [30.6–86.3%] | up no-flat 66.7% [20.8–93.9%] | down no-flat 33.3% [6.1–79.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n=  8 | up 25.0% [7.1–59.1%] | down 37.5% [13.7–69.4%] | flat 37.5% [13.7–69.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M15 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  + 15 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 12.5%, down 0.0%, flat 87.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 12.5%, down 25.0%, flat 62.5%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 25.0%, down 25.0%, flat 50.0%, n=8 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+====================================================================================================
+ВСЯ ДОСТУПНАЯ ИСТОРИЯ
+====================================================================================================
+
+M1 — кумулятивная реакция от close за минуту до публикации
+  +  1 мин | BASE n= 58 | up 12.1% [6.0–22.9%] | down 8.6% [3.7–18.6%] | flat 79.3% [67.2–87.7%] | up no-flat 58.3% [32.0–80.7%] | down no-flat 41.7% [19.3–68.0%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +  5 мин | BASE n= 58 | up 20.7% [12.3–32.8%] | down 5.2% [1.8–14.1%] | flat 74.1% [61.6–83.7%] | up no-flat 80.0% [54.8–93.0%] | down no-flat 20.0% [7.0–45.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 15 мин | BASE n= 58 | up 20.7% [12.3–32.8%] | down 12.1% [6.0–22.9%] | flat 67.2% [54.4–77.9%] | up no-flat 63.2% [41.0–80.9%] | down no-flat 36.8% [19.1–59.0%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n= 57 | up 17.5% [9.8–29.4%] | down 8.8% [3.8–18.9%] | flat 73.7% [61.0–83.4%] | up no-flat 66.7% [41.7–84.8%] | down no-flat 33.3% [15.2–58.3%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n= 58 | up 17.2% [9.6–28.9%] | down 17.2% [9.6–28.9%] | flat 65.5% [52.7–76.4%] | up no-flat 50.0% [29.9–70.1%] | down no-flat 50.0% [29.9–70.1%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n= 57 | up 12.3% [6.1–23.2%] | down 15.8% [8.5–27.4%] | flat 71.9% [59.2–81.9%] | up no-flat 43.8% [23.1–66.8%] | down no-flat 56.2% [33.2–76.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M1 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  1 мин | UNCONDITIONAL: up 6.9%, down 5.2%, flat 87.9%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +  5 мин | UNCONDITIONAL: up 29.3%, down 13.8%, flat 56.9%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 15 мин | UNCONDITIONAL: up 13.8%, down 22.4%, flat 63.8%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 24.6%, down 17.5%, flat 57.9%, n=57 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 17.2%, down 24.1%, flat 58.6%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 10.5%, down 19.3%, flat 70.2%, n=57 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+M5 — кумулятивная реакция от close за минуту до публикации
+  +  5 мин | BASE n= 58 | up 20.7% [12.3–32.8%] | down 5.2% [1.8–14.1%] | flat 74.1% [61.6–83.7%] | up no-flat 80.0% [54.8–93.0%] | down no-flat 20.0% [7.0–45.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 15 мин | BASE n= 58 | up 20.7% [12.3–32.8%] | down 12.1% [6.0–22.9%] | flat 67.2% [54.4–77.9%] | up no-flat 63.2% [41.0–80.9%] | down no-flat 36.8% [19.1–59.0%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n= 54 | up 18.5% [10.4–30.8%] | down 7.4% [2.9–17.6%] | flat 74.1% [61.1–83.9%] | up no-flat 71.4% [45.4–88.3%] | down no-flat 28.6% [11.7–54.6%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n= 56 | up 17.9% [10.0–29.8%] | down 16.1% [8.7–27.8%] | flat 66.1% [53.0–77.1%] | up no-flat 52.6% [31.7–72.7%] | down no-flat 47.4% [27.3–68.3%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n= 56 | up 12.5% [6.2–23.6%] | down 16.1% [8.7–27.8%] | flat 71.4% [58.5–81.6%] | up no-flat 43.8% [23.1–66.8%] | down no-flat 56.2% [33.2–76.9%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M5 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  5 мин | UNCONDITIONAL: up 20.7%, down 5.2%, flat 74.1%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 15 мин | UNCONDITIONAL: up 12.1%, down 17.2%, flat 70.7%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 13.0%, down 9.3%, flat 77.8%, n=54 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 12.5%, down 19.6%, flat 67.9%, n=56 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 8.9%, down 17.9%, flat 73.2%, n=56 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+M15 — кумулятивная реакция от close за минуту до публикации
+  + 15 мин | BASE n= 58 | up 20.7% [12.3–32.8%] | down 12.1% [6.0–22.9%] | flat 67.2% [54.4–77.9%] | up no-flat 63.2% [41.0–80.9%] | down no-flat 36.8% [19.1–59.0%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 30 мин | BASE n= 53 | up 18.9% [10.6–31.4%] | down 7.5% [3.0–17.9%] | flat 73.6% [60.4–83.6%] | up no-flat 71.4% [45.4–88.3%] | down no-flat 28.6% [11.7–54.6%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  + 60 мин | BASE n= 52 | up 19.2% [10.8–31.9%] | down 17.3% [9.4–29.7%] | flat 63.5% [49.9–75.2%] | up no-flat 52.6% [31.7–72.7%] | down no-flat 47.4% [27.3–68.3%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+  +120 мин | BASE n= 52 | up 13.5% [6.7–25.3%] | down 13.5% [6.7–25.3%] | flat 73.1% [59.7–83.2%] | up no-flat 50.0% [26.8–73.2%] | down no-flat 50.0% [26.8–73.2%]
+       beat_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       inline        n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_small    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       miss_large    n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+M15 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  + 15 мин | UNCONDITIONAL: up 20.7%, down 10.3%, flat 69.0%, n=58 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 30 мин | UNCONDITIONAL: up 11.3%, down 9.4%, flat 79.2%, n=53 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  + 60 мин | UNCONDITIONAL: up 15.4%, down 26.9%, flat 57.7%, n=52 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+  +120 мин | UNCONDITIONAL: up 13.5%, down 9.6%, flat 76.9%, n=52 | beat_small: up n/a, down n/a, flat n/a, n=0 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up n/a, down n/a, flat n/a, n=0 | inline: up n/a, down n/a, flat n/a, n=0 | miss_small: up n/a, down n/a, flat n/a, n=0 | miss_medium: up n/a, down n/a, flat n/a, n=0 | miss_large: up n/a, down n/a, flat n/a, n=0
+
+ПРИМЕЧАНИЯ
+1) XAUUSD midpoint=(BID+ASK)/2. DXY не используется.
+2) M5/M15 строятся из полных последовательных M1 баров. Для статистики используются завершённые свечи, границы которых совпадают с временем релиза.
+3) При одинаковом elapsed horizon close кумулятивная доходность M1/M5/M15 математически совпадает; отличия M5/M15 отражаются в body/range/wicks.
+4) Публикации с одним временем отмечены как co-releases в event_reactions.csv; статистика не доказывает причинный эффект отдельного отчёта.
+5) Пропущенные минутные бары не интерполируются. Неполные агрегированные свечи исключаются.
+6) Flat threshold = 0.5 * sigma по всем уникальным временным отметкам публикаций для соответствующего периода, timeframe, горизонта и метрики.

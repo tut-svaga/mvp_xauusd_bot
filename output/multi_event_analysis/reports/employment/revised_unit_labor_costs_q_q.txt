@@ -1,0 +1,321 @@
+ОТЧЁТ: Revised Unit Labor Costs q/q
+ID: employment/revised_unit_labor_costs_q_q
+Файл истории: employment/revised_unit_labor_costs_q_q.csv
+Период данных: 2025-06-05 — 2026-09-03; событий: 6; числовых Actual/Forecast: 6
+Валюты: USD
+
+СЕМЬ УРОВНЕЙ ОТКЛОНЕНИЯ ACTUAL ОТ FORECAST
+BEAT: q33=0.8333333333333334; q67=0.8666666666666665; n=2
+MISS: q33=0.16666666666666669; q67=0.33333333333333326; n=3
+Границы рассчитываются отдельно для этого отчёта. beat/miss означают только Actual выше/ниже Forecast, а не направление золота.
+Группы: beat_small / beat_medium / beat_large / inline / miss_small / miss_medium / miss_large.
+
+КАК ЧИТАТЬ ВЕРОЯТНОСТИ
+P(up), P(down), P(flat) включают все наблюдения и в сумме дают 100%.
+P(up | non-flat) и P(down | non-flat) исключают flat. В квадратных скобках — 95% Wilson CI.
+n<10: reference; n=10–14: preliminary; n>=15: reliable. Интервал неопределённости не гарантирует будущий результат.
+Основной период: 2023–2026. ALL — дополнительный контекст на всей истории.
+
+====================================================================================================
+ОСНОВНОЙ ПЕРИОД 2023–2026
+====================================================================================================
+
+M1 — кумулятивная реакция от close за минуту до публикации
+  +  1 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 16.7% [3.0–56.4%] | flat 33.3% [9.7–70.0%] | up no-flat 75.0% [30.1–95.4%] | down no-flat 25.0% [4.6–69.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  +  5 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 15 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M1 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  1 мин | UNCONDITIONAL: up 50.0%, down 16.7%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  +  5 мин | UNCONDITIONAL: up 50.0%, down 33.3%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 15 мин | UNCONDITIONAL: up 16.7%, down 50.0%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 16.7%, down 33.3%, flat 50.0%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 0.0%, down 66.7%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+  +120 мин | UNCONDITIONAL: up 50.0%, down 50.0%, flat 0.0%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+
+M5 — кумулятивная реакция от close за минуту до публикации
+  +  5 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 15 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M5 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  5 мин | UNCONDITIONAL: up 33.3%, down 50.0%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 15 мин | UNCONDITIONAL: up 33.3%, down 66.7%, flat 0.0%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 33.3%, down 33.3%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 16.7%, down 0.0%, flat 83.3%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  +120 мин | UNCONDITIONAL: up 33.3%, down 33.3%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+
+M15 — кумулятивная реакция от close за минуту до публикации
+  + 15 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M15 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  + 15 мин | UNCONDITIONAL: up 33.3%, down 50.0%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 66.7%, down 16.7%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 100.0%, down 0.0%, flat 0.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 33.3%, down 16.7%, flat 50.0%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 100.0%, down 0.0%, flat 0.0%, n=1
+  +120 мин | UNCONDITIONAL: up 66.7%, down 16.7%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+
+====================================================================================================
+ВСЯ ДОСТУПНАЯ ИСТОРИЯ
+====================================================================================================
+
+M1 — кумулятивная реакция от close за минуту до публикации
+  +  1 мин | BASE n=  6 | up 16.7% [3.0–56.4%] | down 16.7% [3.0–56.4%] | flat 66.7% [30.0–90.3%] | up no-flat 50.0% [9.5–90.5%] | down no-flat 50.0% [9.5–90.5%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  +  5 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 15 мин | BASE n=  6 | up 16.7% [3.0–56.4%] | down 50.0% [18.8–81.2%] | flat 33.3% [9.7–70.0%] | up no-flat 25.0% [4.6–69.9%] | down no-flat 75.0% [30.1–95.4%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M1 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  1 мин | UNCONDITIONAL: up 33.3%, down 16.7%, flat 50.0%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  +  5 мин | UNCONDITIONAL: up 50.0%, down 33.3%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 15 мин | UNCONDITIONAL: up 16.7%, down 50.0%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 16.7%, down 33.3%, flat 50.0%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 0.0%, down 66.7%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+  +120 мин | UNCONDITIONAL: up 50.0%, down 50.0%, flat 0.0%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+
+M5 — кумулятивная реакция от close за минуту до публикации
+  +  5 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 50.0% [18.8–81.2%] | flat 16.7% [3.0–56.4%] | up no-flat 40.0% [11.8–76.9%] | down no-flat 60.0% [23.1–88.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 15 мин | BASE n=  6 | up 16.7% [3.0–56.4%] | down 50.0% [18.8–81.2%] | flat 33.3% [9.7–70.0%] | up no-flat 25.0% [4.6–69.9%] | down no-flat 75.0% [30.1–95.4%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M5 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  +  5 мин | UNCONDITIONAL: up 33.3%, down 50.0%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 15 мин | UNCONDITIONAL: up 33.3%, down 33.3%, flat 33.3%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 100.0%, flat 0.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 33.3%, down 33.3%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 16.7%, down 0.0%, flat 83.3%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  +120 мин | UNCONDITIONAL: up 33.3%, down 33.3%, flat 33.3%, n=6 | beat_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 0.0%, flat 100.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+
+M15 — кумулятивная реакция от close за минуту до публикации
+  + 15 мин | BASE n=  6 | up 16.7% [3.0–56.4%] | down 50.0% [18.8–81.2%] | flat 33.3% [9.7–70.0%] | up no-flat 25.0% [4.6–69.9%] | down no-flat 75.0% [30.1–95.4%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+  + 30 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 50.0% [18.8–81.2%] | flat 0.0% [0.0–39.0%] | up no-flat 50.0% [18.8–81.2%] | down no-flat 50.0% [18.8–81.2%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  + 60 мин | BASE n=  6 | up 50.0% [18.8–81.2%] | down 33.3% [9.7–70.0%] | flat 16.7% [3.0–56.4%] | up no-flat 60.0% [23.1–88.2%] | down no-flat 40.0% [11.8–76.9%]
+       beat_small    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_large    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+  +120 мин | BASE n=  6 | up 33.3% [9.7–70.0%] | down 33.3% [9.7–70.0%] | flat 33.3% [9.7–70.0%] | up no-flat 50.0% [15.0–85.0%] | down no-flat 50.0% [15.0–85.0%]
+       beat_small    n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       beat_medium   n=  0 | up n/a | down n/a | flat n/a | up no-flat n/a | down no-flat n/a | empty/no_data
+       beat_large    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       inline        n=  1 | up 100.0% [20.7–100.0%] | down 0.0% [0.0–79.3%] | flat 0.0% [0.0–79.3%] | up no-flat 100.0% [20.7–100.0%] | down no-flat 0.0% [0.0–79.3%] | reference/strong
+       miss_small    n=  1 | up 0.0% [0.0–79.3%] | down 100.0% [20.7–100.0%] | flat 0.0% [0.0–79.3%] | up no-flat 0.0% [0.0–79.3%] | down no-flat 100.0% [20.7–100.0%] | reference/strong
+       miss_medium   n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+       miss_large    n=  1 | up 0.0% [0.0–79.3%] | down 0.0% [0.0–79.3%] | flat 100.0% [20.7–100.0%] | up no-flat n/a | down no-flat n/a | reference/no_data
+M15 — направление тела последней свечи (open→close), отдельно от кумулятивной реакции
+  + 15 мин | UNCONDITIONAL: up 16.7%, down 50.0%, flat 33.3%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+  + 30 мин | UNCONDITIONAL: up 66.7%, down 16.7%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_large: up 100.0%, down 0.0%, flat 0.0%, n=1
+  + 60 мин | UNCONDITIONAL: up 33.3%, down 16.7%, flat 50.0%, n=6 | beat_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 0.0%, down 100.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_medium: up 0.0%, down 0.0%, flat 100.0%, n=1 | miss_large: up 100.0%, down 0.0%, flat 0.0%, n=1
+  +120 мин | UNCONDITIONAL: up 66.7%, down 16.7%, flat 16.7%, n=6 | beat_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | beat_medium: up n/a, down n/a, flat n/a, n=0 | beat_large: up 100.0%, down 0.0%, flat 0.0%, n=1 | inline: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_small: up 100.0%, down 0.0%, flat 0.0%, n=1 | miss_medium: up 0.0%, down 100.0%, flat 0.0%, n=1 | miss_large: up 0.0%, down 0.0%, flat 100.0%, n=1
+
+ПРИМЕЧАНИЯ
+1) XAUUSD midpoint=(BID+ASK)/2. DXY не используется.
+2) M5/M15 строятся из полных последовательных M1 баров. Для статистики используются завершённые свечи, границы которых совпадают с временем релиза.
+3) При одинаковом elapsed horizon close кумулятивная доходность M1/M5/M15 математически совпадает; отличия M5/M15 отражаются в body/range/wicks.
+4) Публикации с одним временем отмечены как co-releases в event_reactions.csv; статистика не доказывает причинный эффект отдельного отчёта.
+5) Пропущенные минутные бары не интерполируются. Неполные агрегированные свечи исключаются.
+6) Flat threshold = 0.5 * sigma по всем уникальным временным отметкам публикаций для соответствующего периода, timeframe, горизонта и метрики.

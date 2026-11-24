@@ -1,0 +1,12 @@
+{
+  "economic_data_root": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\data\\economic_data",
+  "output": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\output\\release_bundle_level_a",
+  "target_indicators": 8,
+  "corrected_indicator_rows": 2375,
+  "unique_bundle_timestamps": 1382,
+  "full_8_indicator_bundles": 5,
+  "scheduled_release_time": "08:30 America/New_York",
+  "timezone_conversion": "ZoneInfo America/New_York -> UTC (historical DST-aware)",
+  "source_csv_modified": false,
+  "warning": "Release dates are inherited from source files; date changes/reschedules are not inferred."
+}

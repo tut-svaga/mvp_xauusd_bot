@@ -1,0 +1,127 @@
+{
+  "script_version": "1.0.0",
+  "started_utc": "2026-11-23 19:50:37 UTC",
+  "elapsed_sec": 35.68,
+  "python": "3.14.4",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "parameters": {
+    "stage_a": ".\\output\\release_bundle_level_a",
+    "bid_root": "E:\\work\\XAU_gold\\XAUUSD\\raw\\BID",
+    "ask_root": "E:\\work\\XAU_gold\\XAUUSD\\raw\\ASK",
+    "output": ".\\output\\release_bundle_level_b",
+    "bar_time_mode": "start",
+    "events_file": "release_events.csv",
+    "full_bundle_size": 8,
+    "spread_anomaly_usd": 3.0,
+    "min_sample": 30,
+    "max_quality_rows": 5000,
+    "no_prefilter": false,
+    "log_level": "INFO"
+  },
+  "horizons_min": [
+    1,
+    5,
+    15,
+    30,
+    60,
+    120
+  ],
+  "flat_thresholds_usd": [
+    0.25,
+    0.5,
+    1.0
+  ],
+  "events": {
+    "rows_in_stage_a": 1382,
+    "unique_processed": 1382,
+    "any_horizon_valid": 1380,
+    "all_horizons_valid": 1378,
+    "all_excursion_windows_complete": 1367,
+    "full_bundle_events": 5,
+    "events_with_overlapping_windows": 0,
+    "compositions": 14
+  },
+  "quotes": {
+    "BID": {
+      "files_total": 6724,
+      "files_read": 1381,
+      "files_skipped": 5343,
+      "rows_read": 1909978,
+      "rows_in_event_windows": 168291,
+      "bars_kept": 168291,
+      "duplicates_identical": 0,
+      "duplicates_conflict": 0,
+      "invalid_rows": {},
+      "unparseable_rows": 0,
+      "off_minute_rows": 0,
+      "coverage": [
+        "2003-12-31 22:18:00+00:00",
+        "2026-11-23 13:41:00+00:00"
+      ]
+    },
+    "ASK": {
+      "files_total": 6724,
+      "files_read": 1380,
+      "files_skipped": 5344,
+      "rows_read": 1909978,
+      "rows_in_event_windows": 168291,
+      "bars_kept": 168291,
+      "duplicates_identical": 0,
+      "duplicates_conflict": 0,
+      "invalid_rows": {},
+      "unparseable_rows": 0,
+      "off_minute_rows": 0,
+      "coverage": [
+        "2003-12-31 22:18:00+00:00",
+        "2026-11-23 13:35:00+00:00"
+      ]
+    }
+  },
+  "mid_bars_in_event_windows": 168291,
+  "unmatched_bid_only": 0,
+  "unmatched_ask_only": 0,
+  "reaction_rows": 8292,
+  "valid_price_windows": 8277,
+  "missing_price_windows": 15,
+  "probability_sum_check_failures": 0,
+  "timestamp_semantics_check": {
+    "n_events_used": 1380,
+    "offsets_min": [
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3
+    ],
+    "mean_range_usd_by_offset": {
+      "-2": 0.7343,
+      "-1": 0.817,
+      "0": 2.5074,
+      "1": 1.5531,
+      "2": 1.3782,
+      "3": 1.3173
+    },
+    "share_events_max_range_at_offset": {
+      "-2": 0.0312,
+      "-1": 0.0312,
+      "0": 0.5674,
+      "1": 0.1522,
+      "2": 0.1196,
+      "3": 0.0986
+    },
+    "verdict": "START_CONFIRMED",
+    "reason": "максимальный средний диапазон у метки T и >=1.5x метки T-1m",
+    "configured_mode": "start",
+    "conflict_with_configured_mode": false
+  },
+  "data_quality_counts": {
+    "QUOTE_FILES_SUMMARY": 0,
+    "ANOMALOUS_SPREAD": 67,
+    "INCOMPLETE_EXCURSION_WINDOW": 23,
+    "MISSING_BASELINE": 2,
+    "NO_QUOTES_IN_EVENT_WINDOW": 2,
+    "EVENT_NO_REACTION_COMPUTABLE": 2,
+    "MISSING_HORIZON_CLOSE": 3
+  }
+}

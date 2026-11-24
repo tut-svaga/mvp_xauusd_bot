@@ -1,0 +1,145 @@
+group_type,group_name,horizon_min,n_events_in_cohort,n_valid_initial_and_final,n_initial_zero,n_initial_nonzero,n_reversal,n_persisted,n_final_zero_after_nonzero_initial,reversal_pct_of_initial_nonzero,persisted_pct_of_initial_nonzero,final_zero_pct_of_initial_nonzero,reversal_pct_of_all_valid,persisted_pct_of_all_valid,n_initial_up,reversal_pct_given_initial_up,n_initial_down,reversal_pct_given_initial_down
+ALL,ALL_BUNDLES,1,1382,1380,3,1377,0,1377,0,0.0,100.0,0.0,0.0,99.7826,652,0.0,725,0.0
+ALL,ALL_BUNDLES,5,1382,1380,3,1377,378,997,2,27.451,72.4038,0.1452,27.3913,72.2464,652,27.454,725,27.4483
+ALL,ALL_BUNDLES,15,1382,1379,3,1376,472,904,0,34.3023,65.6977,0.0,34.2277,65.5547,652,33.8957,724,34.6685
+ALL,ALL_BUNDLES,30,1382,1379,3,1376,510,865,1,37.064,62.8634,0.0727,36.9833,62.7266,652,37.1166,724,37.0166
+ALL,ALL_BUNDLES,60,1382,1379,3,1376,538,837,1,39.0988,60.8285,0.0727,39.0138,60.6962,652,38.0368,724,40.0552
+ALL,ALL_BUNDLES,120,1382,1380,3,1377,618,758,1,44.8802,55.0472,0.0726,44.7826,54.9275,652,45.7055,725,44.1379
+FULL_BUNDLE,FULL_BUNDLE_8,1,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+FULL_BUNDLE,FULL_BUNDLE_8,5,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+FULL_BUNDLE,FULL_BUNDLE_8,15,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+FULL_BUNDLE,FULL_BUNDLE_8,30,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+FULL_BUNDLE,FULL_BUNDLE_8,60,5,5,0,5,2,3,0,40.0,60.0,0.0,40.0,60.0,4,50.0,1,0.0
+FULL_BUNDLE,FULL_BUNDLE_8,120,5,5,0,5,3,2,0,60.0,40.0,0.0,60.0,40.0,4,75.0,1,0.0
+COMPONENT_COUNT,1,1,875,875,3,872,0,872,0,0.0,100.0,0.0,0.0,99.6571,403,0.0,469,0.0
+COMPONENT_COUNT,1,5,875,875,3,872,231,639,2,26.4908,73.2798,0.2294,26.4,73.0286,403,27.2953,469,25.7996
+COMPONENT_COUNT,1,15,875,874,3,871,297,574,0,34.0987,65.9013,0.0,33.9817,65.6751,403,33.4988,468,34.6154
+COMPONENT_COUNT,1,30,875,874,3,871,322,548,1,36.969,62.9162,0.1148,36.8421,62.7002,403,37.469,468,36.5385
+COMPONENT_COUNT,1,60,875,875,3,872,330,542,0,37.844,62.156,0.0,37.7143,61.9429,403,37.9653,469,37.7399
+COMPONENT_COUNT,1,120,875,875,3,872,379,492,1,43.4633,56.422,0.1147,43.3143,56.2286,403,43.6725,469,43.2836
+COMPONENT_COUNT,2,1,167,167,0,167,0,167,0,0.0,100.0,0.0,0.0,100.0,78,0.0,89,0.0
+COMPONENT_COUNT,2,5,167,167,0,167,43,124,0,25.7485,74.2515,0.0,25.7485,74.2515,78,24.359,89,26.9663
+COMPONENT_COUNT,2,15,167,167,0,167,62,105,0,37.1257,62.8743,0.0,37.1257,62.8743,78,39.7436,89,34.8315
+COMPONENT_COUNT,2,30,167,167,0,167,67,100,0,40.1198,59.8802,0.0,40.1198,59.8802,78,38.4615,89,41.573
+COMPONENT_COUNT,2,60,167,166,0,166,73,93,0,43.9759,56.0241,0.0,43.9759,56.0241,78,37.1795,88,50.0
+COMPONENT_COUNT,2,120,167,167,0,167,82,85,0,49.1018,50.8982,0.0,49.1018,50.8982,78,48.7179,89,49.4382
+COMPONENT_COUNT,3,1,264,262,0,262,0,262,0,0.0,100.0,0.0,0.0,100.0,136,0.0,126,0.0
+COMPONENT_COUNT,3,5,264,262,0,262,78,184,0,29.771,70.229,0.0,29.771,70.229,136,28.6765,126,30.9524
+COMPONENT_COUNT,3,15,264,262,0,262,91,171,0,34.7328,65.2672,0.0,34.7328,65.2672,136,32.3529,126,37.3016
+COMPONENT_COUNT,3,30,264,262,0,262,96,166,0,36.6412,63.3588,0.0,36.6412,63.3588,136,33.8235,126,39.6825
+COMPONENT_COUNT,3,60,264,262,0,262,103,158,1,39.313,60.3053,0.3817,39.313,60.3053,136,37.5,126,41.2698
+COMPONENT_COUNT,3,120,264,262,0,262,122,140,0,46.5649,53.4351,0.0,46.5649,53.4351,136,47.0588,126,46.0317
+COMPONENT_COUNT,4,1,40,40,0,40,0,40,0,0.0,100.0,0.0,0.0,100.0,21,0.0,19,0.0
+COMPONENT_COUNT,4,5,40,40,0,40,17,23,0,42.5,57.5,0.0,42.5,57.5,21,42.8571,19,42.1053
+COMPONENT_COUNT,4,15,40,40,0,40,12,28,0,30.0,70.0,0.0,30.0,70.0,21,23.8095,19,36.8421
+COMPONENT_COUNT,4,30,40,40,0,40,12,28,0,30.0,70.0,0.0,30.0,70.0,21,42.8571,19,15.7895
+COMPONENT_COUNT,4,60,40,40,0,40,14,26,0,35.0,65.0,0.0,35.0,65.0,21,33.3333,19,36.8421
+COMPONENT_COUNT,4,120,40,40,0,40,17,23,0,42.5,57.5,0.0,42.5,57.5,21,47.619,19,36.8421
+COMPONENT_COUNT,5,1,17,17,0,17,0,17,0,0.0,100.0,0.0,0.0,100.0,3,0.0,14,0.0
+COMPONENT_COUNT,5,5,17,17,0,17,4,13,0,23.5294,76.4706,0.0,23.5294,76.4706,3,0.0,14,28.5714
+COMPONENT_COUNT,5,15,17,17,0,17,5,12,0,29.4118,70.5882,0.0,29.4118,70.5882,3,100.0,14,14.2857
+COMPONENT_COUNT,5,30,17,17,0,17,8,9,0,47.0588,52.9412,0.0,47.0588,52.9412,3,100.0,14,35.7143
+COMPONENT_COUNT,5,60,17,17,0,17,10,7,0,58.8235,41.1765,0.0,58.8235,41.1765,3,100.0,14,50.0
+COMPONENT_COUNT,5,120,17,17,0,17,8,9,0,47.0588,52.9412,0.0,47.0588,52.9412,3,100.0,14,35.7143
+COMPONENT_COUNT,6,1,12,12,0,12,0,12,0,0.0,100.0,0.0,0.0,100.0,6,0.0,6,0.0
+COMPONENT_COUNT,6,5,12,12,0,12,5,7,0,41.6667,58.3333,0.0,41.6667,58.3333,6,33.3333,6,50.0
+COMPONENT_COUNT,6,15,12,12,0,12,3,9,0,25.0,75.0,0.0,25.0,75.0,6,16.6667,6,33.3333
+COMPONENT_COUNT,6,30,12,12,0,12,4,8,0,33.3333,66.6667,0.0,33.3333,66.6667,6,33.3333,6,33.3333
+COMPONENT_COUNT,6,60,12,12,0,12,5,7,0,41.6667,58.3333,0.0,41.6667,58.3333,6,33.3333,6,50.0
+COMPONENT_COUNT,6,120,12,12,0,12,6,6,0,50.0,50.0,0.0,50.0,50.0,6,50.0,6,50.0
+COMPONENT_COUNT,7,1,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPONENT_COUNT,7,5,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPONENT_COUNT,7,15,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPONENT_COUNT,7,30,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPONENT_COUNT,7,60,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPONENT_COUNT,7,120,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPONENT_COUNT,8,1,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+COMPONENT_COUNT,8,5,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+COMPONENT_COUNT,8,15,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+COMPONENT_COUNT,8,30,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+COMPONENT_COUNT,8,60,5,5,0,5,2,3,0,40.0,60.0,0.0,40.0,60.0,4,50.0,1,0.0
+COMPONENT_COUNT,8,120,5,5,0,5,3,2,0,60.0,40.0,0.0,60.0,40.0,4,75.0,1,0.0
+COMPOSITION,Unemployment Claims,1,875,875,3,872,0,872,0,0.0,100.0,0.0,0.0,99.6571,403,0.0,469,0.0
+COMPOSITION,Unemployment Claims,5,875,875,3,872,231,639,2,26.4908,73.2798,0.2294,26.4,73.0286,403,27.2953,469,25.7996
+COMPOSITION,Unemployment Claims,15,875,874,3,871,297,574,0,34.0987,65.9013,0.0,33.9817,65.6751,403,33.4988,468,34.6154
+COMPOSITION,Unemployment Claims,30,875,874,3,871,322,548,1,36.969,62.9162,0.1148,36.8421,62.7002,403,37.469,468,36.5385
+COMPOSITION,Unemployment Claims,60,875,875,3,872,330,542,0,37.844,62.156,0.0,37.7143,61.9429,403,37.9653,469,37.7399
+COMPOSITION,Unemployment Claims,120,875,875,3,872,379,492,1,43.4633,56.422,0.1147,43.3143,56.2286,403,43.6725,469,43.2836
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,1,167,165,0,165,0,165,0,0.0,100.0,0.0,0.0,100.0,92,0.0,73,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,5,167,165,0,165,51,114,0,30.9091,69.0909,0.0,30.9091,69.0909,92,27.1739,73,35.6164
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,15,167,165,0,165,68,97,0,41.2121,58.7879,0.0,41.2121,58.7879,92,35.8696,73,47.9452
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,30,167,165,0,165,64,101,0,38.7879,61.2121,0.0,38.7879,61.2121,92,33.6957,73,45.2055
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,60,167,165,0,165,72,93,0,43.6364,56.3636,0.0,43.6364,56.3636,92,39.1304,73,49.3151
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m,120,167,165,0,165,84,81,0,50.9091,49.0909,0.0,50.9091,49.0909,92,48.913,73,53.4247
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,1,135,135,0,135,0,135,0,0.0,100.0,0.0,0.0,100.0,68,0.0,67,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,5,135,135,0,135,35,100,0,25.9259,74.0741,0.0,25.9259,74.0741,68,23.5294,67,28.3582
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,15,135,135,0,135,46,89,0,34.0741,65.9259,0.0,34.0741,65.9259,68,36.7647,67,31.3433
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,30,135,135,0,135,51,84,0,37.7778,62.2222,0.0,37.7778,62.2222,68,38.2353,67,37.3134
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,60,135,135,0,135,57,78,0,42.2222,57.7778,0.0,42.2222,57.7778,68,38.2353,67,46.2687
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m,120,135,135,0,135,66,69,0,48.8889,51.1111,0.0,48.8889,51.1111,68,48.5294,67,49.2537
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,1,66,66,0,66,0,66,0,0.0,100.0,0.0,0.0,100.0,28,0.0,38,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,5,66,66,0,66,20,46,0,30.303,69.697,0.0,30.303,69.697,28,28.5714,38,31.5789
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,15,66,66,0,66,17,49,0,25.7576,74.2424,0.0,25.7576,74.2424,28,21.4286,38,28.9474
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,30,66,66,0,66,24,42,0,36.3636,63.6364,0.0,36.3636,63.6364,28,35.7143,38,36.8421
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,60,66,66,0,66,25,40,1,37.8788,60.6061,1.5152,37.8788,60.6061,28,42.8571,38,34.2105
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Unemployment Claims,120,66,66,0,66,30,36,0,45.4545,54.5455,0.0,45.4545,54.5455,28,50.0,38,42.1053
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,1,38,38,0,38,0,38,0,0.0,100.0,0.0,0.0,100.0,21,0.0,17,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,5,38,38,0,38,16,22,0,42.1053,57.8947,0.0,42.1053,57.8947,21,42.8571,17,41.1765
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,15,38,38,0,38,10,28,0,26.3158,73.6842,0.0,26.3158,73.6842,21,23.8095,17,29.4118
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,30,38,38,0,38,12,26,0,31.5789,68.4211,0.0,31.5789,68.4211,21,42.8571,17,17.6471
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,60,38,38,0,38,13,25,0,34.2105,65.7895,0.0,34.2105,65.7895,21,33.3333,17,35.2941
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,120,38,38,0,38,16,22,0,42.1053,57.8947,0.0,42.1053,57.8947,21,47.619,17,35.2941
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,1,32,32,0,32,0,32,0,0.0,100.0,0.0,0.0,100.0,10,0.0,22,0.0
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,5,32,32,0,32,8,24,0,25.0,75.0,0.0,25.0,75.0,10,30.0,22,22.7273
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,15,32,32,0,32,16,16,0,50.0,50.0,0.0,50.0,50.0,10,60.0,22,45.4545
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,30,32,32,0,32,16,16,0,50.0,50.0,0.0,50.0,50.0,10,40.0,22,54.5455
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,60,32,31,0,31,16,15,0,51.6129,48.3871,0.0,51.6129,48.3871,10,30.0,21,61.9048
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q,120,32,32,0,32,16,16,0,50.0,50.0,0.0,50.0,50.0,10,50.0,22,50.0
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,1,31,31,0,31,0,31,0,0.0,100.0,0.0,0.0,100.0,16,0.0,15,0.0
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,5,31,31,0,31,7,24,0,22.5806,77.4194,0.0,22.5806,77.4194,16,37.5,15,6.6667
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,15,31,31,0,31,6,25,0,19.3548,80.6452,0.0,19.3548,80.6452,16,31.25,15,6.6667
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,30,31,31,0,31,8,23,0,25.8065,74.1935,0.0,25.8065,74.1935,16,31.25,15,20.0
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,60,31,31,0,31,6,25,0,19.3548,80.6452,0.0,19.3548,80.6452,16,18.75,15,20.0
+COMPOSITION,Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,120,31,31,0,31,8,23,0,25.8065,74.1935,0.0,25.8065,74.1935,16,31.25,15,20.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,1,12,12,0,12,0,12,0,0.0,100.0,0.0,0.0,100.0,6,0.0,6,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,5,12,12,0,12,5,7,0,41.6667,58.3333,0.0,41.6667,58.3333,6,33.3333,6,50.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,15,12,12,0,12,3,9,0,25.0,75.0,0.0,25.0,75.0,6,16.6667,6,33.3333
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,30,12,12,0,12,4,8,0,33.3333,66.6667,0.0,33.3333,66.6667,6,33.3333,6,33.3333
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,60,12,12,0,12,5,7,0,41.6667,58.3333,0.0,41.6667,58.3333,6,33.3333,6,50.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Unemployment Claims,120,12,12,0,12,6,6,0,50.0,50.0,0.0,50.0,50.0,6,50.0,6,50.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,1,11,11,0,11,0,11,0,0.0,100.0,0.0,0.0,100.0,3,0.0,8,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,5,11,11,0,11,2,9,0,18.1818,81.8182,0.0,18.1818,81.8182,3,0.0,8,25.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,15,11,11,0,11,4,7,0,36.3636,63.6364,0.0,36.3636,63.6364,3,100.0,8,12.5
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,30,11,11,0,11,5,6,0,45.4545,54.5455,0.0,45.4545,54.5455,3,100.0,8,25.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,60,11,11,0,11,6,5,0,54.5455,45.4545,0.0,54.5455,45.4545,3,100.0,8,37.5
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m,120,11,11,0,11,6,5,0,54.5455,45.4545,0.0,54.5455,45.4545,3,100.0,8,37.5
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,1,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,5,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,4,0.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,15,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,30,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,4,25.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,60,5,5,0,5,2,3,0,40.0,60.0,0.0,40.0,60.0,4,50.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,120,5,5,0,5,3,2,0,60.0,40.0,0.0,60.0,40.0,4,75.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,1,5,5,0,5,0,5,0,0.0,100.0,0.0,0.0,100.0,0,,5,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,5,5,5,0,5,2,3,0,40.0,60.0,0.0,40.0,60.0,0,,5,40.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,15,5,5,0,5,1,4,0,20.0,80.0,0.0,20.0,80.0,0,,5,20.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,30,5,5,0,5,3,2,0,60.0,40.0,0.0,60.0,40.0,0,,5,60.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,60,5,5,0,5,4,1,0,80.0,20.0,0.0,80.0,20.0,0,,5,80.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q + Unemployment Claims,120,5,5,0,5,2,3,0,40.0,60.0,0.0,40.0,60.0,0,,5,40.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,1,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,5,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,15,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,30,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,1,0.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,60,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Core PCE Price Index m/m + Durable Goods Orders m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,120,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,1,100.0,1,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,1,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,0,,2,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,5,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,0,,2,50.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,15,2,2,0,2,2,0,0,100.0,0.0,0.0,100.0,0.0,0,,2,100.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,30,2,2,0,2,0,2,0,0.0,100.0,0.0,0.0,100.0,0,,2,0.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,60,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,0,,2,50.0
+COMPOSITION,Core Durable Goods Orders m/m + Durable Goods Orders m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,120,2,2,0,2,1,1,0,50.0,50.0,0.0,50.0,50.0,0,,2,50.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,1,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,5,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,15,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,30,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,60,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0
+COMPOSITION,Core PCE Price Index m/m + Personal Income m/m + Personal Spending m/m + Prelim GDP Price Index q/q + Prelim GDP q/q,120,1,1,0,1,0,1,0,0.0,100.0,0.0,0.0,100.0,0,,1,0.0

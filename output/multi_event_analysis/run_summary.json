@@ -1,0 +1,42 @@
+{
+  "generated_utc": "2026-11-23T17:33:33.793846+00:00",
+  "input_counts": {
+    "report_files_found": 612,
+    "rows_seen": 91311,
+    "reports_with_events": 609,
+    "empty_or_unreadable_report_files": 3,
+    "events_loaded": 66628,
+    "rows_skipped": 24683
+  },
+  "reports_analyzed": 609,
+  "unique_report_ids": 609,
+  "numeric_actual_forecast_events": 38910,
+  "events_with_baseline_quotes": 57464,
+  "events_with_at_least_one_complete_reaction_window": 57191,
+  "events_without_complete_reaction_window": 9437,
+  "co_release_events": 6223,
+  "bid_files_loaded": 5550,
+  "ask_files_loaded": 5550,
+  "bid_m1_rows_loaded": 7120003,
+  "ask_m1_rows_loaded": 7120036,
+  "derived_event_candle_rows": 756605,
+  "outputs": [
+    "event_reactions.csv",
+    "group_stats.csv",
+    "scenario_templates.json",
+    "derived_event_candles.csv",
+    "skipped_events.csv",
+    "run_summary.json",
+    "reports/**/*.txt"
+  ],
+  "notes": [
+    "Historical analyzer reads only data/economic_data/**/*.csv. It does not read either Forex Factory cache.",
+    "The current/main Forex Factory cache is used only by the separate live Java calendar collector to locate future releases.",
+    "Scenario groups are report-specific q33/q67 bins for beat and miss plus inline.",
+    "Primary probability period is 2023-2026; ALL and earlier periods are also written.",
+    "M5/M15 event candles are aggregated from complete M1 BID/ASK candles; no interpolation.",
+    "Cumulative returns at the same elapsed horizon are identical across frame sizes when the bars are complete; body/range/wick metrics are frame-specific.",
+    "Flat thresholds use 0.5*sigma pooled across unique release timestamps for timeframe/horizon/metric/period.",
+    "Probabilities are descriptive historical frequencies, not calibrated guarantees or causal attribution."
+  ]
+}
