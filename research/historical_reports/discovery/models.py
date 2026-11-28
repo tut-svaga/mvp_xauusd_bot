@@ -2,8 +2,7 @@
 from __future__ import annotations
 
 from collections import Counter
-from dataclasses import asdict, dataclass, field
-from datetime import datetime
+from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any
 
@@ -57,7 +56,9 @@ class FileReport:
     def status(self) -> str:
         if self.read_error or any(i.severity == "ERROR" for i in self.issues):
             return "ERROR"
-        return "REVIEW" if self.issues else "OK"
+        if any(i.severity == "WARNING" for i in self.issues):
+            return "REVIEW"
+        return "OK"
 
 
 @dataclass
@@ -77,9 +78,13 @@ class DiscoveryResult:
     def summary(self) -> dict[str, Any]:
         currencies: Counter[str] = Counter()
         sources: Counter[str] = Counter()
+        severities: Counter[str] = Counter()
+        statuses: Counter[str] = Counter()
         for item in self.files:
             currencies.update(item.currencies)
             sources.update(item.timestamp_sources)
+            statuses.update([item.status])
+            severities.update(issue.severity for issue in item.issues)
         return {
             "generated_at_utc": self.generated_at_utc,
             "economic_data_dir": self.economic_data_dir,
@@ -91,8 +96,16 @@ class DiscoveryResult:
             "currency_row_counts": dict(sorted(currencies.items())),
             "timestamp_source_counts": dict(sorted(sources.items())),
             "rows_with_selected_timestamp": sum(sources.values()),
-            "files_with_warnings": sum(item.status != "OK" for item in self.files),
+            "file_status_counts": dict(sorted(statuses.items())),
+            "issue_severity_counts": dict(sorted(severities.items())),
+            "files_with_warnings": statuses.get("REVIEW", 0) + statuses.get("ERROR", 0),
+            "files_requiring_review": statuses.get("REVIEW", 0),
+            "files_with_errors": statuses.get("ERROR", 0),
+            "files_ok": statuses.get("OK", 0),
             "catalog_issue_count": sum(row.get("status") != "OK" for row in self.catalog_rows),
+            "catalog_metadata_mismatch_count": sum(
+                row.get("metadata_status") != "OK" for row in self.catalog_rows
+            ),
             "manifest_issue_count": sum(row.get("status") != "OK" for row in self.manifest_rows),
             "forex_factory_cache": self.cache_summary,
             "xauusd_quotes": self.xau_summary,
