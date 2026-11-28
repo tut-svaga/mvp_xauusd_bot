@@ -38,7 +38,7 @@ def _file_row(item: FileReport) -> dict[str, Any]:
         "timestamp_sources": _counter(item.timestamp_sources),
         "timezone_offsets": _counter(item.timezone_offsets),
         "status": item.status,
-        "issues": "; ".join(f"{i.code}: {i.message}" for i in item.issues),
+        "issues": "; ".join(f"{i.severity}:{i.code}: {i.message}" for i in item.issues),
         "read_error": item.read_error,
         "delimiter": repr(item.delimiter), "headers": " | ".join(item.headers),
     }
@@ -53,9 +53,15 @@ def _markdown(result: DiscoveryResult, summary: dict[str, Any]) -> str:
         f"- Data rows scanned: **{summary['total_report_rows']}**",
         f"- Categories: **{summary['categories']}**",
         f"- Currencies: **{', '.join(summary['currencies']) or 'none'}**",
-        f"- Files requiring review: **{summary['files_with_warnings']}**",
-        f"- Catalog issues: **{summary['catalog_issue_count']}**",
+        f"- Files requiring review (warnings/errors): **{summary['files_with_warnings']}**",
+        f"- Files with errors: **{summary['files_with_errors']}**",
+        f"- Files with warnings: **{summary['files_requiring_review']}**",
+        f"- Catalog integrity issues: **{summary['catalog_issue_count']}**",
+        f"- Catalog date-metadata mismatches: **{summary['catalog_metadata_mismatch_count']}**",
         f"- Manifest issues: **{summary['manifest_issue_count']}**", "",
+        "Catalog date-metadata mismatches are reported separately from integrity issues. "
+        "A date-range mismatch alone does not mean the CSV rows are corrupt; it can mean "
+        "the event catalog was not refreshed after historical data was extended.", "",
         "## Files requiring review", "",
     ]
     flagged = [item for item in result.files if item.status != "OK"]
@@ -63,14 +69,15 @@ def _markdown(result: DiscoveryResult, summary: dict[str, Any]) -> str:
         lines += ["| File | Rows | Status | Issues |", "|---|---:|---|---|"]
         for item in flagged[:60]:
             detail = "; ".join(issue.code for issue in item.issues) or item.read_error
-            lines.append(f"| `{item.file}` | {item.rows} | {item.status} | {detail} |")
+            lines.append(f"| {item.file} | {item.rows} | {item.status} | {detail} |")
         if len(flagged) > 60:
             lines.append(f"Only the first 60 of {len(flagged)} files are shown; see report_inventory.csv.")
     else:
-        lines.append("No file-level warnings were detected.")
+        lines.append("No file-level warnings or errors were detected.")
     lines += [
         "", "## Timestamp handling", "",
-        "- Midnight-only timestamps are flagged for manual review, never auto-corrected.",
+        "- Midnight-only timestamps and date-only records are informational; their publication time is unknown.",
+        "- Missing or unparseable dates remain warnings.",
         "- Timezone offsets are recorded, not silently converted or assumed.",
         "- A naive value in a field named datetime_utc is labelled UTC_IMPLICIT.",
         "- Calendar gaps are informational: weekends and holidays may explain them.",
