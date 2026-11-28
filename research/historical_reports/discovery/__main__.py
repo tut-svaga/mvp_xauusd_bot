@@ -44,7 +44,7 @@ def main() -> int:
     print(f"Report files: {summary['report_files']}")
     print(f"Rows: {summary['total_report_rows']}")
     print(f"Currencies: {', '.join(summary['currencies']) or 'none'}")
-    print(f"Files requiring review: {summary['files_with_warnings']}")
+    print(f"Files requiring review: {summary['files_requiring_review']}")
     print(f"Catalog issues: {summary['catalog_issue_count']}; manifest issues: {summary['manifest_issue_count']}")
     print(f"Output: {args.output_dir.expanduser().resolve()}")
     return 0
