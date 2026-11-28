@@ -12,8 +12,8 @@ Optional XAUUSD quote inventory:
 
     Скрипт запускает последовательность скриптов для проверки csv Данных отчета и золота
 
-
     
+
 """
 from pathlib import Path
 import sys
