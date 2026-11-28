@@ -104,7 +104,8 @@ class DiscoveryResult:
             "files_ok": statuses.get("OK", 0),
             "catalog_issue_count": sum(row.get("status") != "OK" for row in self.catalog_rows),
             "catalog_metadata_mismatch_count": sum(
-                row.get("metadata_status") != "OK" for row in self.catalog_rows
+                "DATE_RANGE_MISMATCH" in row.get("metadata_status", "")
+                for row in self.catalog_rows
             ),
             "manifest_issue_count": sum(row.get("status") != "OK" for row in self.manifest_rows),
             "forex_factory_cache": self.cache_summary,
