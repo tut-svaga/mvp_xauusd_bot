@@ -29,6 +29,11 @@ def _counter(counter: Counter[str]) -> str:
     return "; ".join(f"{key}:{value}" for key, value in sorted(counter.items()))
 
 
+def _issue_summary(issues: list[Any]) -> str:
+    counts = Counter(f"{issue.severity}:{issue.code}" for issue in issues)
+    return "; ".join(f"{key} ({count})" for key, count in sorted(counts.items()))
+
+
 def _file_row(item: FileReport) -> dict[str, Any]:
     return {
         "category": item.category, "file": item.file, "size_bytes": item.size_bytes,
@@ -38,7 +43,7 @@ def _file_row(item: FileReport) -> dict[str, Any]:
         "timestamp_sources": _counter(item.timestamp_sources),
         "timezone_offsets": _counter(item.timezone_offsets),
         "status": item.status,
-        "issues": "; ".join(f"{i.severity}:{i.code}: {i.message}" for i in item.issues),
+        "issues": _issue_summary(item.issues),
         "read_error": item.read_error,
         "delimiter": repr(item.delimiter), "headers": " | ".join(item.headers),
     }
@@ -68,7 +73,7 @@ def _markdown(result: DiscoveryResult, summary: dict[str, Any]) -> str:
     if flagged:
         lines += ["| File | Rows | Status | Issues |", "|---|---:|---|---|"]
         for item in flagged[:60]:
-            detail = "; ".join(issue.code for issue in item.issues) or item.read_error
+            detail = _issue_summary(item.issues) or item.read_error
             lines.append(f"| {item.file} | {item.rows} | {item.status} | {detail} |")
         if len(flagged) > 60:
             lines.append(f"Only the first 60 of {len(flagged)} files are shown; see report_inventory.csv.")
