@@ -1,7 +1,7 @@
 """Publication-time, timezone-offset and ambiguous-midnight checks."""
 from __future__ import annotations
 
-from datetime import datetime, timezone
+from datetime import datetime
 
 from .models import CsvFile, Issue
 
@@ -73,13 +73,32 @@ def validate_times(csv_file: CsvFile) -> tuple[list[Issue], dict[str, int], dict
     for record in csv_file.records:
         source, parsed, midnight = select_timestamp(record.values)
         if parsed is None:
-            code = "AMBIGUOUS_MIDNIGHT" if midnight else "MISSING_OR_INVALID_TIMESTAMP"
-            message = "Timestamp is midnight-only; publication time may be unknown" if midnight else "No valid publication timestamp found"
-            issues.append(Issue("WARNING", code, message, csv_file.relative_path, record.row_number, "datetime"))
+            has_date = any(
+                record.values.get(key, "").strip()
+                for key in ("date", "datetime", "datetime_utc", "datetime_local", "date_time")
+            )
+            if midnight or has_date:
+                code = "AMBIGUOUS_MIDNIGHT" if midnight else "DATE_ONLY_TIMESTAMP"
+                message = (
+                    "Timestamp is midnight-only; publication time may be unknown"
+                    if midnight else "Date is available, but publication time is not"
+                )
+                issues.append(Issue("INFO", code, message, csv_file.relative_path, record.row_number, "datetime"))
+            else:
+                issues.append(Issue(
+                    "WARNING", "MISSING_OR_INVALID_TIMESTAMP",
+                    "No valid date or publication timestamp found",
+                    csv_file.relative_path, record.row_number, "datetime",
+                ))
             continue
+
         sources[source] = sources.get(source, 0) + 1
         zone = timezone_label(parsed, source)
         zones[zone] = zones.get(zone, 0) + 1
         if zone == "NAIVE":
-            issues.append(Issue("WARNING", "TIMEZONE_NOT_SPECIFIED", "Timestamp has no timezone or UTC offset", csv_file.relative_path, record.row_number, source))
+            issues.append(Issue(
+                "WARNING", "TIMEZONE_NOT_SPECIFIED",
+                "Timestamp has no timezone or UTC offset",
+                csv_file.relative_path, record.row_number, source,
+            ))
     return issues, sources, zones
