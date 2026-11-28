@@ -7,7 +7,7 @@ from .models import CsvFile, Issue
 
 # ISO-4217 codes plus common Forex Factory labels used in calendar exports.
 KNOWN_CURRENCIES = set("""
-USD EUR GBP JPY CHF CAD AUD NZD CNY CNH HKD SGD KRW INR MXN BRL RUB ZAR
+USD EUR GBP JPY CHF CAD AUD NZD CNY CNH HKD SGD KRW INR MXN BRL RUB ZAR ALL
 TRY SEK NOK DKK PLN CZK HUF ILS SAR AED THB IDR MYR PHP TWD
 """.split())
 
