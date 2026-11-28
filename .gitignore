@@ -1,4 +1,37 @@
+# Python bytecode and test caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
 
-output/multi_event_analysis/*.csv
-output/multi_event_analysis/*.json
+# Virtual environments and local secrets
+.venv/
+venv/
+env/
+ENV/
 .env
+.env.*
+!.env.example
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Generated research outputs (keep source data and code tracked)
+output/
+output_*/
+artifacts/
+reports/
+*.zip
+*.log
+*.tmp
+
+# Local quote and calendar caches
+forex_factory_cache.csv
+data/forex_factory_cache.csv
