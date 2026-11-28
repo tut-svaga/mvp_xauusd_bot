@@ -1,0 +1,160 @@
+{
+  "schema_version": "1.0",
+  "report": "Unemployment Claims",
+  "slug": "unemployment_claims",
+  "source_csv": "employment\\unemployment_claims.csv",
+  "method": {
+    "classification": "Compare numeric Actual with numeric Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "price": "(BID close + ASK close) / 2",
+    "baseline": "Last completed M1 candle close at or before event timestamp.",
+    "horizons": "Last completed M1 candle close at or before event timestamp + N minutes.",
+    "direction": "up if midpoint change > 0; down if < 0; flat if == 0.",
+    "price_unit": "USD per troy ounce, as represented by XAUUSD quotes."
+  },
+  "data_quality": {
+    "rows": 1032,
+    "events_loaded": 1032,
+    "skipped_bad_time": 0,
+    "rows_missing_actual_or_forecast": 1,
+    "skipped_non_usd": 0,
+    "timestamp_sources": {
+      "DateTime_with_offset": 953,
+      "datetime_utc": 79
+    },
+    "events_with_quotes_m5": 1028,
+    "events_with_quotes_m15": 1026,
+    "events_with_baseline": 1030
+  },
+  "groups": {
+    "below_forecast": {
+      "events_in_group": 549,
+      "horizons": {
+        "5": {
+          "report": "Unemployment Claims",
+          "result_group": "below_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 549,
+          "events_with_quote_result": 547,
+          "events_without_quote_result": 2,
+          "up_count": 277,
+          "down_count": 269,
+          "flat_count": 1,
+          "p_up_pct": 50.63985374771481,
+          "p_down_pct": 49.177330895795244,
+          "p_flat_pct": 0.18281535648994515,
+          "mean_change_usd": -0.037465265082251606,
+          "median_change_usd": 0.01499999999987267,
+          "mean_abs_change_usd": 1.0215786106032994,
+          "q25_change_usd": -0.5565000000001419,
+          "q75_change_usd": 0.4199999999998454
+        },
+        "15": {
+          "report": "Unemployment Claims",
+          "result_group": "below_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 549,
+          "events_with_quote_result": 546,
+          "events_without_quote_result": 3,
+          "up_count": 273,
+          "down_count": 271,
+          "flat_count": 2,
+          "p_up_pct": 50.0,
+          "p_down_pct": 49.633699633699635,
+          "p_flat_pct": 0.3663003663003663,
+          "mean_change_usd": -0.015571428571417242,
+          "median_change_usd": 0.0025000000000545697,
+          "mean_abs_change_usd": 1.4320641025641028,
+          "q25_change_usd": -0.7607500000000869,
+          "q75_change_usd": 0.7007500000000277
+        }
+      }
+    },
+    "inline": {
+      "events_in_group": 28,
+      "horizons": {
+        "5": {
+          "report": "Unemployment Claims",
+          "result_group": "inline",
+          "horizon_minutes": 5,
+          "events_in_group": 28,
+          "events_with_quote_result": 28,
+          "events_without_quote_result": 0,
+          "up_count": 17,
+          "down_count": 11,
+          "flat_count": 0,
+          "p_up_pct": 60.714285714285715,
+          "p_down_pct": 39.285714285714285,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.2548928571429201,
+          "median_change_usd": 0.2507499999999254,
+          "mean_abs_change_usd": 1.241642857142933,
+          "q25_change_usd": -0.15150000000011232,
+          "q75_change_usd": 0.9012500000001751
+        },
+        "15": {
+          "report": "Unemployment Claims",
+          "result_group": "inline",
+          "horizon_minutes": 15,
+          "events_in_group": 28,
+          "events_with_quote_result": 28,
+          "events_without_quote_result": 0,
+          "up_count": 17,
+          "down_count": 11,
+          "flat_count": 0,
+          "p_up_pct": 60.714285714285715,
+          "p_down_pct": 39.285714285714285,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.2000535714286278,
+          "median_change_usd": 0.09750000000030923,
+          "mean_abs_change_usd": 1.3194107142857578,
+          "q25_change_usd": -0.5382499999999482,
+          "q75_change_usd": 0.8802499999999895
+        }
+      }
+    },
+    "above_forecast": {
+      "events_in_group": 454,
+      "horizons": {
+        "5": {
+          "report": "Unemployment Claims",
+          "result_group": "above_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 454,
+          "events_with_quote_result": 452,
+          "events_without_quote_result": 2,
+          "up_count": 233,
+          "down_count": 216,
+          "flat_count": 3,
+          "p_up_pct": 51.54867256637168,
+          "p_down_pct": 47.78761061946903,
+          "p_flat_pct": 0.6637168141592921,
+          "mean_change_usd": 0.009092920353986103,
+          "median_change_usd": 0.02924999999981992,
+          "mean_abs_change_usd": 0.9442256637168045,
+          "q25_change_usd": -0.41837499999991223,
+          "q75_change_usd": 0.49587499999984175
+        },
+        "15": {
+          "report": "Unemployment Claims",
+          "result_group": "above_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 454,
+          "events_with_quote_result": 451,
+          "events_without_quote_result": 3,
+          "up_count": 237,
+          "down_count": 212,
+          "flat_count": 2,
+          "p_up_pct": 52.549889135254986,
+          "p_down_pct": 47.006651884700666,
+          "p_flat_pct": 0.4434589800443459,
+          "mean_change_usd": -0.005835920177391544,
+          "median_change_usd": 0.06299999999987449,
+          "mean_abs_change_usd": 1.433718403547668,
+          "q25_change_usd": -0.6080000000000609,
+          "q75_change_usd": 0.82325000000003
+        }
+      }
+    }
+  }
+}

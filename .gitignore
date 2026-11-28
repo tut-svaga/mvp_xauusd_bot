@@ -1,3 +1,4 @@
 
 output/multi_event_analysis/*.csv
 output/multi_event_analysis/*.json
+.env

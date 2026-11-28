@@ -1,0 +1,219 @@
+{
+  "schema_version": "1.0",
+  "generated_utc": "2026-11-24T18:24:10.593415+00:00",
+  "model_created_utc": "2026-11-24T16:19:05.828582+00:00",
+  "classified_reports": {
+    "core_pce_price_index_m_m": {
+      "report": "Core PCE Price Index m/m",
+      "actual": "0.4%",
+      "forecast": "0.3%",
+      "actual_numeric": 0.4,
+      "forecast_numeric": 0.3,
+      "surprise": 0.10000000000000003,
+      "group": "above_forecast"
+    },
+    "prelim_gdp_q_q": {
+      "report": "Prelim GDP q/q",
+      "actual": "3.4%",
+      "forecast": "3.5%",
+      "actual_numeric": 3.4,
+      "forecast_numeric": 3.5,
+      "surprise": -0.10000000000000009,
+      "group": "below_forecast"
+    },
+    "prelim_gdp_price_index_q_q": {
+      "report": "Prelim GDP Price Index q/q",
+      "actual": "2.2%",
+      "forecast": "2.3%",
+      "actual_numeric": 2.2,
+      "forecast_numeric": 2.3,
+      "surprise": -0.09999999999999964,
+      "group": "below_forecast"
+    },
+    "core_durable_goods_orders_m_m": {
+      "report": "Core Durable Goods Orders m/m",
+      "actual": "0.4%",
+      "forecast": "0.5%",
+      "actual_numeric": 0.4,
+      "forecast_numeric": 0.5,
+      "surprise": -0.09999999999999998,
+      "group": "below_forecast"
+    },
+    "durable_goods_orders_m_m": {
+      "report": "Durable Goods Orders m/m",
+      "actual": "1.2%",
+      "forecast": "0.7%",
+      "actual_numeric": 1.2,
+      "forecast_numeric": 0.7,
+      "surprise": 0.5,
+      "group": "above_forecast"
+    },
+    "personal_income_m_m": {
+      "report": "Personal Income m/m",
+      "actual": "0.3%",
+      "forecast": "0.4%",
+      "actual_numeric": 0.3,
+      "forecast_numeric": 0.4,
+      "surprise": -0.10000000000000003,
+      "group": "below_forecast"
+    },
+    "personal_spending_m_m": {
+      "report": "Personal Spending m/m",
+      "actual": "0.3%",
+      "forecast": "0.4%",
+      "actual_numeric": 0.3,
+      "forecast_numeric": 0.4,
+      "surprise": -0.10000000000000003,
+      "group": "below_forecast"
+    },
+    "unemployment_claims": {
+      "report": "Unemployment Claims",
+      "actual": "199K",
+      "forecast": "201K",
+      "actual_numeric": 199000.0,
+      "forecast_numeric": 201000.0,
+      "surprise": -2000.0,
+      "group": "below_forecast"
+    }
+  },
+  "reports_received": 8,
+  "horizons": {
+    "5": {
+      "probability_up_pct": 40.637072872922595,
+      "probability_down_pct": 59.196860814562434,
+      "probability_flat_pct": 0.16606631251497214,
+      "expected_change_usd": -0.40250797465498817,
+      "expected_absolute_move_usd": 2.049995427687321,
+      "weighted_median_change_usd": -0.42775281640270124,
+      "weighted_supporting_events": 279.77653991085447,
+      "method_used": "skill_weighted_mixture",
+      "joint_model_reason": "disabled_or_not_enough_historical_joint_skill",
+      "weight_status": "walk_forward_skill",
+      "report_contributions": [
+        {
+          "report": "Core PCE Price Index m/m",
+          "group": "above_forecast",
+          "events": 36,
+          "standalone_weight_pct": 1.5516325553427879,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 41.79133103183736,
+          "historical_p_down_pct": 58.1319524357499,
+          "mean_change_usd": 0.008285742035751638,
+          "mean_abs_change_usd": 2.2596427738927476,
+          "bss": 0.004178529242182649
+        },
+        {
+          "report": "Prelim GDP q/q",
+          "group": "below_forecast",
+          "events": 30,
+          "standalone_weight_pct": 30.25336444828641,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 50.42235217673814,
+          "historical_p_down_pct": 49.317738791423,
+          "mean_change_usd": 0.5809935897435831,
+          "mean_abs_change_usd": 1.8179976383265974,
+          "bss": 0.09318129200613334
+        },
+        {
+          "report": "Durable Goods Orders m/m",
+          "group": "above_forecast",
+          "events": 125,
+          "standalone_weight_pct": 24.58693952679967,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 41.44073877640159,
+          "historical_p_down_pct": 58.53430256138271,
+          "mean_change_usd": -0.7040929740316907,
+          "mean_abs_change_usd": 1.9923318695899466,
+          "bss": 0.07653411302909441
+        },
+        {
+          "report": "Unemployment Claims",
+          "group": "below_forecast",
+          "events": 549,
+          "standalone_weight_pct": 43.608063469571135,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 33.35428466258521,
+          "historical_p_down_pct": 66.46201500855994,
+          "mean_change_usd": -0.9293963112977085,
+          "mean_abs_change_usd": 2.235997460240619,
+          "bss": 0.11866749915261765
+        }
+      ]
+    },
+    "15": {
+      "probability_up_pct": 44.907334701771276,
+      "probability_down_pct": 55.014544796219866,
+      "probability_flat_pct": 0.07812050200886446,
+      "expected_change_usd": -0.3010791077141719,
+      "expected_absolute_move_usd": 2.5573200194661645,
+      "weighted_median_change_usd": -0.20679097152767834,
+      "weighted_supporting_events": 224.82214700107494,
+      "method_used": "skill_weighted_mixture",
+      "joint_model_reason": "disabled_or_not_enough_historical_joint_skill",
+      "weight_status": "walk_forward_skill",
+      "report_contributions": [
+        {
+          "report": "Prelim GDP q/q",
+          "group": "below_forecast",
+          "events": 30,
+          "standalone_weight_pct": 5.8857231201815186,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 50.682261208576996,
+          "historical_p_down_pct": 49.057829759584145,
+          "mean_change_usd": 0.5240259784075335,
+          "mean_abs_change_usd": 2.607380904183529,
+          "bss": 0.00755557401333129
+        },
+        {
+          "report": "Prelim GDP Price Index q/q",
+          "group": "below_forecast",
+          "events": 19,
+          "standalone_weight_pct": 13.469232910983294,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 52.81207133058985,
+          "historical_p_down_pct": 46.822130772748054,
+          "mean_change_usd": 0.7287773029439321,
+          "mean_abs_change_usd": 2.687869420702709,
+          "bss": 0.02034280575910563
+        },
+        {
+          "report": "Core Durable Goods Orders m/m",
+          "group": "below_forecast",
+          "events": 122,
+          "standalone_weight_pct": 19.147208553941454,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 52.85987871050112,
+          "historical_p_down_pct": 47.11458665815512,
+          "mean_change_usd": 0.11439179056237453,
+          "mean_abs_change_usd": 1.817754815772473,
+          "bss": 0.023651211991432497
+        },
+        {
+          "report": "Durable Goods Orders m/m",
+          "group": "above_forecast",
+          "events": 125,
+          "standalone_weight_pct": 33.133357323500356,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 39.63747543131688,
+          "historical_p_down_pct": 60.33756590646742,
+          "mean_change_usd": -0.5537561445630863,
+          "mean_abs_change_usd": 2.5344859101535273,
+          "bss": 0.04406180293822981
+        },
+        {
+          "report": "Unemployment Claims",
+          "group": "below_forecast",
+          "events": 549,
+          "standalone_weight_pct": 28.36447809139338,
+          "used_in_probability_mixture": true,
+          "historical_p_up_pct": 40.742927190079484,
+          "historical_p_down_pct": 59.25568377151706,
+          "mean_change_usd": -0.9466325097907382,
+          "mean_abs_change_usd": 3.0108497850302975,
+          "bss": 0.0319543040262531
+        }
+      ]
+    }
+  },
+  "warnings": []
+}

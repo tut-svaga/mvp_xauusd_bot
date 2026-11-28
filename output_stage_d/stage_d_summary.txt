@@ -1,0 +1,98 @@
+STAGE D — XAUUSD WEIGHTED HISTORICAL FORECAST
+Created UTC: 2026-11-24T16:19:05.828582+00:00
+Weights are walk-forward predictive utility, not causal influence.
+Probabilities are historical conditional estimates, not guarantees.
+
+HORIZON 5 MINUTES
+Weight method status: walk_forward_skill
+Report weights:
+  Unemployment Claims: 43.61% | BSS=0.1187 | events=1031 | OOS=516
+  Prelim GDP q/q: 30.25% | BSS=0.0932 | events=78 | OOS=39
+  Durable Goods Orders m/m: 24.59% | BSS=0.0765 | events=238 | OOS=119
+  Core PCE Price Index m/m: 1.55% | BSS=0.0042 | events=234 | OOS=117
+  Prelim GDP Price Index q/q: 0.00% | BSS=-0.0195 | events=78 | OOS=39
+  Core Durable Goods Orders m/m: 0.00% | BSS=-0.0313 | events=238 | OOS=119
+  Personal Income m/m: 0.00% | BSS=-0.0047 | events=234 | OOS=117
+  Personal Spending m/m: 0.00% | BSS=-0.0198 | events=234 | OOS=117
+Joint model: DISABLED | status=ok | BSS=0.005986139466977014
+
+Historical group probabilities (P up/down/flat):
+  Core PCE Price Index m/m
+    below_forecast: 61.3/38.6/0.0% (n=66) | E[move]=+1.251$ | mean|move|=2.738$
+    inline: 56.0/44.0/0.0% (n=132) | E[move]=+0.148$ | mean|move|=1.687$
+    above_forecast: 41.8/58.1/0.1% (n=36) | E[move]=+0.008$ | mean|move|=2.260$
+  Prelim GDP q/q
+    below_forecast: 50.4/49.3/0.3% (n=30) | E[move]=+0.581$ | mean|move|=1.818$
+    inline: 50.6/49.0/0.4% (n=18) | E[move]=+0.088$ | mean|move|=1.778$
+    above_forecast: 21.5/78.3/0.3% (n=30) | E[move]=-1.548$ | mean|move|=2.680$
+  Prelim GDP Price Index q/q
+    below_forecast: 48.7/50.9/0.4% (n=19) | E[move]=+0.446$ | mean|move|=2.018$
+    inline: 52.6/47.0/0.4% (n=17) | E[move]=+0.284$ | mean|move|=1.585$
+    above_forecast: 28.3/71.5/0.2% (n=42) | E[move]=-1.072$ | mean|move|=2.461$
+  Core Durable Goods Orders m/m
+    below_forecast: 60.1/39.9/0.0% (n=122) | E[move]=+0.297$ | mean|move|=1.563$
+    inline: 48.2/51.7/0.2% (n=13) | E[move]=-0.189$ | mean|move|=1.426$
+    above_forecast: 42.4/57.5/0.0% (n=103) | E[move]=-0.809$ | mean|move|=2.122$
+  Durable Goods Orders m/m
+    below_forecast: 64.5/35.5/0.0% (n=110) | E[move]=+0.399$ | mean|move|=1.546$
+    inline: 37.4/62.3/0.3% (n=3) | E[move]=-0.777$ | mean|move|=1.925$
+    above_forecast: 41.4/58.5/0.0% (n=125) | E[move]=-0.704$ | mean|move|=1.992$
+  Personal Income m/m
+    below_forecast: 57.5/42.5/0.0% (n=97) | E[move]=+0.736$ | mean|move|=2.165$
+    inline: 56.6/43.4/0.1% (n=51) | E[move]=+0.389$ | mean|move|=1.782$
+    above_forecast: 51.5/48.5/0.0% (n=86) | E[move]=+0.143$ | mean|move|=2.189$
+  Personal Spending m/m
+    below_forecast: 61.7/38.3/0.0% (n=98) | E[move]=+0.537$ | mean|move|=2.003$
+    inline: 54.7/45.2/0.0% (n=64) | E[move]=+0.611$ | mean|move|=2.424$
+    above_forecast: 46.7/53.2/0.0% (n=72) | E[move]=+0.158$ | mean|move|=1.892$
+  Unemployment Claims
+    below_forecast: 33.4/66.5/0.2% (n=549) | E[move]=-0.929$ | mean|move|=2.236$
+    inline: 38.3/61.6/0.1% (n=28) | E[move]=-0.833$ | mean|move|=2.773$
+    above_forecast: 64.9/34.9/0.2% (n=454) | E[move]=+0.936$ | mean|move|=2.179$
+
+HORIZON 15 MINUTES
+Weight method status: walk_forward_skill
+Report weights:
+  Durable Goods Orders m/m: 33.13% | BSS=0.0441 | events=238 | OOS=119
+  Unemployment Claims: 28.36% | BSS=0.0320 | events=1031 | OOS=516
+  Core Durable Goods Orders m/m: 19.15% | BSS=0.0237 | events=238 | OOS=119
+  Prelim GDP Price Index q/q: 13.47% | BSS=0.0203 | events=78 | OOS=39
+  Prelim GDP q/q: 5.89% | BSS=0.0076 | events=78 | OOS=39
+  Core PCE Price Index m/m: 0.00% | BSS=-0.0399 | events=234 | OOS=117
+  Personal Income m/m: 0.00% | BSS=-0.0073 | events=234 | OOS=117
+  Personal Spending m/m: 0.00% | BSS=-0.0045 | events=234 | OOS=117
+Joint model: DISABLED | status=ok | BSS=0.003412092570471703
+
+Historical group probabilities (P up/down/flat):
+  Core PCE Price Index m/m
+    below_forecast: 55.8/44.2/0.0% (n=66) | E[move]=+1.559$ | mean|move|=3.301$
+    inline: 55.2/44.8/0.0% (n=132) | E[move]=+0.115$ | mean|move|=2.249$
+    above_forecast: 46.1/53.8/0.1% (n=36) | E[move]=+0.433$ | mean|move|=3.284$
+  Prelim GDP q/q
+    below_forecast: 50.7/49.1/0.3% (n=30) | E[move]=+0.524$ | mean|move|=2.607$
+    inline: 47.2/52.5/0.4% (n=18) | E[move]=-0.281$ | mean|move|=2.517$
+    above_forecast: 27.0/72.7/0.3% (n=30) | E[move]=-1.878$ | mean|move|=3.203$
+  Prelim GDP Price Index q/q
+    below_forecast: 52.8/46.8/0.4% (n=19) | E[move]=+0.729$ | mean|move|=2.688$
+    inline: 53.0/46.6/0.4% (n=17) | E[move]=+0.250$ | mean|move|=2.117$
+    above_forecast: 28.5/71.3/0.2% (n=42) | E[move]=-1.694$ | mean|move|=3.215$
+  Core Durable Goods Orders m/m
+    below_forecast: 52.9/47.1/0.0% (n=122) | E[move]=+0.114$ | mean|move|=1.818$
+    inline: 41.5/58.3/0.2% (n=13) | E[move]=-0.417$ | mean|move|=1.931$
+    above_forecast: 40.3/59.7/0.0% (n=103) | E[move]=-0.664$ | mean|move|=2.698$
+  Durable Goods Orders m/m
+    below_forecast: 55.7/44.3/0.0% (n=110) | E[move]=+0.191$ | mean|move|=1.756$
+    inline: 33.8/65.9/0.3% (n=3) | E[move]=-1.504$ | mean|move|=2.916$
+    above_forecast: 39.6/60.3/0.0% (n=125) | E[move]=-0.554$ | mean|move|=2.534$
+  Personal Income m/m
+    below_forecast: 51.7/48.3/0.0% (n=97) | E[move]=+0.599$ | mean|move|=2.963$
+    inline: 63.2/36.7/0.1% (n=51) | E[move]=+0.867$ | mean|move|=2.271$
+    above_forecast: 50.3/49.7/0.0% (n=86) | E[move]=+0.388$ | mean|move|=2.751$
+  Personal Spending m/m
+    below_forecast: 55.9/44.0/0.0% (n=98) | E[move]=+0.466$ | mean|move|=2.475$
+    inline: 56.0/44.0/0.0% (n=64) | E[move]=+1.000$ | mean|move|=3.092$
+    above_forecast: 49.1/50.8/0.0% (n=72) | E[move]=+0.364$ | mean|move|=2.733$
+  Unemployment Claims
+    below_forecast: 40.7/59.3/0.0% (n=549) | E[move]=-0.947$ | mean|move|=3.011$
+    inline: 41.5/58.5/0.0% (n=28) | E[move]=-0.301$ | mean|move|=2.990$
+    above_forecast: 60.2/39.8/0.0% (n=454) | E[move]=+0.878$ | mean|move|=2.934$

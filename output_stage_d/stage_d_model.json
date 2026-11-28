@@ -1,0 +1,1296 @@
+{
+  "schema_version": "1.0",
+  "model_type": "stage_d_weighted_historical_xauusd",
+  "created_utc": "2026-11-24T16:19:05.828582+00:00",
+  "source_stage_c_dir": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\output_stage_c_corrected",
+  "source_stage_c_generated_utc": "2026-11-24T15:42:22.561984+00:00",
+  "classification": {
+    "rule": "Compare numeric Actual and Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "groups": [
+      "below_forecast",
+      "inline",
+      "above_forecast"
+    ]
+  },
+  "method": {
+    "report_weight": "chronological expanding-window multiclass Brier Skill Score, adjusted for co-occurring out-of-sample signal correlation",
+    "probability_estimation": "Dirichlet-smoothed group frequencies; prior strength=8.0 events toward report baseline",
+    "combined_forecast": "skill-weighted mixture of report-specific conditional distributions; never sum per-report price moves",
+    "joint_model": "ridge softmax trained only on co-timestamped multi-report releases and enabled only after positive walk-forward skill",
+    "horizons_minutes": [
+      5,
+      15
+    ],
+    "direction_classes": [
+      "up",
+      "down",
+      "flat"
+    ],
+    "important": "Weights are statistical predictive utility, not causal shares of gold movement. Estimates are historical, not guarantees."
+  },
+  "data_quality": {
+    "report_audit": {
+      "core_pce_price_index_m_m": {
+        "report": "Core PCE Price Index m/m",
+        "file_found": true,
+        "rows_in_file": 237,
+        "events_loaded": 236,
+        "duplicate_timestamps_removed": 1,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 234,
+          "15": 234
+        },
+        "first_event_utc": "2007-02-01T13:30:00+00:00",
+        "last_event_utc": "2026-10-29T12:30:00+00:00"
+      },
+      "prelim_gdp_q_q": {
+        "report": "Prelim GDP q/q",
+        "file_found": true,
+        "rows_in_file": 78,
+        "events_loaded": 78,
+        "duplicate_timestamps_removed": 0,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 78,
+          "15": 78
+        },
+        "first_event_utc": "2007-02-28T13:30:00+00:00",
+        "last_event_utc": "2026-08-26T12:30:00+00:00"
+      },
+      "prelim_gdp_price_index_q_q": {
+        "report": "Prelim GDP Price Index q/q",
+        "file_found": true,
+        "rows_in_file": 78,
+        "events_loaded": 78,
+        "duplicate_timestamps_removed": 0,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 78,
+          "15": 78
+        },
+        "first_event_utc": "2007-02-28T13:30:00+00:00",
+        "last_event_utc": "2026-08-26T12:30:00+00:00"
+      },
+      "core_durable_goods_orders_m_m": {
+        "report": "Core Durable Goods Orders m/m",
+        "file_found": true,
+        "rows_in_file": 238,
+        "events_loaded": 238,
+        "duplicate_timestamps_removed": 0,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 238,
+          "15": 238
+        },
+        "first_event_utc": "2007-01-26T13:30:00+00:00",
+        "last_event_utc": "2026-10-27T12:30:00+00:00"
+      },
+      "durable_goods_orders_m_m": {
+        "report": "Durable Goods Orders m/m",
+        "file_found": true,
+        "rows_in_file": 238,
+        "events_loaded": 238,
+        "duplicate_timestamps_removed": 0,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 238,
+          "15": 238
+        },
+        "first_event_utc": "2007-01-26T13:30:00+00:00",
+        "last_event_utc": "2026-10-27T12:30:00+00:00"
+      },
+      "personal_income_m_m": {
+        "report": "Personal Income m/m",
+        "file_found": true,
+        "rows_in_file": 237,
+        "events_loaded": 236,
+        "duplicate_timestamps_removed": 1,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 234,
+          "15": 234
+        },
+        "first_event_utc": "2007-02-01T13:30:00+00:00",
+        "last_event_utc": "2026-10-29T12:30:00+00:00"
+      },
+      "personal_spending_m_m": {
+        "report": "Personal Spending m/m",
+        "file_found": true,
+        "rows_in_file": 237,
+        "events_loaded": 236,
+        "duplicate_timestamps_removed": 1,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 234,
+          "15": 234
+        },
+        "first_event_utc": "2007-02-01T13:30:00+00:00",
+        "last_event_utc": "2026-10-29T12:30:00+00:00"
+      },
+      "unemployment_claims": {
+        "report": "Unemployment Claims",
+        "file_found": true,
+        "rows_in_file": 1032,
+        "events_loaded": 1031,
+        "duplicate_timestamps_removed": 0,
+        "bad_release_time_rows": 0,
+        "events_with_direction": {
+          "5": 1031,
+          "15": 1031
+        },
+        "first_event_utc": "2007-01-04T13:30:00+00:00",
+        "last_event_utc": "2026-11-19T13:30:00+00:00"
+      }
+    }
+  },
+  "horizons": {
+    "5": {
+      "global_baseline": {
+        "up": 0.48625180897250364,
+        "down": 0.5115774240231549,
+        "flat": 0.002170767004341534
+      },
+      "report_weight_status": "walk_forward_skill",
+      "reports": {
+        "core_pce_price_index_m_m": {
+          "report": "Core PCE Price Index m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5485232067510548,
+            "down": 0.4472573839662447,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.49050781038343483,
+            "brier_baseline": 0.4925660118677294,
+            "bss": 0.004178529242182649,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.08578758427567519,
+          "adjusted_raw_skill": 0.0035564050789433995,
+          "weight": 0.015516325553427879,
+          "weight_pct": 1.5516325553427879,
+          "groups": {
+            "below_forecast": {
+              "events": 66,
+              "events_with_price_change": 66,
+              "probabilities": {
+                "up": 0.6133538601893033,
+                "down": 0.38618998745581024,
+                "flat": 0.0004561523548865321
+              },
+              "mean_change_usd": 1.2505347655347783,
+              "median_change_usd": 0.4995000000000118,
+              "mean_abs_change_usd": 2.7375443520443503,
+              "q25_change_usd": -0.926874999999967,
+              "q75_change_usd": 2.2374999999999545
+            },
+            "inline": {
+              "events": 132,
+              "events_with_price_change": 132,
+              "probabilities": {
+                "up": 0.559915611814346,
+                "down": 0.43984327908378545,
+                "flat": 0.00024110910186859552
+              },
+              "mean_change_usd": 0.14807909035407127,
+              "median_change_usd": 0.11100000000004684,
+              "mean_abs_change_usd": 1.6873341575091607,
+              "q25_change_usd": -0.864875000000211,
+              "q75_change_usd": 1.346625000000131
+            },
+            "above_forecast": {
+              "events": 36,
+              "events_with_price_change": 36,
+              "probabilities": {
+                "up": 0.4179133103183736,
+                "down": 0.581319524357499,
+                "flat": 0.0007671653241273494
+              },
+              "mean_change_usd": 0.008285742035751638,
+              "median_change_usd": -0.31274999999993724,
+              "mean_abs_change_usd": 2.2596427738927476,
+              "q25_change_usd": -1.7213749999998527,
+              "q75_change_usd": 1.3901250000000118
+            }
+          }
+        },
+        "prelim_gdp_q_q": {
+          "report": "Prelim GDP q/q",
+          "events": 78,
+          "base_probabilities": {
+            "up": 0.3950617283950617,
+            "down": 0.5925925925925926,
+            "flat": 0.012345679012345678
+          },
+          "walk_forward": {
+            "events": 78,
+            "oos_events": 39,
+            "first_oos_event_utc": "2016-11-29T13:30:00+00:00",
+            "last_oos_event_utc": "2026-08-26T12:30:00+00:00",
+            "brier_model": 0.4581469497387397,
+            "brier_baseline": 0.5052244133254454,
+            "bss": 0.09318129200613334,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.09254417959438416,
+          "adjusted_raw_skill": 0.06934194478488619,
+          "weight": 0.3025336444828641,
+          "weight_pct": 30.25336444828641,
+          "groups": {
+            "below_forecast": {
+              "events": 30,
+              "events_with_price_change": 30,
+              "probabilities": {
+                "up": 0.5042235217673814,
+                "down": 0.49317738791423,
+                "flat": 0.002599090318388564
+              },
+              "mean_change_usd": 0.5809935897435831,
+              "median_change_usd": 0.17649999999980537,
+              "mean_abs_change_usd": 1.8179976383265974,
+              "q25_change_usd": -0.7231250000000387,
+              "q75_change_usd": 1.8986250000001519
+            },
+            "inline": {
+              "events": 18,
+              "events_with_price_change": 18,
+              "probabilities": {
+                "up": 0.5061728395061729,
+                "down": 0.49002849002849,
+                "flat": 0.0037986704653371318
+              },
+              "mean_change_usd": 0.08812524654829447,
+              "median_change_usd": 0.39000000000010004,
+              "mean_abs_change_usd": 1.7778234714003984,
+              "q25_change_usd": -0.4667500000000473,
+              "q75_change_usd": 1.2316249999999513
+            },
+            "above_forecast": {
+              "events": 30,
+              "events_with_price_change": 30,
+              "probabilities": {
+                "up": 0.2147498375568551,
+                "down": 0.7826510721247564,
+                "flat": 0.002599090318388564
+              },
+              "mean_change_usd": -1.5477958839405976,
+              "median_change_usd": -1.6940000000000737,
+              "mean_abs_change_usd": 2.6804186909581746,
+              "q25_change_usd": -3.6852499999998827,
+              "q75_change_usd": -0.6112500000001546
+            }
+          }
+        },
+        "prelim_gdp_price_index_q_q": {
+          "report": "Prelim GDP Price Index q/q",
+          "events": 78,
+          "base_probabilities": {
+            "up": 0.3950617283950617,
+            "down": 0.5925925925925926,
+            "flat": 0.012345679012345678
+          },
+          "walk_forward": {
+            "events": 78,
+            "oos_events": 39,
+            "first_oos_event_utc": "2016-11-29T13:30:00+00:00",
+            "last_oos_event_utc": "2026-08-26T12:30:00+00:00",
+            "brier_model": 0.5151003604606533,
+            "brier_baseline": 0.5052244133254454,
+            "bss": -0.0195476443234468,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.27739736341722343,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 19,
+              "events_with_price_change": 19,
+              "probabilities": {
+                "up": 0.4874256973022405,
+                "down": 0.5089163237311385,
+                "flat": 0.003657978966620942
+              },
+              "mean_change_usd": 0.4464169040835912,
+              "median_change_usd": 0.28300000000012915,
+              "mean_abs_change_usd": 2.0179040835707536,
+              "q25_change_usd": -0.8245000000000573,
+              "q75_change_usd": 1.9529999999999745
+            },
+            "inline": {
+              "events": 17,
+              "events_with_price_change": 17,
+              "probabilities": {
+                "up": 0.5264197530864198,
+                "down": 0.4696296296296296,
+                "flat": 0.003950617283950617
+              },
+              "mean_change_usd": 0.2839702564102805,
+              "median_change_usd": 0.49700000000007094,
+              "mean_abs_change_usd": 1.5850164102563797,
+              "q25_change_usd": -0.6620000000000346,
+              "q75_change_usd": 1.6300000000001091
+            },
+            "above_forecast": {
+              "events": 42,
+              "events_with_price_change": 42,
+              "probabilities": {
+                "up": 0.2832098765432099,
+                "down": 0.7148148148148148,
+                "flat": 0.0019753086419753087
+              },
+              "mean_change_usd": -1.0719948717948975,
+              "median_change_usd": -1.0575000000000045,
+              "mean_abs_change_usd": 2.4610882051282372,
+              "q25_change_usd": -2.269249999999971,
+              "q75_change_usd": 0.060124999999800366
+            }
+          }
+        },
+        "core_durable_goods_orders_m_m": {
+          "report": "Core Durable Goods Orders m/m",
+          "events": 238,
+          "base_probabilities": {
+            "up": 0.5145228215767634,
+            "down": 0.48132780082987553,
+            "flat": 0.004149377593360996
+          },
+          "walk_forward": {
+            "events": 238,
+            "oos_events": 119,
+            "first_oos_event_utc": "2016-12-22T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-27T12:30:00+00:00",
+            "brier_model": 0.5192778509117258,
+            "brier_baseline": 0.5034951429099493,
+            "bss": -0.03134629643209741,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.21368570767891648,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 122,
+              "events_with_price_change": 122,
+              "probabilities": {
+                "up": 0.6008937120970316,
+                "down": 0.3988509415895308,
+                "flat": 0.00025534631343759976
+              },
+              "mean_change_usd": 0.29672411118294484,
+              "median_change_usd": 0.46125000000006366,
+              "mean_abs_change_usd": 1.5626510665804916,
+              "q25_change_usd": -0.5962499999999409,
+              "q75_change_usd": 1.51724999999999
+            },
+            "inline": {
+              "events": 13,
+              "events_with_price_change": 13,
+              "probabilities": {
+                "up": 0.4817229796482908,
+                "down": 0.5166963050780479,
+                "flat": 0.0015807152736613318
+              },
+              "mean_change_usd": -0.1888745498199011,
+              "median_change_usd": -0.16499999999996362,
+              "mean_abs_change_usd": 1.426292316926792,
+              "q25_change_usd": -1.3795000000000073,
+              "q75_change_usd": 0.6889999999998508
+            },
+            "above_forecast": {
+              "events": 103,
+              "events_with_price_change": 103,
+              "probabilities": {
+                "up": 0.42447011326679374,
+                "down": 0.5752308324922433,
+                "flat": 0.00029905424096295465
+              },
+              "mean_change_usd": -0.8085978878037468,
+              "median_change_usd": -0.40000000000009095,
+              "mean_abs_change_usd": 2.121721969869037,
+              "q25_change_usd": -1.8707500000000437,
+              "q75_change_usd": 0.6614999999999327
+            }
+          }
+        },
+        "durable_goods_orders_m_m": {
+          "report": "Durable Goods Orders m/m",
+          "events": 238,
+          "base_probabilities": {
+            "up": 0.5145228215767634,
+            "down": 0.48132780082987553,
+            "flat": 0.004149377593360996
+          },
+          "walk_forward": {
+            "events": 238,
+            "oos_events": 119,
+            "first_oos_event_utc": "2016-12-22T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-27T12:30:00+00:00",
+            "brier_model": 0.46496058873287927,
+            "brier_baseline": 0.5034951429099493,
+            "bss": 0.07653411302909441,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.25659209193551563,
+          "adjusted_raw_skill": 0.0563542678372503,
+          "weight": 0.24586939526799673,
+          "weight_pct": 24.58693952679967,
+          "groups": {
+            "below_forecast": {
+              "events": 110,
+              "events_with_price_change": 110,
+              "probabilities": {
+                "up": 0.6450523946831704,
+                "down": 0.3546662915816865,
+                "flat": 0.00028131373514311836
+              },
+              "mean_change_usd": 0.39869181740493814,
+              "median_change_usd": 0.5045000000000073,
+              "mean_abs_change_usd": 1.5462299886056265,
+              "q25_change_usd": -0.39475000000004457,
+              "q75_change_usd": 1.51724999999999
+            },
+            "inline": {
+              "events": 3,
+              "events_with_price_change": 3,
+              "probabilities": {
+                "up": 0.3741984156921916,
+                "down": 0.6227838551490005,
+                "flat": 0.003017729158807997
+              },
+              "mean_change_usd": -0.7770786860198945,
+              "median_change_usd": -0.7029999999999745,
+              "mean_abs_change_usd": 1.9247853323147965,
+              "q25_change_usd": -3.254000000000133,
+              "q75_change_usd": -0.5295000000000982
+            },
+            "above_forecast": {
+              "events": 125,
+              "events_with_price_change": 125,
+              "probabilities": {
+                "up": 0.41440738776401587,
+                "down": 0.5853430256138271,
+                "flat": 0.0002495866221570524
+              },
+              "mean_change_usd": -0.7040929740316907,
+              "median_change_usd": -0.43050000000016553,
+              "mean_abs_change_usd": 1.9923318695899466,
+              "q25_change_usd": -1.8215000000000146,
+              "q75_change_usd": 0.6920000000000073
+            }
+          }
+        },
+        "personal_income_m_m": {
+          "report": "Personal Income m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5485232067510548,
+            "down": 0.4472573839662447,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.49487983809882913,
+            "brier_baseline": 0.4925660118677294,
+            "bss": -0.0046974947019304825,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.1634010340085105,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 97,
+              "events_with_price_change": 97,
+              "probabilities": {
+                "up": 0.5751255776572233,
+                "down": 0.42455294354028533,
+                "flat": 0.0003214788024914607
+              },
+              "mean_change_usd": 0.7355816442816524,
+              "median_change_usd": 0.11800000000005184,
+              "mean_abs_change_usd": 2.165055067155063,
+              "q25_change_usd": -0.6730000000000018,
+              "q75_change_usd": 1.287499999999909
+            },
+            "inline": {
+              "events": 51,
+              "events_with_price_change": 51,
+              "probabilities": {
+                "up": 0.5659014517628549,
+                "down": 0.43352642494457555,
+                "flat": 0.0005721232925695487
+              },
+              "mean_change_usd": 0.3889080110097346,
+              "median_change_usd": 0.14600000000018554,
+              "mean_abs_change_usd": 1.781784441547142,
+              "q25_change_usd": -0.9772499999999127,
+              "q75_change_usd": 1.6902499999999918
+            },
+            "above_forecast": {
+              "events": 86,
+              "events_with_price_change": 86,
+              "probabilities": {
+                "up": 0.5147679324894515,
+                "down": 0.4848729688481911,
+                "flat": 0.0003590986623574827
+              },
+              "mean_change_usd": 0.14312311329328517,
+              "median_change_usd": 0.11000000000001364,
+              "mean_abs_change_usd": 2.1890774686306624,
+              "q25_change_usd": -1.4411250000001132,
+              "q75_change_usd": 1.7168750000001012
+            }
+          }
+        },
+        "personal_spending_m_m": {
+          "report": "Personal Spending m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5485232067510548,
+            "down": 0.4472573839662447,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.5022958107526206,
+            "brier_baseline": 0.4925660118677294,
+            "bss": -0.01975328920482644,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.2354180106951737,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 98,
+              "events_with_price_change": 98,
+              "probabilities": {
+                "up": 0.6168696759812117,
+                "down": 0.3828118780351883,
+                "flat": 0.0003184459836000318
+              },
+              "mean_change_usd": 0.5373827608450168,
+              "median_change_usd": 0.3957500000000209,
+              "mean_abs_change_usd": 2.0031158684083046,
+              "q25_change_usd": -0.8419999999999845,
+              "q75_change_usd": 2.111750000000086
+            },
+            "inline": {
+              "events": 64,
+              "events_with_price_change": 64,
+              "probabilities": {
+                "up": 0.5470581340834505,
+                "down": 0.4524730426629161,
+                "flat": 0.0004688232536333802
+              },
+              "mean_change_usd": 0.6110982312440609,
+              "median_change_usd": 0.1342499999999518,
+              "mean_abs_change_usd": 2.423830306267811,
+              "q25_change_usd": -1.1564999999998804,
+              "q75_change_usd": 1.6327499999999873
+            },
+            "above_forecast": {
+              "events": 72,
+              "events_with_price_change": 72,
+              "probabilities": {
+                "up": 0.46735232067510546,
+                "down": 0.5322257383966245,
+                "flat": 0.00042194092827004215
+              },
+              "mean_change_usd": 0.15841965811965592,
+              "median_change_usd": -0.22850000000005366,
+              "mean_abs_change_usd": 1.8922910256410332,
+              "q25_change_usd": -1.000499999999903,
+              "q75_change_usd": 1.0757499999998004
+            }
+          }
+        },
+        "unemployment_claims": {
+          "report": "Unemployment Claims",
+          "events": 1031,
+          "base_probabilities": {
+            "up": 0.47292069632495165,
+            "down": 0.5241779497098646,
+            "flat": 0.0029013539651837525
+          },
+          "walk_forward": {
+            "events": 1031,
+            "oos_events": 516,
+            "first_oos_event_utc": "2016-11-17T13:30:00+00:00",
+            "last_oos_event_utc": "2026-11-19T13:30:00+00:00",
+            "brier_model": 0.4411760167756924,
+            "brier_baseline": 0.5005784041227472,
+            "bss": 0.11866749915261765,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.1648905070689081,
+          "adjusted_raw_skill": 0.09995145943029453,
+          "weight": 0.43608063469571134,
+          "weight_pct": 43.608063469571135,
+          "groups": {
+            "below_forecast": {
+              "events": 549,
+              "events_with_price_change": 549,
+              "probabilities": {
+                "up": 0.3335428466258521,
+                "down": 0.6646201500855995,
+                "flat": 0.0018370032885484202
+              },
+              "mean_change_usd": -0.9293963112977085,
+              "median_change_usd": -0.8495000000002619,
+              "mean_abs_change_usd": 2.235997460240619,
+              "q25_change_usd": -2.2369999999998527,
+              "q75_change_usd": 0.48299999999994725
+            },
+            "inline": {
+              "events": 28,
+              "events_with_price_change": 28,
+              "probabilities": {
+                "up": 0.38287126584998926,
+                "down": 0.6164839888244144,
+                "flat": 0.0006447453255963894
+              },
+              "mean_change_usd": -0.8333679275783984,
+              "median_change_usd": -0.6727499999999509,
+              "mean_abs_change_usd": 2.7727801487229877,
+              "q25_change_usd": -1.2457500000000152,
+              "q75_change_usd": 1.0000000000000568
+            },
+            "above_forecast": {
+              "events": 454,
+              "events_with_price_change": 454,
+              "probabilities": {
+                "up": 0.6488817436593065,
+                "down": 0.34890351428069033,
+                "flat": 0.002214742060003182
+              },
+              "mean_change_usd": 0.9361812870285168,
+              "median_change_usd": 0.7342499999997472,
+              "mean_abs_change_usd": 2.179357327606116,
+              "q25_change_usd": -0.5853749999998854,
+              "q75_change_usd": 2.0974999999999113
+            }
+          }
+        }
+      },
+      "joint_model": {
+        "enabled": false,
+        "walk_forward": {
+          "events": 505,
+          "oos_events": 228,
+          "min_reports_per_timestamp": 2,
+          "max_reports_present_in_history": 8,
+          "brier_model": 0.4967383232762117,
+          "brier_baseline": 0.4997297754076027,
+          "bss": 0.005986139466977014,
+          "validation": "5 chronological expanding-window blocks",
+          "status": "ok"
+        },
+        "model": null,
+        "historical_joint_timestamps": 1379,
+        "coverage_counts_ge_k": {
+          "2": 505,
+          "3": 338,
+          "4": 76,
+          "5": 36,
+          "6": 19,
+          "7": 7,
+          "8": 5
+        },
+        "max_supported_report_count": 5,
+        "minimum_bss_to_enable": 0.01
+      }
+    },
+    "15": {
+      "global_baseline": {
+        "up": 0.49493487698986977,
+        "down": 0.5043415340086831,
+        "flat": 0.000723589001447178
+      },
+      "report_weight_status": "walk_forward_skill",
+      "reports": {
+        "core_pce_price_index_m_m": {
+          "report": "Core PCE Price Index m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5358649789029536,
+            "down": 0.459915611814346,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.517282196317408,
+            "brier_baseline": 0.4974234584864002,
+            "bss": -0.039923203243038774,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.17955991651255757,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 66,
+              "events_with_price_change": 66,
+              "probabilities": {
+                "up": 0.5579313490705896,
+                "down": 0.44161249857452395,
+                "flat": 0.0004561523548865321
+              },
+              "mean_change_usd": 1.5593174520674544,
+              "median_change_usd": 0.3765000000001919,
+              "mean_abs_change_usd": 3.3010400207900172,
+              "q25_change_usd": -0.8637500000000387,
+              "q75_change_usd": 2.6550000000000296
+            },
+            "inline": {
+              "events": 132,
+              "events_with_price_change": 132,
+              "probabilities": {
+                "up": 0.552049427365883,
+                "down": 0.4477094635322484,
+                "flat": 0.00024110910186859552
+              },
+              "mean_change_usd": 0.11489279609278615,
+              "median_change_usd": 0.18174999999985175,
+              "mean_abs_change_usd": 2.2494104395604553,
+              "q25_change_usd": -1.3462500000001114,
+              "q75_change_usd": 1.5624999999998863
+            },
+            "above_forecast": {
+              "events": 36,
+              "events_with_price_change": 36,
+              "probabilities": {
+                "up": 0.461066359800537,
+                "down": 0.5381664748753356,
+                "flat": 0.0007671653241273494
+              },
+              "mean_change_usd": 0.43263616938617183,
+              "median_change_usd": -0.18849999999997635,
+              "mean_abs_change_usd": 3.2844423076923133,
+              "q25_change_usd": -1.9336249999999495,
+              "q75_change_usd": 2.4213749999996708
+            }
+          }
+        },
+        "prelim_gdp_q_q": {
+          "report": "Prelim GDP q/q",
+          "events": 78,
+          "base_probabilities": {
+            "up": 0.4074074074074074,
+            "down": 0.5802469135802469,
+            "flat": 0.012345679012345678
+          },
+          "walk_forward": {
+            "events": 78,
+            "oos_events": 39,
+            "first_oos_event_utc": "2016-11-29T13:30:00+00:00",
+            "last_oos_event_utc": "2026-08-26T12:30:00+00:00",
+            "brier_model": 0.4888679807304233,
+            "brier_baseline": 0.49258977926587716,
+            "bss": 0.00755557401333129,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.0950596190416931,
+          "adjusted_raw_skill": 0.005609652998322253,
+          "weight": 0.058857231201815186,
+          "weight_pct": 5.8857231201815186,
+          "groups": {
+            "below_forecast": {
+              "events": 30,
+              "events_with_price_change": 30,
+              "probabilities": {
+                "up": 0.50682261208577,
+                "down": 0.49057829759584143,
+                "flat": 0.002599090318388564
+              },
+              "mean_change_usd": 0.5240259784075335,
+              "median_change_usd": 0.4907500000000482,
+              "mean_abs_change_usd": 2.607380904183529,
+              "q25_change_usd": -0.7880000000000393,
+              "q75_change_usd": 2.2757500000000164
+            },
+            "inline": {
+              "events": 18,
+              "events_with_price_change": 18,
+              "probabilities": {
+                "up": 0.47150997150997154,
+                "down": 0.5246913580246914,
+                "flat": 0.0037986704653371318
+              },
+              "mean_change_usd": -0.2813081854043601,
+              "median_change_usd": 0.15325000000007094,
+              "mean_abs_change_usd": 2.5168259368836443,
+              "q25_change_usd": -1.858624999999961,
+              "q75_change_usd": 1.3599999999999568
+            },
+            "above_forecast": {
+              "events": 30,
+              "events_with_price_change": 30,
+              "probabilities": {
+                "up": 0.2699805068226121,
+                "down": 0.7274204028589993,
+                "flat": 0.002599090318388564
+              },
+              "mean_change_usd": -1.8778292847503189,
+              "median_change_usd": -1.2115000000000578,
+              "mean_abs_change_usd": 3.2034730094466766,
+              "q25_change_usd": -3.9344999999999004,
+              "q75_change_usd": -0.15024999999997135
+            }
+          }
+        },
+        "prelim_gdp_price_index_q_q": {
+          "report": "Prelim GDP Price Index q/q",
+          "events": 78,
+          "base_probabilities": {
+            "up": 0.4074074074074074,
+            "down": 0.5802469135802469,
+            "flat": 0.012345679012345678
+          },
+          "walk_forward": {
+            "events": 78,
+            "oos_events": 39,
+            "first_oos_event_utc": "2016-11-29T13:30:00+00:00",
+            "last_oos_event_utc": "2026-08-26T12:30:00+00:00",
+            "brier_model": 0.4825691210673507,
+            "brier_baseline": 0.49258977926587716,
+            "bss": 0.02034280575910563,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.28836262488199643,
+          "adjusted_raw_skill": 0.01283745790302619,
+          "weight": 0.13469232910983295,
+          "weight_pct": 13.469232910983294,
+          "groups": {
+            "below_forecast": {
+              "events": 19,
+              "events_with_price_change": 19,
+              "probabilities": {
+                "up": 0.5281207133058985,
+                "down": 0.46822130772748055,
+                "flat": 0.003657978966620942
+              },
+              "mean_change_usd": 0.7287773029439321,
+              "median_change_usd": 0.6929999999999836,
+              "mean_abs_change_usd": 2.687869420702709,
+              "q25_change_usd": -0.38324999999997544,
+              "q75_change_usd": 1.8607499999998254
+            },
+            "inline": {
+              "events": 17,
+              "events_with_price_change": 17,
+              "probabilities": {
+                "up": 0.5303703703703704,
+                "down": 0.465679012345679,
+                "flat": 0.003950617283950617
+              },
+              "mean_change_usd": 0.2496994871794894,
+              "median_change_usd": 0.7850000000000819,
+              "mean_abs_change_usd": 2.1167189743589767,
+              "q25_change_usd": -0.787499999999909,
+              "q75_change_usd": 1.4449999999999363
+            },
+            "above_forecast": {
+              "events": 42,
+              "events_with_price_change": 42,
+              "probabilities": {
+                "up": 0.2851851851851852,
+                "down": 0.7128395061728395,
+                "flat": 0.0019753086419753087
+              },
+              "mean_change_usd": -1.693560256410252,
+              "median_change_usd": -1.2779999999999632,
+              "mean_abs_change_usd": 3.2151894871794995,
+              "q25_change_usd": -3.4832499999999413,
+              "q75_change_usd": 0.46287500000028103
+            }
+          }
+        },
+        "core_durable_goods_orders_m_m": {
+          "report": "Core Durable Goods Orders m/m",
+          "events": 238,
+          "base_probabilities": {
+            "up": 0.46473029045643155,
+            "down": 0.5311203319502075,
+            "flat": 0.004149377593360996
+          },
+          "walk_forward": {
+            "events": 238,
+            "oos_events": 119,
+            "first_oos_event_utc": "2016-12-22T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-27T12:30:00+00:00",
+            "brier_model": 0.4893877416209103,
+            "brier_baseline": 0.5012427399219713,
+            "bss": 0.023651211991432497,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.19916196201695116,
+          "adjusted_raw_skill": 0.018249107829388787,
+          "weight": 0.19147208553941453,
+          "weight_pct": 19.147208553941454,
+          "groups": {
+            "below_forecast": {
+              "events": 122,
+              "events_with_price_change": 122,
+              "probabilities": {
+                "up": 0.5285987871050112,
+                "down": 0.4711458665815512,
+                "flat": 0.00025534631343759976
+              },
+              "mean_change_usd": 0.11439179056237453,
+              "median_change_usd": 0.0957500000000664,
+              "mean_abs_change_usd": 1.817754815772473,
+              "q25_change_usd": -0.7560000000000286,
+              "q75_change_usd": 1.4114999999998759
+            },
+            "inline": {
+              "events": 13,
+              "events_with_price_change": 13,
+              "probabilities": {
+                "up": 0.4151353487453073,
+                "down": 0.5832839359810313,
+                "flat": 0.0015807152736613318
+              },
+              "mean_change_usd": -0.41738415366142995,
+              "median_change_usd": -0.5419999999999163,
+              "mean_abs_change_usd": 1.931434573829554,
+              "q25_change_usd": -2.4535000000000764,
+              "q75_change_usd": 0.7085000000001855
+            },
+            "above_forecast": {
+              "events": 103,
+              "events_with_price_change": 103,
+              "probabilities": {
+                "up": 0.4028634443572203,
+                "down": 0.5968375014018168,
+                "flat": 0.00029905424096295465
+              },
+              "mean_change_usd": -0.6640006056476463,
+              "median_change_usd": -0.6349999999999909,
+              "mean_abs_change_usd": 2.69822636081458,
+              "q25_change_usd": -2.173999999999978,
+              "q75_change_usd": 1.125000000000341
+            }
+          }
+        },
+        "durable_goods_orders_m_m": {
+          "report": "Durable Goods Orders m/m",
+          "events": 238,
+          "base_probabilities": {
+            "up": 0.46473029045643155,
+            "down": 0.5311203319502075,
+            "flat": 0.004149377593360996
+          },
+          "walk_forward": {
+            "events": 238,
+            "oos_events": 119,
+            "first_oos_event_utc": "2016-12-22T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-27T12:30:00+00:00",
+            "brier_model": 0.47915708109131105,
+            "brier_baseline": 0.5012427399219713,
+            "bss": 0.04406180293822981,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.29100145172891073,
+          "adjusted_raw_skill": 0.031579235628148974,
+          "weight": 0.33133357323500356,
+          "weight_pct": 33.133357323500356,
+          "groups": {
+            "below_forecast": {
+              "events": 110,
+              "events_with_price_change": 110,
+              "probabilities": {
+                "up": 0.5569308671495886,
+                "down": 0.4427878191152683,
+                "flat": 0.00028131373514311836
+              },
+              "mean_change_usd": 0.1914485828229774,
+              "median_change_usd": 0.33425000000011096,
+              "mean_abs_change_usd": 1.7560180173764488,
+              "q25_change_usd": -0.7560000000000286,
+              "q75_change_usd": 1.693625000000111
+            },
+            "inline": {
+              "events": 3,
+              "events_with_price_change": 3,
+              "probabilities": {
+                "up": 0.3379856657864957,
+                "down": 0.6589966050546964,
+                "flat": 0.003017729158807997
+              },
+              "mean_change_usd": -1.503597020626448,
+              "median_change_usd": -1.8959999999999582,
+              "mean_abs_change_usd": 2.915875095492764,
+              "q25_change_usd": -6.947999999999979,
+              "q75_change_usd": -1.2377500000001191
+            },
+            "above_forecast": {
+              "events": 125,
+              "events_with_price_change": 125,
+              "probabilities": {
+                "up": 0.3963747543131688,
+                "down": 0.6033756590646742,
+                "flat": 0.0002495866221570524
+              },
+              "mean_change_usd": -0.5537561445630863,
+              "median_change_usd": -0.40800000000012915,
+              "mean_abs_change_usd": 2.5344859101535273,
+              "q25_change_usd": -1.93100000000004,
+              "q75_change_usd": 0.9954999999999927
+            }
+          }
+        },
+        "personal_income_m_m": {
+          "report": "Personal Income m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5358649789029536,
+            "down": 0.459915611814346,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.5010394140781095,
+            "brier_baseline": 0.4974234584864002,
+            "bss": -0.007269370854989798,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.1548095067320071,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 97,
+              "events_with_price_change": 97,
+              "probabilities": {
+                "up": 0.5170182841068917,
+                "down": 0.48266023709061684,
+                "flat": 0.0003214788024914607
+              },
+              "mean_change_usd": 0.5988618233618398,
+              "median_change_usd": 0.0284999999998945,
+              "mean_abs_change_usd": 2.963237728937746,
+              "q25_change_usd": -1.6409999999999627,
+              "q75_change_usd": 1.3959999999999582
+            },
+            "inline": {
+              "events": 51,
+              "events_with_price_change": 51,
+              "probabilities": {
+                "up": 0.6319816920546377,
+                "down": 0.36744618465279266,
+                "flat": 0.0005721232925695487
+              },
+              "mean_change_usd": 0.8672371432710372,
+              "median_change_usd": 0.5165000000001783,
+              "mean_abs_change_usd": 2.2714993481095167,
+              "q25_change_usd": -0.8247499999999945,
+              "q75_change_usd": 1.8732500000000982
+            },
+            "above_forecast": {
+              "events": 86,
+              "events_with_price_change": 86,
+              "probabilities": {
+                "up": 0.5030523386300386,
+                "down": 0.49658856270760393,
+                "flat": 0.0003590986623574827
+              },
+              "mean_change_usd": 0.3879041643934985,
+              "median_change_usd": -0.03824999999994816,
+              "mean_abs_change_usd": 2.7505474631751268,
+              "q25_change_usd": -1.6071250000000532,
+              "q75_change_usd": 2.5834999999999013
+            }
+          }
+        },
+        "personal_spending_m_m": {
+          "report": "Personal Spending m/m",
+          "events": 234,
+          "base_probabilities": {
+            "up": 0.5358649789029536,
+            "down": 0.459915611814346,
+            "flat": 0.004219409282700422
+          },
+          "walk_forward": {
+            "events": 234,
+            "oos_events": 117,
+            "first_oos_event_utc": "2016-11-30T13:30:00+00:00",
+            "last_oos_event_utc": "2026-10-29T12:30:00+00:00",
+            "brier_model": 0.4996662125905491,
+            "brier_baseline": 0.4974234584864002,
+            "bss": -0.004508742130846288,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.13440619429050013,
+          "adjusted_raw_skill": 0.0,
+          "weight": 0.0,
+          "weight_pct": 0.0,
+          "groups": {
+            "below_forecast": {
+              "events": 98,
+              "events_with_price_change": 98,
+              "probabilities": {
+                "up": 0.559310564445506,
+                "down": 0.44037098957089404,
+                "flat": 0.0003184459836000318
+              },
+              "mean_change_usd": 0.4659716174810554,
+              "median_change_usd": 0.14799999999979718,
+              "mean_abs_change_usd": 2.475438316400576,
+              "q25_change_usd": -1.134375000000034,
+              "q75_change_usd": 2.0637499999998568
+            },
+            "inline": {
+              "events": 64,
+              "events_with_price_change": 64,
+              "probabilities": {
+                "up": 0.5595405532114393,
+                "down": 0.43999062353492735,
+                "flat": 0.0004688232536333802
+              },
+              "mean_change_usd": 0.9998748812915375,
+              "median_change_usd": 0.35799999999994725,
+              "mean_abs_change_usd": 3.0923814102564084,
+              "q25_change_usd": -1.3157500000001505,
+              "q75_change_usd": 1.6495000000000175
+            },
+            "above_forecast": {
+              "events": 72,
+              "events_with_price_change": 72,
+              "probabilities": {
+                "up": 0.49108649789029535,
+                "down": 0.5084915611814347,
+                "flat": 0.00042194092827004215
+              },
+              "mean_change_usd": 0.3640811431623834,
+              "median_change_usd": -0.09399999999993724,
+              "mean_abs_change_usd": 2.7332745192308043,
+              "q25_change_usd": -1.7391250000000014,
+              "q75_change_usd": 1.7708750000000464
+            }
+          }
+        },
+        "unemployment_claims": {
+          "report": "Unemployment Claims",
+          "events": 1031,
+          "base_probabilities": {
+            "up": 0.4922630560928433,
+            "down": 0.5067698259187621,
+            "flat": 0.0009671179883945841
+          },
+          "walk_forward": {
+            "events": 1031,
+            "oos_events": 516,
+            "first_oos_event_utc": "2016-11-17T13:30:00+00:00",
+            "last_oos_event_utc": "2026-11-19T13:30:00+00:00",
+            "brier_model": 0.48448633125741425,
+            "brier_baseline": 0.5004787824298672,
+            "bss": 0.0319543040262531,
+            "status": "ok"
+          },
+          "mean_abs_oos_signal_correlation": 0.15974057655237717,
+          "adjusted_raw_skill": 0.02703404090240717,
+          "weight": 0.2836447809139338,
+          "weight_pct": 28.36447809139338,
+          "groups": {
+            "below_forecast": {
+              "events": 549,
+              "events_with_price_change": 549,
+              "probabilities": {
+                "up": 0.40742927190079486,
+                "down": 0.5925568377151706,
+                "flat": 1.3890384034392592e-05
+              },
+              "mean_change_usd": -0.9466325097907382,
+              "median_change_usd": -0.7479999999998199,
+              "mean_abs_change_usd": 3.0108497850302975,
+              "q25_change_usd": -2.5384999999998854,
+              "q75_change_usd": 0.9265000000000327
+            },
+            "inline": {
+              "events": 28,
+              "events_with_price_change": 28,
+              "probabilities": {
+                "up": 0.41494734579840964,
+                "down": 0.5848377390930583,
+                "flat": 0.0002149151085321298
+              },
+              "mean_change_usd": -0.30149466537346037,
+              "median_change_usd": -0.5499999999999545,
+              "mean_abs_change_usd": 2.989939729496771,
+              "q25_change_usd": -2.191874999999982,
+              "q75_change_usd": 0.9587499999998954
+            },
+            "above_forecast": {
+              "events": 454,
+              "events_with_price_change": 454,
+              "probabilities": {
+                "up": 0.6015976286769323,
+                "down": 0.398385624691234,
+                "flat": 1.6746631833672454e-05
+              },
+              "mean_change_usd": 0.8776779048626768,
+              "median_change_usd": 0.6090000000000373,
+              "mean_abs_change_usd": 2.9342766888785405,
+              "q25_change_usd": -0.9666250000000218,
+              "q75_change_usd": 2.38900000000001
+            }
+          }
+        }
+      },
+      "joint_model": {
+        "enabled": false,
+        "walk_forward": {
+          "events": 505,
+          "oos_events": 228,
+          "min_reports_per_timestamp": 2,
+          "max_reports_present_in_history": 8,
+          "brier_model": 0.4990003013672135,
+          "brier_baseline": 0.5007087660277468,
+          "bss": 0.003412092570471703,
+          "validation": "5 chronological expanding-window blocks",
+          "status": "ok"
+        },
+        "model": null,
+        "historical_joint_timestamps": 1379,
+        "coverage_counts_ge_k": {
+          "2": 505,
+          "3": 338,
+          "4": 76,
+          "5": 36,
+          "6": 19,
+          "7": 7,
+          "8": 5
+        },
+        "max_supported_report_count": 5,
+        "minimum_bss_to_enable": 0.01
+      }
+    }
+  }
+}

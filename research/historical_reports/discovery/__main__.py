@@ -1,5 +1,6 @@
 """Command-line entry point: python -m research.historical_reports.discovery."""
 from __future__ import annotations
+from datetime import datetime
 
 import argparse
 import sys
@@ -11,7 +12,7 @@ from .runner import run_discovery
 REPO_ROOT = Path(__file__).resolve().parents[3]
 DEFAULT_ECONOMIC_DATA = REPO_ROOT / "data" / "economic_data"
 DEFAULT_CACHE = REPO_ROOT / "data" / "forex_factory_cache.csv"
-DEFAULT_OUTPUT = REPO_ROOT / "output" / "research_discovery"
+DEFAULT_OUTPUT = ( REPO_ROOT / "artifacts" / "research" / "discovery" / f"{datetime.now():%Y-%m-%d}")
 
 
 def parse_args() -> argparse.Namespace:

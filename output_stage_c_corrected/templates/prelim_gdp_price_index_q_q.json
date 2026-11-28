@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "report": "Prelim GDP Price Index q/q",
+  "slug": "prelim_gdp_price_index_q_q",
+  "source_csv": "inflation\\prelim_gdp_price_index_q_q.csv",
+  "method": {
+    "classification": "Compare numeric Actual with numeric Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "price": "(BID close + ASK close) / 2",
+    "baseline": "Last completed M1 candle close at or before event timestamp.",
+    "horizons": "Last completed M1 candle close at or before event timestamp + N minutes.",
+    "direction": "up if midpoint change > 0; down if < 0; flat if == 0.",
+    "price_unit": "USD per troy ounce, as represented by XAUUSD quotes."
+  },
+  "data_quality": {
+    "rows": 78,
+    "events_loaded": 78,
+    "skipped_bad_time": 0,
+    "rows_missing_actual_or_forecast": 0,
+    "skipped_non_usd": 0,
+    "timestamp_sources": {
+      "DateTime_calendar_date_assumed_08:30_America/New_York": 78
+    },
+    "scheduled_release_timezone": "America/New_York",
+    "scheduled_release_time": "08:30",
+    "events_with_quotes_m5": 78,
+    "events_with_quotes_m15": 78,
+    "events_with_baseline": 78
+  },
+  "groups": {
+    "below_forecast": {
+      "events_in_group": 19,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "below_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 19,
+          "events_with_quote_result": 19,
+          "events_without_quote_result": 0,
+          "up_count": 10,
+          "down_count": 9,
+          "flat_count": 0,
+          "p_up_pct": 52.63157894736842,
+          "p_down_pct": 47.36842105263158,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.7765789473684507,
+          "median_change_usd": 0.28300000000012915,
+          "mean_abs_change_usd": 1.9711052631578958,
+          "q25_change_usd": -0.8245000000000573,
+          "q75_change_usd": 1.9529999999999745
+        },
+        "15": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "below_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 19,
+          "events_with_quote_result": 19,
+          "events_without_quote_result": 0,
+          "up_count": 11,
+          "down_count": 8,
+          "flat_count": 0,
+          "p_up_pct": 57.89473684210526,
+          "p_down_pct": 42.10526315789474,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 1.2781842105262655,
+          "median_change_usd": 0.6929999999999836,
+          "mean_abs_change_usd": 2.637973684210465,
+          "q25_change_usd": -0.38324999999997544,
+          "q75_change_usd": 1.8607499999998254
+        }
+      }
+    },
+    "inline": {
+      "events_in_group": 17,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "inline",
+          "horizon_minutes": 5,
+          "events_in_group": 17,
+          "events_with_quote_result": 17,
+          "events_without_quote_result": 0,
+          "up_count": 10,
+          "down_count": 7,
+          "flat_count": 0,
+          "p_up_pct": 58.8235294117647,
+          "p_down_pct": 41.1764705882353,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.5765294117647419,
+          "median_change_usd": 0.49700000000007094,
+          "mean_abs_change_usd": 1.3289999999999509,
+          "q25_change_usd": -0.6620000000000346,
+          "q75_change_usd": 1.6300000000001091
+        },
+        "15": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "inline",
+          "horizon_minutes": 15,
+          "events_in_group": 17,
+          "events_with_quote_result": 17,
+          "events_without_quote_result": 0,
+          "up_count": 10,
+          "down_count": 7,
+          "flat_count": 0,
+          "p_up_pct": 58.8235294117647,
+          "p_down_pct": 41.1764705882353,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.6382941176470655,
+          "median_change_usd": 0.7850000000000819,
+          "mean_abs_change_usd": 1.792176470588241,
+          "q25_change_usd": -0.787499999999909,
+          "q75_change_usd": 1.4449999999999363
+        }
+      }
+    },
+    "above_forecast": {
+      "events_in_group": 42,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "above_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 42,
+          "events_with_quote_result": 42,
+          "events_without_quote_result": 0,
+          "up_count": 11,
+          "down_count": 31,
+          "flat_count": 0,
+          "p_up_pct": 26.19047619047619,
+          "p_down_pct": 73.80952380952381,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -1.2118571428571732,
+          "median_change_usd": -1.0575000000000045,
+          "mean_abs_change_usd": 2.5243333333333697,
+          "q25_change_usd": -2.269249999999971,
+          "q75_change_usd": 0.060124999999800366
+        },
+        "15": {
+          "report": "Prelim GDP Price Index q/q",
+          "result_group": "above_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 42,
+          "events_with_quote_result": 42,
+          "events_without_quote_result": 0,
+          "up_count": 11,
+          "down_count": 31,
+          "flat_count": 0,
+          "p_up_pct": 26.19047619047619,
+          "p_down_pct": 73.80952380952381,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -1.90641666666666,
+          "median_change_usd": -1.2779999999999632,
+          "mean_abs_change_usd": 3.2930595238095397,
+          "q25_change_usd": -3.4832499999999413,
+          "q75_change_usd": 0.46287500000028103
+        }
+      }
+    }
+  }
+}

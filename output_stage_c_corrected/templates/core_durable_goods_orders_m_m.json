@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "report": "Core Durable Goods Orders m/m",
+  "slug": "core_durable_goods_orders_m_m",
+  "source_csv": "growth\\core_durable_goods_orders_m_m.csv",
+  "method": {
+    "classification": "Compare numeric Actual with numeric Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "price": "(BID close + ASK close) / 2",
+    "baseline": "Last completed M1 candle close at or before event timestamp.",
+    "horizons": "Last completed M1 candle close at or before event timestamp + N minutes.",
+    "direction": "up if midpoint change > 0; down if < 0; flat if == 0.",
+    "price_unit": "USD per troy ounce, as represented by XAUUSD quotes."
+  },
+  "data_quality": {
+    "rows": 238,
+    "events_loaded": 238,
+    "skipped_bad_time": 0,
+    "rows_missing_actual_or_forecast": 0,
+    "skipped_non_usd": 0,
+    "timestamp_sources": {
+      "DateTime_calendar_date_assumed_08:30_America/New_York": 238
+    },
+    "scheduled_release_timezone": "America/New_York",
+    "scheduled_release_time": "08:30",
+    "events_with_quotes_m5": 238,
+    "events_with_quotes_m15": 238,
+    "events_with_baseline": 238
+  },
+  "groups": {
+    "below_forecast": {
+      "events_in_group": 122,
+      "horizons": {
+        "5": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "below_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 122,
+          "events_with_quote_result": 122,
+          "events_without_quote_result": 0,
+          "up_count": 74,
+          "down_count": 48,
+          "flat_count": 0,
+          "p_up_pct": 60.65573770491803,
+          "p_down_pct": 39.34426229508197,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.3299836065573867,
+          "median_change_usd": 0.46125000000006366,
+          "mean_abs_change_usd": 1.5478360655737837,
+          "q25_change_usd": -0.5962499999999409,
+          "q75_change_usd": 1.51724999999999
+        },
+        "15": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "below_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 122,
+          "events_with_quote_result": 122,
+          "events_without_quote_result": 0,
+          "up_count": 65,
+          "down_count": 57,
+          "flat_count": 0,
+          "p_up_pct": 53.278688524590166,
+          "p_down_pct": 46.721311475409834,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.13881147540983096,
+          "median_change_usd": 0.0957500000000664,
+          "mean_abs_change_usd": 1.7926967213114862,
+          "q25_change_usd": -0.7560000000000286,
+          "q75_change_usd": 1.4114999999998759
+        }
+      }
+    },
+    "inline": {
+      "events_in_group": 13,
+      "horizons": {
+        "5": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "inline",
+          "horizon_minutes": 5,
+          "events_in_group": 13,
+          "events_with_quote_result": 13,
+          "events_without_quote_result": 0,
+          "up_count": 6,
+          "down_count": 7,
+          "flat_count": 0,
+          "p_up_pct": 46.15384615384615,
+          "p_down_pct": 53.84615384615385,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -0.17557692307689018,
+          "median_change_usd": -0.16499999999996362,
+          "mean_abs_change_usd": 1.2033461538461814,
+          "q25_change_usd": -1.3795000000000073,
+          "q75_change_usd": 0.6889999999998508
+        },
+        "15": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "inline",
+          "horizon_minutes": 15,
+          "events_in_group": 13,
+          "events_with_quote_result": 13,
+          "events_without_quote_result": 0,
+          "up_count": 5,
+          "down_count": 8,
+          "flat_count": 0,
+          "p_up_pct": 38.46153846153846,
+          "p_down_pct": 61.53846153846154,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -0.5154615384614877,
+          "median_change_usd": -0.5419999999999163,
+          "mean_abs_change_usd": 1.7662307692308052,
+          "q25_change_usd": -2.4535000000000764,
+          "q75_change_usd": 0.7085000000001855
+        }
+      }
+    },
+    "above_forecast": {
+      "events_in_group": 103,
+      "horizons": {
+        "5": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "above_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 103,
+          "events_with_quote_result": 103,
+          "events_without_quote_result": 0,
+          "up_count": 43,
+          "down_count": 60,
+          "flat_count": 0,
+          "p_up_pct": 41.74757281553398,
+          "p_down_pct": 58.25242718446602,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -0.8550533980582286,
+          "median_change_usd": -0.40000000000009095,
+          "mean_abs_change_usd": 2.1475970873786485,
+          "q25_change_usd": -1.8707500000000437,
+          "q75_change_usd": 0.6614999999999327
+        },
+        "15": {
+          "report": "Core Durable Goods Orders m/m",
+          "result_group": "above_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 103,
+          "events_with_quote_result": 103,
+          "events_without_quote_result": 0,
+          "up_count": 41,
+          "down_count": 62,
+          "flat_count": 0,
+          "p_up_pct": 39.80582524271845,
+          "p_down_pct": 60.19417475728155,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -0.6955339805825054,
+          "median_change_usd": -0.6349999999999909,
+          "mean_abs_change_usd": 2.736932038834934,
+          "q25_change_usd": -2.173999999999978,
+          "q75_change_usd": 1.125000000000341
+        }
+      }
+    }
+  }
+}

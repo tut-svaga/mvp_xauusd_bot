@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "report": "Prelim GDP q/q",
+  "slug": "prelim_gdp_q_q",
+  "source_csv": "growth\\prelim_gdp_q_q.csv",
+  "method": {
+    "classification": "Compare numeric Actual with numeric Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "price": "(BID close + ASK close) / 2",
+    "baseline": "Last completed M1 candle close at or before event timestamp.",
+    "horizons": "Last completed M1 candle close at or before event timestamp + N minutes.",
+    "direction": "up if midpoint change > 0; down if < 0; flat if == 0.",
+    "price_unit": "USD per troy ounce, as represented by XAUUSD quotes."
+  },
+  "data_quality": {
+    "rows": 238,
+    "events_loaded": 78,
+    "skipped_bad_time": 0,
+    "rows_missing_actual_or_forecast": 0,
+    "skipped_non_usd": 160,
+    "timestamp_sources": {
+      "DateTime_calendar_date_assumed_08:30_America/New_York": 78
+    },
+    "scheduled_release_timezone": "America/New_York",
+    "scheduled_release_time": "08:30",
+    "events_with_quotes_m5": 78,
+    "events_with_quotes_m15": 78,
+    "events_with_baseline": 78
+  },
+  "groups": {
+    "below_forecast": {
+      "events_in_group": 30,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP q/q",
+          "result_group": "below_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 30,
+          "events_with_quote_result": 30,
+          "events_without_quote_result": 0,
+          "up_count": 16,
+          "down_count": 14,
+          "flat_count": 0,
+          "p_up_pct": 53.333333333333336,
+          "p_down_pct": 46.666666666666664,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.8259833333333252,
+          "median_change_usd": 0.17649999999980537,
+          "mean_abs_change_usd": 1.7350500000000124,
+          "q25_change_usd": -0.7231250000000387,
+          "q75_change_usd": 1.8986250000001519
+        },
+        "15": {
+          "report": "Prelim GDP q/q",
+          "result_group": "below_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 30,
+          "events_with_quote_result": 30,
+          "events_without_quote_result": 0,
+          "up_count": 16,
+          "down_count": 14,
+          "flat_count": 0,
+          "p_up_pct": 53.333333333333336,
+          "p_down_pct": 46.666666666666664,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.817383333333305,
+          "median_change_usd": 0.4907500000000482,
+          "mean_abs_change_usd": 2.5543166666666592,
+          "q25_change_usd": -0.7880000000000393,
+          "q75_change_usd": 2.2757500000000164
+        }
+      }
+    },
+    "inline": {
+      "events_in_group": 18,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP q/q",
+          "result_group": "inline",
+          "horizon_minutes": 5,
+          "events_in_group": 18,
+          "events_with_quote_result": 18,
+          "events_without_quote_result": 0,
+          "up_count": 10,
+          "down_count": 8,
+          "flat_count": 0,
+          "p_up_pct": 55.55555555555556,
+          "p_down_pct": 44.44444444444444,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.27738888888884755,
+          "median_change_usd": 0.39000000000010004,
+          "mean_abs_change_usd": 1.6217222222222238,
+          "q25_change_usd": -0.4667500000000473,
+          "q75_change_usd": 1.2316249999999513
+        },
+        "15": {
+          "report": "Prelim GDP q/q",
+          "result_group": "inline",
+          "horizon_minutes": 15,
+          "events_in_group": 18,
+          "events_with_quote_result": 18,
+          "events_without_quote_result": 0,
+          "up_count": 9,
+          "down_count": 9,
+          "flat_count": 0,
+          "p_up_pct": 50.0,
+          "p_down_pct": 50.0,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -0.15030555555558245,
+          "median_change_usd": 0.15325000000007094,
+          "mean_abs_change_usd": 2.388138888888913,
+          "q25_change_usd": -1.858624999999961,
+          "q75_change_usd": 1.3599999999999568
+        }
+      }
+    },
+    "above_forecast": {
+      "events_in_group": 30,
+      "horizons": {
+        "5": {
+          "report": "Prelim GDP q/q",
+          "result_group": "above_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 30,
+          "events_with_quote_result": 30,
+          "events_without_quote_result": 0,
+          "up_count": 5,
+          "down_count": 25,
+          "flat_count": 0,
+          "p_up_pct": 16.666666666666668,
+          "p_down_pct": 83.33333333333333,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -1.8704833333333037,
+          "median_change_usd": -1.6940000000000737,
+          "mean_abs_change_usd": 2.8274500000000105,
+          "q25_change_usd": -3.6852499999998827,
+          "q75_change_usd": -0.6112500000001546
+        },
+        "15": {
+          "report": "Prelim GDP q/q",
+          "result_group": "above_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 30,
+          "events_with_quote_result": 30,
+          "events_without_quote_result": 0,
+          "up_count": 7,
+          "down_count": 23,
+          "flat_count": 0,
+          "p_up_pct": 23.333333333333332,
+          "p_down_pct": 76.66666666666667,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": -2.224966666666641,
+          "median_change_usd": -1.2115000000000578,
+          "mean_abs_change_usd": 3.309366666666646,
+          "q25_change_usd": -3.9344999999999004,
+          "q75_change_usd": -0.15024999999997135
+        }
+      }
+    }
+  }
+}

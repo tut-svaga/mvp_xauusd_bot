@@ -8,6 +8,12 @@ Or directly:
 
 Optional XAUUSD quote inventory:
     py -3 -m research.historical_reports.discovery --xau-root "E:\\work\\XAU_gold\\XAUUSD\\raw"
+
+
+    Скрипт запускает последовательность скриптов для проверки csv Данных отчета и золота
+
+
+    
 """
 from pathlib import Path
 import sys

@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.0",
+  "report": "Personal Income m/m",
+  "slug": "personal_income_m_m",
+  "source_csv": "consumer\\personal_income_m_m.csv",
+  "method": {
+    "classification": "Compare numeric Actual with numeric Forecast; above/below/inline.",
+    "inline_tolerance": 0.0,
+    "price": "(BID close + ASK close) / 2",
+    "baseline": "Last completed M1 candle close at or before event timestamp.",
+    "horizons": "Last completed M1 candle close at or before event timestamp + N minutes.",
+    "direction": "up if midpoint change > 0; down if < 0; flat if == 0.",
+    "price_unit": "USD per troy ounce, as represented by XAUUSD quotes."
+  },
+  "data_quality": {
+    "rows": 237,
+    "events_loaded": 237,
+    "skipped_bad_time": 0,
+    "rows_missing_actual_or_forecast": 0,
+    "skipped_non_usd": 0,
+    "timestamp_sources": {
+      "DateTime_calendar_date_assumed_08:30_America/New_York": 237
+    },
+    "scheduled_release_timezone": "America/New_York",
+    "scheduled_release_time": "08:30",
+    "events_with_quotes_m5": 235,
+    "events_with_quotes_m15": 235,
+    "events_with_baseline": 235
+  },
+  "groups": {
+    "below_forecast": {
+      "events_in_group": 99,
+      "horizons": {
+        "5": {
+          "report": "Personal Income m/m",
+          "result_group": "below_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 99,
+          "events_with_quote_result": 98,
+          "events_without_quote_result": 1,
+          "up_count": 56,
+          "down_count": 42,
+          "flat_count": 0,
+          "p_up_pct": 57.142857142857146,
+          "p_down_pct": 42.857142857142854,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.7503316326530673,
+          "median_change_usd": 0.11100000000004684,
+          "mean_abs_change_usd": 2.1512397959183662,
+          "q25_change_usd": -0.6688749999999573,
+          "q75_change_usd": 1.2672499999998763
+        },
+        "15": {
+          "report": "Personal Income m/m",
+          "result_group": "below_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 99,
+          "events_with_quote_result": 98,
+          "events_without_quote_result": 1,
+          "up_count": 50,
+          "down_count": 48,
+          "flat_count": 0,
+          "p_up_pct": 51.02040816326531,
+          "p_down_pct": 48.97959183673469,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.5787448979591998,
+          "median_change_usd": 0.024750000000040018,
+          "mean_abs_change_usd": 2.967510204081653,
+          "q25_change_usd": -1.6048750000000211,
+          "q75_change_usd": 1.392499999999984
+        }
+      }
+    },
+    "inline": {
+      "events_in_group": 51,
+      "horizons": {
+        "5": {
+          "report": "Personal Income m/m",
+          "result_group": "inline",
+          "horizon_minutes": 5,
+          "events_in_group": 51,
+          "events_with_quote_result": 51,
+          "events_without_quote_result": 0,
+          "up_count": 29,
+          "down_count": 22,
+          "flat_count": 0,
+          "p_up_pct": 56.86274509803921,
+          "p_down_pct": 43.13725490196079,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.38082352941179864,
+          "median_change_usd": 0.14600000000018554,
+          "mean_abs_change_usd": 1.7340392156862618,
+          "q25_change_usd": -0.9772499999999127,
+          "q75_change_usd": 1.6902499999999918
+        },
+        "15": {
+          "report": "Personal Income m/m",
+          "result_group": "inline",
+          "horizon_minutes": 15,
+          "events_in_group": 51,
+          "events_with_quote_result": 51,
+          "events_without_quote_result": 0,
+          "up_count": 33,
+          "down_count": 18,
+          "flat_count": 0,
+          "p_up_pct": 64.70588235294117,
+          "p_down_pct": 35.294117647058826,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.9117647058823485,
+          "median_change_usd": 0.5165000000001783,
+          "mean_abs_change_usd": 2.1999607843137228,
+          "q25_change_usd": -0.8247499999999945,
+          "q75_change_usd": 1.8732500000000982
+        }
+      }
+    },
+    "above_forecast": {
+      "events_in_group": 87,
+      "horizons": {
+        "5": {
+          "report": "Personal Income m/m",
+          "result_group": "above_forecast",
+          "horizon_minutes": 5,
+          "events_in_group": 87,
+          "events_with_quote_result": 86,
+          "events_without_quote_result": 1,
+          "up_count": 44,
+          "down_count": 42,
+          "flat_count": 0,
+          "p_up_pct": 51.16279069767442,
+          "p_down_pct": 48.83720930232558,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.11546511627902556,
+          "median_change_usd": 0.11000000000001364,
+          "mean_abs_change_usd": 2.198651162790701,
+          "q25_change_usd": -1.4411250000001132,
+          "q75_change_usd": 1.7168750000001012
+        },
+        "15": {
+          "report": "Personal Income m/m",
+          "result_group": "above_forecast",
+          "horizon_minutes": 15,
+          "events_in_group": 87,
+          "events_with_quote_result": 86,
+          "events_without_quote_result": 1,
+          "up_count": 43,
+          "down_count": 43,
+          "flat_count": 0,
+          "p_up_pct": 50.0,
+          "p_down_pct": 50.0,
+          "p_flat_pct": 0.0,
+          "mean_change_usd": 0.36972093023252833,
+          "median_change_usd": -0.03824999999994816,
+          "mean_abs_change_usd": 2.7526860465116316,
+          "q25_change_usd": -1.6071250000000532,
+          "q75_change_usd": 2.5834999999999013
+        }
+      }
+    }
+  }
+}
