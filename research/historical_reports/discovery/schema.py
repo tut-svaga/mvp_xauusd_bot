@@ -43,13 +43,23 @@ def validate_schema(csv_file: CsvFile) -> list[Issue]:
             ))
 
     for record in csv_file.records:
-        if record.values.get("__conflicting_headers__"):
-            issues.append(Issue(
-                "WARNING", "CONFLICTING_CASE_VARIANT_COLUMNS",
-                "Case-variant columns contain different non-empty values: "
-                + record.values["__conflicting_headers__"],
-                csv_file.relative_path, record.row_number,
-            ))
+        conflicts = record.values.get("__conflicting_headers__", "")
+        if conflicts:
+            conflict_fields = [item for item in conflicts.split(";") if item]
+            if "event" in conflict_fields:
+                issues.append(Issue(
+                    "WARNING", "CONFLICTING_EVENT_NAMES",
+                    "The Event and event columns disagree. The uppercase Event value is "
+                    "used for the row; verify whether the record belongs in another event file.",
+                    csv_file.relative_path, record.row_number, "event",
+                ))
+            else:
+                issues.append(Issue(
+                    "WARNING", "CONFLICTING_CASE_VARIANT_COLUMNS",
+                    "Case-variant columns contain different non-empty values: "
+                    + ", ".join(conflict_fields),
+                    csv_file.relative_path, record.row_number,
+                ))
         if "__extra_columns__" in record.values:
             issues.append(Issue(
                 "WARNING", "ROW_EXTRA_COLUMNS",
