@@ -27,12 +27,24 @@ def detect_delimiter(path: Path) -> str:
         return ","
 
 
+def _is_backup_path(path: Path, root: Path) -> bool:
+    try:
+        relative_parts = path.relative_to(root).parts[:-1]
+    except ValueError:
+        relative_parts = path.parts[:-1]
+    return any(
+        part.casefold().startswith(("backup_", "backup-"))
+        for part in relative_parts
+    )
+
+
 def discover_csv_files(root: Path) -> list[Path]:
     if not root.is_dir():
         raise FileNotFoundError(f"Economic data directory does not exist: {root}")
     return sorted(
         path for path in root.rglob("*.csv")
         if path.name.casefold() not in EXCLUDED_REPORT_FILES
+        and not _is_backup_path(path, root)
     )
 
 
@@ -61,10 +73,25 @@ def scan_csv(path: Path, relative_to: Path | None = None) -> CsvFile:
             for row_number, row in enumerate(reader, start=2):
                 if not row or not any(str(v or "").strip() for k, v in row.items() if k is not None):
                     continue
-                values = {
-                    normalize_header(key): str(value or "").strip()
-                    for key, value in row.items() if key is not None
-                }
+
+                values: dict[str, str] = {}
+                conflicting_headers: list[str] = []
+                for key, raw_value in row.items():
+                    if key is None:
+                        continue
+                    normalized = normalize_header(key)
+                    value = str(raw_value or "").strip()
+                    if normalized not in values:
+                        values[normalized] = value
+                    elif value:
+                        existing = values[normalized]
+                        if not existing:
+                            values[normalized] = value
+                        elif existing != value:
+                            conflicting_headers.append(normalized)
+
+                if conflicting_headers:
+                    values["__conflicting_headers__"] = ";".join(sorted(set(conflicting_headers)))
                 if None in row and row[None]:
                     values["__extra_columns__"] = " | ".join(str(v) for v in row[None])
                 result.records.append(CsvRecord(row_number, values))
