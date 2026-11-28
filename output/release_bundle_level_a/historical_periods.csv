@@ -1,4 +1,0 @@
-﻿metric,value,definition
-first_full_8_indicator_bundle,2019-11-27T13:30:00+00:00,First exact timestamp containing all 8 target indicators
-first_3_full_bundle_occurrences,2019-11-27T13:30:00+00:00,First occurrence in the first sequence of 3 full-bundle timestamps; inspect dates for cadence
-full_bundle_occurrence_count,5,Count of exact timestamps containing all 8 target indicators

@@ -1,9 +1,0 @@
-﻿report,events,unique_ts,sig_cells,wf_good,verdict,why
-Core PCE Price Index m/m,90,90.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-Prelim GDP q/q,32,32.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-GDP Price Index,0,,,,нет данных,отчёта нет в event_reactions.csv (USD)
-Core Durable Goods Orders m/m,158,158.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-Durable Goods Orders m/m,20,20.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-Personal Spending m/m,21,21.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-Personal Income m/m,19,19.0,0.0,0.0,noise,"значимых ячеек (q<0.1, n_nf≥15): 0; горизонтов с устойчивым walk-forward: 0"
-Unemployment Claims,269,269.0,1.0,0.0,weak,"значимых ячеек (q<0.1, n_nf≥15): 1; горизонтов с устойчивым walk-forward: 0"

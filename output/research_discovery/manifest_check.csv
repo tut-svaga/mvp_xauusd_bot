@@ -1,6 +1,0 @@
-﻿file,status,details
-event_catalog.csv,MISSING_FROM_DISK,Listed in manifest but not discovered
-inflation/backup_20261124_145946/cpi_m_m.csv,NOT_IN_MANIFEST,CSV exists but is absent from generated_files
-inflation/backup_20261124_145946/cpi_y_y.csv,NOT_IN_MANIFEST,CSV exists but is absent from generated_files
-inflation/backup_20261124_145946/trimmed_mean_cpi_m_m.csv,NOT_IN_MANIFEST,CSV exists but is absent from generated_files
-inflation/backup_20261124_145946/trimmed_mean_cpi_q_q.csv,NOT_IN_MANIFEST,CSV exists but is absent from generated_files
