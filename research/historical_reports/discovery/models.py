@@ -98,8 +98,11 @@ class DiscoveryResult:
             "rows_with_selected_timestamp": sum(sources.values()),
             "file_status_counts": dict(sorted(statuses.items())),
             "issue_severity_counts": dict(sorted(severities.items())),
-            "files_with_warnings": statuses.get("REVIEW", 0) + statuses.get("ERROR", 0),
-            "files_requiring_review": statuses.get("REVIEW", 0),
+            "files_with_warnings": sum(
+                any(issue.severity == "WARNING" for issue in item.issues)
+                for item in self.files
+            ),
+            "files_requiring_review": statuses.get("REVIEW", 0) + statuses.get("ERROR", 0),
             "files_with_errors": statuses.get("ERROR", 0),
             "files_ok": statuses.get("OK", 0),
             "catalog_issue_count": sum(row.get("status") != "OK" for row in self.catalog_rows),
