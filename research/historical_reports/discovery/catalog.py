@@ -6,13 +6,17 @@ import json
 from pathlib import Path
 from typing import Any
 
-from .models import CsvFile, FileReport
+from .models import FileReport
 
 
 def compare_catalog(root: Path, reports: list[FileReport]) -> list[dict[str, Any]]:
     path = root / "event_catalog.csv"
     if not path.is_file():
-        return [{"file": "event_catalog.csv", "status": "NOT_FOUND", "details": str(path)}]
+        return [{
+            "file": "event_catalog.csv", "status": "NOT_FOUND",
+            "metadata_status": "NOT_CHECKED", "details": str(path),
+        }]
+
     by_file = {item.file: item for item in reports}
     rows: list[dict[str, Any]] = []
     with path.open("r", encoding="utf-8-sig", errors="replace", newline="") as handle:
@@ -25,28 +29,43 @@ def compare_catalog(root: Path, reports: list[FileReport]) -> list[dict[str, Any
                 expected_rows = int((item.get("row_count") or "0").strip() or 0)
             except ValueError:
                 expected_rows = -1
-            statuses: list[str] = []
+
+            integrity_statuses: list[str] = []
+            metadata_statuses: list[str] = []
             if actual is None:
-                statuses.append("CATALOG_FILE_NOT_FOUND")
+                integrity_statuses.append("CATALOG_FILE_NOT_FOUND")
             elif expected_rows != actual.rows:
-                statuses.append("ROW_COUNT_MISMATCH")
-            expected_currencies = {x.strip().upper() for x in (item.get("currencies") or "").split(",") if x.strip()}
+                integrity_statuses.append("ROW_COUNT_MISMATCH")
+
+            expected_currencies = {
+                value.strip().upper()
+                for value in (item.get("currencies") or "").split(",")
+                if value.strip()
+            }
             actual_currencies = set(actual.currencies) if actual else set()
             if actual and expected_currencies != actual_currencies:
-                statuses.append("CURRENCY_MISMATCH")
-            expected_first, expected_last = (item.get("first_date") or "").strip(), (item.get("last_date") or "").strip()
+                integrity_statuses.append("CURRENCY_MISMATCH")
+
+            expected_first = (item.get("first_date") or "").strip()
+            expected_last = (item.get("last_date") or "").strip()
             actual_first, actual_last = (actual.first_date, actual.last_date) if actual else ("", "")
             if actual and (expected_first != actual_first or expected_last != actual_last):
-                statuses.append("DATE_RANGE_MISMATCH")
+                metadata_statuses.append("DATE_RANGE_MISMATCH")
+
             rows.append({
-                "file": relative, "catalog_rows": expected_rows,
+                "file": relative,
+                "catalog_rows": expected_rows,
                 "actual_rows": actual.rows if actual else "",
                 "catalog_currencies": ",".join(sorted(expected_currencies)),
                 "actual_currencies": ",".join(sorted(actual_currencies)),
-                "catalog_first_date": expected_first, "actual_first_date": actual_first,
-                "catalog_last_date": expected_last, "actual_last_date": actual_last,
-                "status": ";".join(statuses) if statuses else "OK",
+                "catalog_first_date": expected_first,
+                "actual_first_date": actual_first,
+                "catalog_last_date": expected_last,
+                "actual_last_date": actual_last,
+                "status": ";".join(integrity_statuses) if integrity_statuses else "OK",
+                "metadata_status": ";".join(metadata_statuses) if metadata_statuses else "OK",
             })
+
     catalog_files = {row["file"] for row in rows}
     for relative, actual in sorted(by_file.items()):
         if relative not in catalog_files:
@@ -55,7 +74,7 @@ def compare_catalog(root: Path, reports: list[FileReport]) -> list[dict[str, Any
                 "catalog_currencies": "", "actual_currencies": ",".join(sorted(actual.currencies)),
                 "catalog_first_date": "", "actual_first_date": actual.first_date,
                 "catalog_last_date": "", "actual_last_date": actual.last_date,
-                "status": "NOT_IN_CATALOG",
+                "status": "NOT_IN_CATALOG", "metadata_status": "NOT_CHECKED",
             })
     return rows
 
@@ -70,11 +89,30 @@ def check_manifest(root: Path, discovered_files: set[str]) -> list[dict[str, str
         return [{"file": path.name, "status": "READ_ERROR", "details": str(exc)}]
     if not isinstance(payload, dict):
         return [{"file": path.name, "status": "INVALID_FORMAT", "details": "Manifest root must be a JSON object"}]
+
+    generated_items = payload.get("generated_files", [])
+    if not isinstance(generated_items, list):
+        return [{
+            "file": path.name, "status": "INVALID_FORMAT",
+            "details": "Manifest generated_files must be a list",
+        }]
+
     generated = {
         str(item).replace("\\", "/").strip()
-        for item in payload.get("generated_files", [])
+        for item in generated_items
         if str(item).strip()
     }
+    # The catalog is metadata, not an event report. Backup snapshots are deliberately
+    # excluded from discovery and therefore must not be expected in the manifest check.
+    generated = {
+        item for item in generated
+        if item.casefold() != "event_catalog.csv"
+        and not any(
+            part.casefold().startswith(("backup_", "backup-"))
+            for part in Path(item).parts[:-1]
+        )
+    }
+
     rows = [
         {"file": item, "status": "MISSING_FROM_DISK", "details": "Listed in manifest but not discovered"}
         for item in sorted(generated - discovered_files)
