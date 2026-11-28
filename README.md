@@ -114,3 +114,25 @@ output/event_models/   # all reports; Wednesday-only mode writes to output/event
 ## Контрольный список на среду, 25.11.2026
 
 Файл `wednesday_watchlist_2026-11-25.csv` добавлен как контрольный список восьми основных USD-релизов в 08:30 ET (13:30 UTC / 15:30 по Кишинёву), а также четырёх более поздних публикаций. Это справочный список, а не замена актуальному календарю: перед запуском сравни его с `focus_events_2026-11-25.csv`, сформированным из твоего обновлённого `data/economic_data`.
+
+## Модульная точка входа для исследований
+
+Три расчётные задачи доступны через единый CLI, при этом старые команды
+остаются совместимыми:
+
+```powershell
+py -3 -m pip install -r .\requirements.txt
+py -3 -m research.historical_reports.discovery --xau-root "E:\work\XAU_gold\XAUUSD\raw"
+py -3 -m research.historical_reports.tasks multi-event --help
+py -3 -m research.historical_reports.tasks stage-c --help
+py -3 -m research.historical_reports.tasks stage-d --help
+```
+
+Подробная спецификация фактической логики трёх расчётных задач:
+[`docs/research/THREE_TASKS_SPEC_RU.md`](docs/research/THREE_TASKS_SPEC_RU.md).
+
+Команды, Python API и границы этапов:
+[`research/historical_reports/tasks/README.md`](research/historical_reports/tasks/README.md).
+
+Все генерируемые отчёты и модели направляйте в `artifacts/` или `output/`.
+Эти каталоги исключены из Git; исходные данные и код остаются под контролем версий.
