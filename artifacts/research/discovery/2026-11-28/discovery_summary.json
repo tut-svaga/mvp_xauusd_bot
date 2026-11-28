@@ -1,9 +1,9 @@
 {
-  "generated_at_utc": "2026-11-28T11:04:19+00:00",
+  "generated_at_utc": "2026-11-28T11:17:28+00:00",
   "economic_data_dir": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\data\\economic_data",
   "output_dir": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\artifacts\\research\\discovery\\2026-11-28",
-  "report_files": 616,
-  "total_report_rows": 92891,
+  "report_files": 612,
+  "total_report_rows": 91310,
   "categories": 11,
   "currencies": [
     "ALL",
@@ -19,24 +19,36 @@
   ],
   "currency_row_counts": {
     "ALL": 677,
-    "AUD": 7537,
-    "CAD": 6825,
-    "CHF": 3665,
-    "CNY": 4512,
+    "AUD": 7386,
+    "CAD": 6586,
+    "CHF": 3426,
+    "CNY": 4273,
     "EUR": 19287,
-    "GBP": 12514,
+    "GBP": 12275,
     "JPY": 8638,
     "NZD": 4812,
-    "USD": 24424
+    "USD": 23950
   },
   "timestamp_source_counts": {
-    "datetime": 58761,
-    "datetime_utc": 9447
+    "datetime": 58056,
+    "datetime_utc": 9284
   },
-  "rows_with_selected_timestamp": 68208,
-  "files_with_warnings": 616,
-  "catalog_issue_count": 598,
-  "manifest_issue_count": 5,
+  "rows_with_selected_timestamp": 67340,
+  "file_status_counts": {
+    "OK": 600,
+    "REVIEW": 12
+  },
+  "issue_severity_counts": {
+    "INFO": 92854,
+    "WARNING": 680
+  },
+  "files_with_warnings": 12,
+  "files_requiring_review": 12,
+  "files_with_errors": 0,
+  "files_ok": 600,
+  "catalog_issue_count": 2,
+  "catalog_metadata_mismatch_count": 594,
+  "manifest_issue_count": 0,
   "forex_factory_cache": {
     "path": "E:\\work\\XAU_gold\\mvp_tg_bot\\mvp_retail\\data\\forex_factory_cache.csv",
     "status": "OK",
@@ -65,5 +77,5 @@
     "unpaired_dates": 0,
     "unrecognized_csv_files": 0
   },
-  "issues": 94867
+  "issues": 93534
 }
